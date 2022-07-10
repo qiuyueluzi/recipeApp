@@ -1,0 +1,837 @@
+[<main>
+<!-- レシピ検索フォーム（SP幅用） -->
+<div class="elem-page-title--horizontal-line" data-array="search-img" data-margin-bottom="" data-margin-top="" data-mq-hide="desktop"><div><div><div><div>
+<div class="recipe-leaf-top-content">
+<div class="horizontal-container">
+<form accept-charset="UTF-8" action="/homecook/search/select_search.html" enctype="" method="get" name="" target="">
+<div class="input-components--search" id="input-search--product-sp">
+<i class="material-icons"></i>
+<input id="free_word" name="free_word" placeholder="食材・料理名" style="ime-mode: active;" title="レシピ検索のキーワード" type="text" value=""/>
+<!-- /input-components --></div><!--
+--><div class="input-components--submit">
+<button name="" type="submit" value=""><b>レシピ検索</b></button>
+<!-- /input-components --></div>
+<input id="site-type" name="site_type" type="hidden" value="J">
+</input></form>
+<!-- /horizontal-container --></div><!--
+--><div class="horizontal-container" data-align="right">
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<a href="/homecook/index.html">
+<img alt="ホームクッキングレシピ" draggable="false" height="36" src="/img/homecook_logo_recepe_sp.gif" width="190"/>
+</a>
+<!-- /holder --></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /horizontal-container --></div>
+</div>
+<!-- /page-title--horizontal-line --></div></div></div></div></div>
+<div class="elem-page-title--horizontal-line" data-array="heading-img" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="horizontal-container home-cook-horizontal-container-right" data-align="right" data-mq-hide="tablet">
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<a href="/homecook/index.html" shape="rect">
+<img alt="ホームクッキングレシピ" draggable="false" height="110" src="/img/homecook_logo_top_pc.gif" width="587">
+</img></a>
+<!-- /holder --></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /horizontal-container --></div>
+<div class="horizontal-container home-cook-horizontal-container-left">
+<div class="elem-heading-lv1" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="heading-container">
+<div class="title-holder">
+<h1><span class="fn" itemprop="headline">あじの香味揚げ</span></h1>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<!-- /elem-heading-lv1 --></div></div></div></div></div>
+<!-- /horizontal-container --></div>
+<!-- /page-title-horizontal-line --></div></div></div></div></div>
+<!-- wise indexon -->
+<div class="main-column" role="main"><div><div><div><div>
+<div class="elem-pic-block--recipe-overview" data-direction="horizontal" data-img-position="left" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div id="pic-container--distribute">
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="写真：あじの香味揚げ" class="photo" height="720" id="recipe_image" itemprop="image" src="/homecook/search/recipe/img/00000019.jpg" width="1080">
+<!-- /holder --></img></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /container --></div></div>
+<div class="txt-container"><div>
+<div class="txt-body">
+<div class="elem-paragraph" data-margin-bottom="10" data-margin-top="0"><div><div><div><div>
+<p class="summary" data-font-size="small">しっかり味をしみ込ませからっと揚げて</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<div class="recipe-overview-list"><div><div><div><div>
+<dl data-label="time">
+<dt><span><i aria-hidden="true" class="material-icons"></i><span>調理時間</span></span></dt>
+<dd class="duration" content="PT20M" itemprop="cookTime">
+<b class="value-title" title="PT20M">20分</b>
+</dd>
+</dl>
+<dl data-label="calorie" itemprop="nutrition" itemscope="" itemtype="http://schema.org/NutritionInformation">
+<dt><span><i aria-hidden="true" class="material-icons"></i><span>エネルギー</span></span></dt>
+<dd itemprop="calories">
+<b class="nutrition">226kcal</b>
+</dd>
+</dl>
+<dl data-label="salt">
+<dt><span><i aria-hidden="true" class="material-icons icon--salt"></i><span>塩分</span></span></dt>
+<dd itemprop="">
+<b>0.9g</b>
+</dd>
+</dl>
+<!-- /recipe-overview-list --></div></div></div></div></div>
+<div class="elem-txt-list--note" data-margin-bottom="" data-margin-top="15"><div><div><div><div>
+<ul class="txt-list--note" data-direction="vertical">
+<li><div><span data-font-size="x-small">エネルギー・塩分は1人分です。</span></div></li>
+<!-- /txt-list --></ul>
+<!-- /elem-txt-list --></div></div></div></div></div>
+<!-- /text-body --></div>
+<div class="txt-foot">
+<div id="my-recipe"><my-recipe-toggle-btn></my-recipe-toggle-btn></div>
+<div class="elem-tags-list"><div role="list">
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;M2_13=13" rel="" shape="rect" target=""><span>あじ</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C2=201" rel="" shape="rect" target=""><span>主菜</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C6=602" rel="" shape="rect" target=""><span>20分以内</span></a></div>
+<!-- /elem-tags-list --></div></div>
+<div align="" class="share-container" data-bg-color="1" data-type="pc-show"><div>
+<div class="share--content">
+<ul>
+<li><button onclick="lineShareBtn();" type="submit"><img alt="LINEでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/line.svg" width="40"/></button></li>
+<li><button onclick="twShareBtn();" type="submit"><img alt="Twitterでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/twitter.svg" width="40"/></button></li>
+<li><button onclick="fbShareBtn();" type="submit"><img alt="Facebookでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/facebook.svg" width="40"/></button></li>
+<li><a class="popup-iframe" href="/homecook/search/sendpc.html?title=%E3%81%82%E3%81%98%E3%81%AE%E9%A6%99%E5%91%B3%E6%8F%9A%E3%81%92&amp;url=%2Fhomecook%2Fsearch%2Frecipe%2F00000019%2Findex.html" shape="rect"><img alt="このレシピをメールで送信" height="40" src="/common-kikkoman/img/img-common/icons/mail.svg" width="40"/></a></li>
+<li><button onclick="window.print();" type="submit"><img alt="このページを印刷" height="40" src="/common-kikkoman/img/img-common/icons/print.svg" width="40"/></button></li>
+</ul>
+<!-- /content --></div>
+<!-- /share-container --></div></div>
+<!-- /txt-foot --></div>
+<!-- /container --></div></div>
+<!-- /elem-pic-block --></div></div></div></div></div>
+<div class="divide-layout" data-column="2" data-column-break="true"><div><div><div><div>
+<div class="item--divide" data-bg-color=""><div>
+<form accept-charset="" action="" class="ingredients" enctype="" id="kikkoman-ingredients-form" method="" name="">
+<div class="elem-heading-lv2" data-border="" data-margin-bottom="10" data-margin-top="" data-sub-holder="true"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h2><span class="yield" itemprop="recipeYield">材料（4人分）</span></h2>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<div class="elem-txt-list--btn" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<ul class="txt-list--btn" data-align="right" data-btn-column="auto" data-direction="horizontal">
+<li>
+<div class="elem-btn btn--quantity" data-btn-color="3" data-icon="true" data-size="small"><div><div><div><div>
+<button class="popup-iframe-sp-disable" href="/homecook/search/meyasu.html" type="submit">
+<span>分量のめやす</span>
+<span class="ripple-ring" data-ripple-color="3"></span>
+</button>
+<!-- /elem-btn --></div></div></div></div></div>
+</li>
+<!-- /txt-list --></ul>
+<!-- /elem-txt-list --></div></div></div></div></div>
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv2 --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_1" name="material_1" type="checkbox" value="あじ(３枚におろしたもの)">
+<label for="material_1">
+<span class="txt name" itemprop="recipeIngredient">あじ(３枚におろしたもの)</span>
+</label>
+</input></dt>
+<dd><p class="amount">４尾</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_2" name="material_2" type="checkbox" value="ねぎ"/>
+<label for="material_2">
+<span class="txt name" itemprop="recipeIngredient">ねぎ</span>
+</label>
+</dt>
+<dd><p class="amount">1/2本</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_3" name="material_3" type="checkbox" value="しょうが"/>
+<label for="material_3">
+<span class="txt name" itemprop="recipeIngredient">しょうが</span>
+</label>
+</dt>
+<dd><p class="amount">１片</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_4" name="material_4" type="checkbox" value="赤唐辛子"/>
+<label for="material_4">
+<span class="txt name" itemprop="recipeIngredient">赤唐辛子</span>
+</label>
+</dt>
+<dd><p class="amount">１本</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_5" name="material_5" type="checkbox" value="オクラ"/>
+<label for="material_5">
+<span class="txt name" itemprop="recipeIngredient">オクラ</span>
+</label>
+</dt>
+<dd><p class="amount">１袋</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_6" name="material_6" type="checkbox" value="レモン(半月切り)"/>
+<label for="material_6">
+<span class="txt name" itemprop="recipeIngredient">レモン(半月切り)</span>
+</label>
+</dt>
+<dd><p class="amount">1/2個</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_7" name="material_7" type="checkbox" value="揚げ油"/>
+<label for="material_7">
+<span class="txt name" itemprop="recipeIngredient">揚げ油</span>
+</label>
+</dt>
+<dd><p class="amount">適量</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_8" name="material_8" type="checkbox" value="小麦粉"/>
+<label for="material_8">
+<span class="txt name" itemprop="recipeIngredient">小麦粉</span>
+</label>
+</dt>
+<dd><p class="amount">適量</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_9" name="material_9" type="checkbox" value="塩"/>
+<label for="material_9">
+<span class="txt name" itemprop="recipeIngredient">塩</span>
+</label>
+</dt>
+<dd><p class="amount">少々</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="elem-heading-lv4" data-margin-bottom="" data-margin-top="20"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h4><span>(A)</span></h4>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv4 --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt><label><input id="product_10_1" name="product_10_1" type="checkbox" value="キッコーマン特選丸大豆しょうゆ"/>
+<a class="name" href="/products/product/K051005/index.html" itemprop="recipeIngredient" shape="rect">キッコーマン特選丸大豆しょうゆ</a>
+</label></dt>
+<dd><p class="amount">大さじ１と1/2</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt><label><input id="product_10_2" name="product_10_2" type="checkbox" value="マンジョウ国産米こだわり仕込み料理の清酒"/>
+<a class="name" href="/products/product/K102005/index.html" itemprop="recipeIngredient" shape="rect">マンジョウ国産米こだわり仕込み料理の清酒</a>
+</label></dt>
+<dd><p class="amount">大さじ１</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_10_3" name="material_10_3" type="checkbox" value="ごま油"/>
+<label for="material_10_3">
+<span class="txt name" itemprop="recipeIngredient">ごま油</span>
+</label>
+</dt>
+<dd><p class="amount">大さじ１</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<!-- /ingredients-form --></form>
+<div class="elem-btn" data-btn-color="1" data-icon="true" data-size="large"><div><div><div><div>
+<button id="material_mailsend" type="submit">
+<span>食材にチェックを入れ、メールで送信</span>
+<span class="ripple-ring" data-ripple-color="1"></span>
+</button>
+<!-- /elem-btn --></div></div></div></div></div>
+<div class="elem-paragraph" data-margin-bottom="3" data-margin-top=""><div><div><div><div>
+<p class="author" data-align="" data-font-size="x-small" itemprop="author">
+												料理・キッコーマンKCC / 料理コーディネート・キムアヤン / 撮影・山本梨絵（クラッカースタジオ）
+											</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<!-- /item --></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-heading-lv2" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h2><span>つくり方</span></h2>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv2 --></div></div></div></div></div>
+<div class="elem-txt-list--order" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<ol class="txt-list--order instructions" itemprop="recipeInstructions">
+<li><div><span class="instruction">あじの３枚おろしに塩（分量外）少々をふる。</span></div></li>
+<li><div><span class="instruction">ねぎは斜め切り、しょうがは薄切りにする。赤唐辛子は種を取り除き、小口切りにする。</span></div></li>
+<li><div><span class="instruction">オクラはへた、がくをきれいにし、塩（分量外）をまぶしてうぶ毛を取り、洗い流し、水気をふき、穴をあける。</span></div></li>
+<li><div><span class="instruction">バットに（Ａ）とねぎ、しょうが、赤唐辛子を入れ、漬け汁をつくり、あじを漬けておく。</span></div></li>
+<li><div><span class="instruction">揚げ油を熱し、オクラを素揚げして塩をふる。続いてあじの水気をふき、小麦粉を薄くまぶして入れ、からっと揚げる。</span></div></li>
+<li><div><span class="instruction">器にあじを盛りつけ、オクラ、レモンを添える。</span></div></li>
+<!-- /txt-list --></ol>
+<!-- /elem-txt-list --></div></div></div></div></div>
+<div class="share-container" data-bg-color="1" data-type="sp-show"><div>
+<div class="share--content">
+<ul>
+<li><button onclick="lineShareBtn();" type="submit"><img alt="LINEでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/line.svg" width="40"/></button></li>
+<li><button onclick="twShareBtn();" type="submit"><img alt="Twitterでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/twitter.svg" width="40"/></button></li>
+<li><button onclick="fbShareBtn();" type="submit"><img alt="Facebookでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/facebook.svg" width="40"/></button></li>
+<li><a class="popup-iframe" href="/homecook/search/sendpc.html?title=%E3%81%82%E3%81%98%E3%81%AE%E9%A6%99%E5%91%B3%E6%8F%9A%E3%81%92&amp;url=%2Fhomecook%2Fsearch%2Frecipe%2F00000019%2Findex.html" shape="rect"><img alt="このレシピをメールで送信" height="40" src="/common-kikkoman/img/img-common/icons/mail.svg" width="40"/></a></li>
+<li><button onclick="window.print();" type="submit"><img alt="このページを印刷" height="40" src="/common-kikkoman/img/img-common/icons/print.svg" width="40"/></button></li>
+</ul>
+<!-- /content --></div>
+<!-- /share-container --></div></div>
+<div class="elem-heading-lv2 print-hide" data-margin-bottom="0" data-margin-top=""><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h2><span>チェックポイント</span></h2>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv2 --></div></div></div></div></div>
+<div class="elem-toggle-container print-hide" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="item--toggle"><div>
+<button aria-controls="toggle-body--1" aria-expanded="true" class="toggle-head active" type="submit"><div>
+<p class="heading"><span>あじの三枚おろし</span></p>
+<!-- /toggle-head --></div></button>
+<div aria-hidden="true" class="toggle-body" id="toggle-body--1"><div>
+<div class="elem-heading-lv3" data-margin-bottom="" data-margin-top="" id="a01"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h3><span>うろこを取る</span></h3>
+<!-- /title-holder --></div>
+<!-- /heading-box --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading --></div></div></div></div></div>
+<div class="elem-pic-block" data-direction="horizontal" data-img-position="left" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="まな板の上に新聞紙を敷いてあじをおく。尾から頭に向けて包丁の先を動かしてうろこをこそげ取る" class="sp-image" data-src="/img/basic_seafood_aji_065.jpg" draggable="false" height="375" src="/img/basic_seafood_aji_065.jpg" width="560">
+<!-- /holder --></img></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<div class="txt-container"><div>
+<div class="txt-body">
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top="" data-multicol-layout=""><div><div><div><div>
+<p>
+						まな板の上に新聞紙を敷いてあじを置く。尾から頭に向けて包丁の先を動かしてうろこをこそげ取る。
+						
+						
+						
+						
+						
+						
+					</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<!-- /txt-body --></div>
+<!-- /txt-container --></div></div>
+<!-- /elem-pic-block --></div></div></div></div></div>
+<div class="elem-heading-lv3" data-margin-bottom="" data-margin-top="" id="02"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h3><span>ぜいごを取る</span></h3>
+<!-- /title-holder --></div>
+<!-- /heading-box --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading --></div></div></div></div></div>
+<div class="elem-pic-block" data-direction="horizontal" data-img-position="left" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="尾の方から包丁の先を入れて、かたいぜいごをそぎ取る。反対側も同様に取る" class="sp-image" data-src="/img/basic_seafood_aji_068.jpg" draggable="false" height="375" src="/img/basic_seafood_aji_068.jpg" width="560">
+<!-- /holder --></img></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<div class="txt-container"><div>
+<div class="txt-body">
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top="" data-multicol-layout=""><div><div><div><div>
+<p>
+						尾の方から包丁の先を入れて、かたいぜいごをそぎ取る。反対側も同様にして取る。
+						
+						
+						
+						
+						
+						
+					</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<!-- /txt-body --></div>
+<!-- /txt-container --></div></div>
+<!-- /elem-pic-block --></div></div></div></div></div>
+<div class="elem-heading-lv3" data-margin-bottom="" data-margin-top="" id="03"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h3><span>頭を切り落とす</span></h3>
+<!-- /title-holder --></div>
+<!-- /heading-box --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading --></div></div></div></div></div>
+<div class="elem-pic-block" data-direction="horizontal" data-img-position="left" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="胸びれのつけ根に包丁をおき、頭の先に向けて斜めに刃を入れ、真ん中くらいまで入れたら、返して逆側も同様に包丁を入れ頭を切り落とす" class="sp-image" data-src="/img/basic_seafood_aji_069.jpg" draggable="false" height="375" src="/img/basic_seafood_aji_069.jpg" width="560">
+<!-- /holder --></img></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<div class="txt-container"><div>
+<div class="txt-body">
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top="" data-multicol-layout=""><div><div><div><div>
+<p>
+						胸びれのつけ根のところに包丁をおき、頭の先の方に向けて斜めに刃を入れる。真ん中くらいのところまで入れたら、あじを返して、逆側からも同様に包丁を入れて頭を切り落とす。
+						
+						
+						
+						
+						
+						
+					</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<!-- /txt-body --></div>
+<!-- /txt-container --></div></div>
+<!-- /elem-pic-block --></div></div></div></div></div>
+<div class="elem-heading-lv3" data-margin-bottom="" data-margin-top="" id="04"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h3><span>腹わたを出す</span></h3>
+<!-- /title-holder --></div>
+<!-- /heading-box --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading --></div></div></div></div></div>
+<div class="divide-layout" data-column="5" data-column-break="false"><div><div><div><div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="腹に包丁の先を入れて尻びれあたりまで浅く切り目を入れ" height="375" src="/img/basic_seafood_aji_071.jpg" width="560">
+</img></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="腹を開いて内臓を出す。内臓は新聞で包んで捨て、あじは水洗いして水気を拭く" height="375" src="/img/basic_seafood_aji_072.jpg" width="560">
+</img></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top="" data-multicol-layout=""><div><div><div><div>
+<p>
+						腹に包丁の先を入れて尻びれあたりまで浅く切り目を入れ、腹を開いて内臓をかき出す。ここで内臓などを新聞で包んで捨て、あじは水洗いして水気を拭く。
+						
+						
+						
+						
+						
+						
+					</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<div class="elem-heading-lv3" data-margin-bottom="" data-margin-top="" id="05"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h3><span>二枚おろしにする</span></h3>
+<!-- /title-holder --></div>
+<!-- /heading-box --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading --></div></div></div></div></div>
+<div class="divide-layout" data-column="5" data-column-break="false"><div><div><div><div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="あじは背側から中骨あたりまで包丁を入れ、頭の方に包丁をスライドさせる" height="375" src="/img/basic_seafood_aji_075.jpg" width="560">
+</img></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="あじをおき換えて腹側からも同様に包丁を入れる" height="375" src="/img/basic_seafood_aji_076.jpg" width="560"/>
+</div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="尾の方から包丁を入れ、中骨の上をスライドさせて完全に上身を切り離す" height="375" src="/img/basic_seafood_aji_078.jpg" width="560"/>
+</div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="二枚おろしが完了" height="375" src="/img/basic_seafood_aji_081.jpg" width="560"/>
+</div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top="" data-multicol-layout=""><div><div><div><div>
+<p>
+						背側から中骨にさわるあたりまで包丁を入れ、頭の方に包丁をスライドさせていく。あじを置き換えて腹側からも同様に包丁を入れる。最後に尾の方から包丁を入れ、中骨の上をスライドさせて完全に上身を切り離す。これで二枚おろし完了。
+						
+						
+						
+						
+						
+						
+					</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<div class="elem-heading-lv3" data-margin-bottom="" data-margin-top="" id="06"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h3><span>三枚おろしにする</span></h3>
+<!-- /title-holder --></div>
+<!-- /heading-box --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading --></div></div></div></div></div>
+<div class="divide-layout" data-column="5" data-column-break="false"><div><div><div><div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="二枚おろしたあじは骨側を下にし、背側から包丁を中骨あたりまで入れ、尾側に包丁をスライドさせて切り目を入れる" height="375" src="/img/basic_seafood_aji_083.jpg" width="560"/>
+</div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="返して腹側からも同様に包丁を入れて切り目を入れ" height="375" src="/img/basic_seafood_aji_085.jpg" width="560"/>
+</div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="尾のつけ根に包丁を入れて中骨の上をスライドさせて、身を中骨から切り離す" height="375" src="/img/basic_seafood_aji_087.jpg" width="560"/>
+</div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-pic-block" data-direction="vertical" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="三枚おろしが完了" height="375" src="/img/basic_seafood_aji_088.jpg" width="560"/>
+</div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<!-- /divide-box --></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<!-- /elem-divide-block --></div></div></div></div></div>
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top="" data-multicol-layout=""><div><div><div><div>
+<p>
+						二枚におろしたあじの骨側を下にし、背側から包丁を中骨にさわるあたりまで入れ、尾側に包丁をスライドさせて切り目を入れる。あじを返して腹側からも同様に包丁を入れて切り目を入れる。尾のつけ根のところに包丁を入れて中骨の上をスライドさせて、身を中骨から切り離す。これで三枚おろし完了。
+						
+						
+						
+						
+						
+						
+					</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<div class="elem-heading-lv3" data-margin-bottom="" data-margin-top="" id="07"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h3><span>腹骨を取る</span></h3>
+<!-- /title-holder --></div>
+<!-- /heading-box --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading --></div></div></div></div></div>
+<div class="elem-pic-block" data-direction="horizontal" data-img-position="left" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="包丁をねかせるようにして、腹骨をそぎ取る" class="sp-image" data-src="/img/basic_seafood_aji_091.jpg" draggable="false" height="375" src="/img/basic_seafood_aji_091.jpg" width="560"/>
+<!-- /holder --></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<div class="txt-container"><div>
+<div class="txt-body">
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top="" data-multicol-layout=""><div><div><div><div>
+<p>
+						包丁をねかせるようにして、腹骨をそぎ取る。
+						
+						
+						
+						
+						
+						
+					</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<!-- /txt-body --></div>
+<!-- /txt-container --></div></div>
+<!-- /elem-pic-block --></div></div></div></div></div>
+<div class="elem-heading-lv3" data-margin-bottom="" data-margin-top="" id="08"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h3><span>小骨を抜く</span></h3>
+<!-- /title-holder --></div>
+<!-- /heading-box --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading --></div></div></div></div></div>
+<div class="elem-pic-block" data-direction="horizontal" data-img-position="left" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="半身の真ん中のあたりの小骨を抜く。尾から頭にむけて引き抜くとスッと抜ける" class="sp-image" data-src="/img/basic_seafood_aji_095.jpg" draggable="false" height="375" src="/img/basic_seafood_aji_095.jpg" width="560"/>
+<!-- /holder --></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<div class="txt-container"><div>
+<div class="txt-body">
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top="" data-multicol-layout=""><div><div><div><div>
+<p>
+						半身の真ん中のあたりにある小骨を抜く。尾の方から頭の方にむけて引き抜くとスッと抜ける。抜き残しがないように指でさわりながら作業する。
+						
+						
+						
+						
+						
+						
+					</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<!-- /txt-body --></div>
+<!-- /txt-container --></div></div>
+<!-- /elem-pic-block --></div></div></div></div></div>
+<div class="elem-heading-lv3" data-margin-bottom="" data-margin-top="" id="09"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h3><span>皮をはぐ</span></h3>
+<!-- /title-holder --></div>
+<!-- /heading-box --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading --></div></div></div></div></div>
+<div class="elem-pic-block" data-direction="horizontal" data-img-position="left" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div>
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="あじの頭の方の切り口の皮をとっかかりにして、尾側に向けて皮をはぎ取る" class="sp-image" data-src="/img/basic_seafood_aji_097.jpg" draggable="false" height="375" src="/img/basic_seafood_aji_097.jpg" width="560"/>
+<!-- /holder --></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /pic-box --></div></div>
+<div class="txt-container"><div>
+<div class="txt-body">
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top="" data-multicol-layout=""><div><div><div><div>
+<p>
+						頭の方の切り口の皮をとっかかりにして、尾側に向けて皮をはぎ取る。
+						
+						
+						
+						
+						
+						
+					</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<!-- /txt-body --></div>
+<!-- /txt-container --></div></div>
+<!-- /elem-pic-block --></div></div></div></div></div>
+<!-- /toggle-body --></div></div>
+<!-- /item --></div></div>
+<div class="item--toggle"><div>
+<button aria-controls="toggle-body--2" aria-expanded="true" class="toggle-head" type="submit"><div>
+<p class="heading"><span>しょうがの薄切り</span></p>
+<!-- /toggle-head --></div></button>
+<div aria-hidden="true" class="toggle-body" id="toggle-body--2"><div>
+<div class="divide-layout" data-column="3"><div><div><div><div>
+<div class="item--divide" data-bg-color=""><div>
+<img alt="皮をむいたしょうがは端から薄く切る" height="375" src="/img/basic_vege_cut_slice_1049.jpg" width="560"/>
+<!-- /item --></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<img alt="半分に切って薄く切ったり、皮をむかずに切ることもある" height="375" src="/img/basic_vege_cut_slice_1065.jpg" width="560"/>
+<!-- /item --></div></div>
+<!-- /divide-layout --></div></div></div></div></div>
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<p data-align="" data-font-size="">端から薄く切っていく。半分に切ってから薄く切ったり、皮をむかずに切ることもある。</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<div class="divide-layout" data-column="3"><div><div><div><div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-txt-list--btn" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<ul class="txt-list--btn" data-btn-column="" data-direction="vertical">
+<li>
+<div class="elem-btn" data-btn-color="3" data-size="half"><div><div><div><div>
+<a aria-pressed="false" class="popup-youtube" href="https://www.youtube.com/watch?v=u0_g0_AJ1-w" role="button" shape="rect" tabindex="0">
+<span><i class="material-icons"></i>動画</span>
+<span class="ripple-ring" data-ripple-color="1"></span>
+</a>
+<!-- /elem-btn --></div></div></div></div></div>
+</li>
+</ul>
+<!-- /elem-txt-list-btn --></div></div></div></div></div>
+<!-- /item --></div></div>
+<!-- /divide-layout --></div></div></div></div></div>
+<div class="elem-txt-list" data-margin-bottom="" data-margin-top="10"><div><div><div><div>
+<ul class="txt-list" data-align="" data-direction="vertical">
+<li>
+<a href="/homecook/basic/vege_prepare/ginger.html" shape="rect" tabindex="0"><span>しょうがの下準備についてはこちら</span></a>
+<!-- /txt-list --></li>
+</ul>
+<!-- /elem-txt-list --></div></div></div></div></div>
+<!-- /toggle-body --></div></div>
+<!-- /item --></div></div>
+<div class="item--toggle"><div>
+<button aria-controls="toggle-body--3" aria-expanded="true" class="toggle-head" type="submit"><div>
+<p class="heading"><span>オクラのうぶ毛を取る</span></p>
+<!-- /toggle-head --></div></button>
+<div aria-hidden="true" class="toggle-body" id="toggle-body--3"><div>
+<div class="divide-layout" data-column="3"><div><div><div><div>
+<div class="item--divide" data-bg-color=""><div>
+<img alt="オクラに塩をまぶして全体を軽くこすってうぶ毛を取っておく" height="375" src="/img/basic_vege_prepare_okra_026.jpg" width="560"/>
+<!-- /item --></div></div>
+<!-- /divide-layout --></div></div></div></div></div>
+<div class="elem-paragraph" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<p data-align="" data-font-size="">塩をまぶして全体を軽くこすってうぶ毛を取っておくと、色鮮やかになり、口当たりもよくなる。</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<!-- /toggle-body --></div></div>
+<!-- /item --></div></div>
+<!-- /elem-toggle-container --></div></div></div></div></div>
+<div class="elem-txt-list print-hide" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<ul class="txt-list" data-align="" data-direction="vertical">
+<!-- /txt-list --></ul>
+<!-- /elem-txt-list --></div></div></div></div></div>
+<div class="elem-heading-lv2" data-margin-bottom="0" data-margin-top=""><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h2><span>関連レシピを探す</span></h2>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv2 --></div></div></div></div></div>
+<div class="elem-tags-list"><div role="list">
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;code=12042" rel="" shape="rect" target=""><span>キッコーマン特選丸大豆しょうゆ</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;code=52025" rel="" shape="rect" target=""><span>マンジョウ国産米こだわり仕込み料理の清酒</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C1_101=101" rel="" shape="rect" target=""><span>和風</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C5=502" rel="" shape="rect" target=""><span>400kcal以下</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C14=1401" rel="" shape="rect" target=""><span>塩分1g以下</span></a></div>
+<!-- /elem-tags-list --></div></div>
+<!-- /item --></div></div>
+<!-- /divide-layout --></div></div></div></div></div>
+<!-- /main-column --></div></div></div></div></div>
+<!-- wise indexoff -->
+</main>]

@@ -1,0 +1,1586 @@
+[<article id="recipeCard">
+<div class="recipeArea">
+<div class="recipeTitleAreaType02">
+<div class="wrap1160">
+<div class="in_table">
+<h1 class="recipeTitle">
+<span class="titleText">冷やし中華      </span>
+</h1>
+</div>
+</div>
+</div><!-- /.recipeTitleArea -->
+<div class="recipeDetailTopType02">
+<div class="recipeDetailInner clearfix">
+<!-- karetの表示部分　 id="recipeImageArea-->
+<div class="karteArea" id="recipeImageArea">
+</div>
+<div class="recipeImageArea">
+<div class="inImage"><img alt="冷やし中華(中華生めん+きゅうりを使ったレシピ)" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/701013.jpeg"/></div>
+<div class="recipeItemSp">
+<div class="recipeTime recipeTimeSp">
+<span></span>
+<div class="inTime"><span>20 分</span></div>
+</div>
+<p class="recioeIntro">中華生めんやきゅうりを使った人気の主食レシピです。</p>
+</div>
+</div><!-- /.recipeImageArea -->
+<div class="recipeTextArea">
+<div class="recipeInfo01">
+<div class="recipeTime recipeTimePc grid__item02">
+<div class="inTime"><span>20 分</span></div>
+</div>
+<div class="recipeChara">
+<ul class="clearfix">
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003?area=01" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'recipe_tag_area_001'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/150002?area=01" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'豚肉', 'tagArea':'recipe_tag_area_001'});">
+<span class="hashtagName textGrad">＃豚肉</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/250004?area=01" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'麺料理', 'tagArea':'recipe_tag_area_001'});">
+<span class="hashtagName textGrad">＃麺料理</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/160004?area=01" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'主食', 'tagArea':'recipe_tag_area_001'});">
+<span class="hashtagName textGrad">＃主食</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/190003?area=01" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'中華風', 'tagArea':'recipe_tag_area_001'});">
+<span class="hashtagName textGrad">＃中華風</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/200002?area=01" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'夏レシピ', 'tagArea':'recipe_tag_area_001'});">
+<span class="hashtagName textGrad">＃夏レシピ</span>
+<span class="bg"></span>
+</a>
+</li>
+</ul>
+</div>
+</div><!-- /.recipeInfo01 -->
+<div class="recipeInfo02 pc">
+<ul class="btns fadeArea">
+<li class="fork01" id="fork01"><a href="#" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_kondate_001'; s2.tl(this,'o',s2.eVar25);"><span>おすすめの<br class="pc_disp"/>組み合わせ</span></a></li>
+<li class="print"><a href="https://park.ajinomoto.co.jp/recipe/card/701013/print/" onclick="s.linkTrackVars='eVar44'; s.eVar44='print'; s.tl(this,'o',s.eVar44);" target="_blank"><span>このレシピを<br/>印刷する</span></a></li>
+</ul>
+</div><!-- /.recipeInfo02 -->
+</div><!-- /.recipeTextArea -->
+</div><!-- /.recipeDetailInner-->
+</div><!-- /.recipeDetailTopType02 -->
+</div>
+<div class="recipeCardSpOrderWrap">
+<div class="shareBtn recipeCardSpOrder3">
+<section class="wrapperActions shareBtnSpOrderWrap">
+<div class="btnLink wrapperClipBtn shareBtnSpOrder2">
+<div class="modalBtn">
+<a class="btnClip clip_btn" data-clip_btn_type="article_button" data-clip_flg="recipe_card" data-clip_type="recipe_clip_001" data-post_id="27506" tabindex="-1">
+<span class="iconIsCliped">
+<img class="imgClipBtn" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/AP_svg_icon_keep_grad.svg">
+<span class="clipedCount" id="numClipedCount">129</span>
+</img></span>
+<span class="textBtnClip"><p>レシピをサイトに保存する</p></span>
+</a>
+</div>
+</div>
+<div class="shareBtnSpOrder1 lineBookmarkSpOrderWrap lineBookmark">
+<div class="btnLink wrapperClipBtn lineBookmarkSpOrder2 modalBtn">
+<a class="btnClip btnLineBookmark" href="https://line.me/R/oaMessage/@ajinomoto/?%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%E2%96%BC%E3%83%96%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%AC%E3%82%B7%E3%83%94%E3%81%A8%E3%81%97%E3%81%A6%E4%BF%9D%E5%AD%98%0D%0Ahttps%3A%2F%2Fpark.ajinomoto.co.jp%2Frecipe%2Fcard%2F701013%2F" id="lineqr_link" onclick="s.linkTrackVars='eVar44'; s.eVar44='line_bookmark'; s.tl(this,'o',s.eVar44);" target="_blank">
+<span class="iconLineBookmark">
+<img class="imgLineBookmarkBtn" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/btn_share_line.png"/>
+</span>
+<span class="textBtnLineBookmark"><p>レシピをLINEに保存する</p></span>
+</a>
+</div>
+<div class="lineBookmarkQRModalArea modal">
+<div class="lineBookmarkQRModalTbWrapper">
+<div class="lineBookmarkQRModalTb modalTable">
+<div class="lineBookmarkQRModalInner modalInner">
+<div class="bigTitle_uline">
+<span>LINEブックマーク登録</span>
+</div>
+<figure>
+<figcaption>お手持ちのスマートフォンで読み取ってください</figcaption>
+<div id="lineqr"></div>
+</figure>
+<div class="mdClose"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="modalBtnLinebookmarkWrapper lineBookmarkSpOrder1">
+<div class="modalBtn">
+<a class="modalBtnLinebookmark" href="#">
+<span>LINEに保存とは</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<ul class="btns fadeArea recommendBtn sp">
+<li class="fork01" id="fork01"><a href="#" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_kondate_001'; s2.tl(this,'o',s2.eVar25);"><span>おすすめの組み合わせ</span></a></li>
+</ul>
+</div>
+<div class="wrap820 recipeCardSpOrder1">
+<div class="recipeMaterialType02" id="ancPoint">
+<h2 class="bigTitle_uline">材料<span class="bigTitle_quantity">（4人分）</span></h2>
+<div class="recipeMaterialList">
+<dl>
+<dt class="">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=中華生めん" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=中華生めん'; s2.tl(this,'o',s2.eVar25);">中華生めん</a>
+</dt>
+<dd>4玉</dd>
+<dt class="">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=卵" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=卵'; s2.tl(this,'o',s2.eVar25);">卵</a>
+</dt>
+<dd>2個</dd>
+<dt class="">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=きゅうり" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=きゅうり'; s2.tl(this,'o',s2.eVar25);">きゅうり</a>
+</dt>
+<dd>2本</dd>
+<dt class="">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=焼き豚" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=焼き豚'; s2.tl(this,'o',s2.eVar25);">焼き豚</a>
+</dt>
+<dd>150g</dd>
+<dt class="">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=きくらげ" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=きくらげ'; s2.tl(this,'o',s2.eVar25);">きくらげ</a>
+</dt>
+<dd>4枚</dd>
+<dt class="icoA">
+                    水                                      </dt>
+<dd>1/2カップ</dd>
+<dt class="icoA">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=酢" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=酢'; s2.tl(this,'o',s2.eVar25);">酢</a>
+</dt>
+<dd>1/3カップ</dd>
+<dt class="icoA">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=しょうゆ" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=しょうゆ'; s2.tl(this,'o',s2.eVar25);">しょうゆ</a>
+</dt>
+<dd>大さじ4</dd>
+<dt class="icoA">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=砂糖" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=砂糖'; s2.tl(this,'o',s2.eVar25);">砂糖</a>
+</dt>
+<dd>大さじ4</dd>
+<dt class="icoA">
+                    「AJINOMOTO ごま油好きの純正ごま油」                                      </dt>
+<dd>小さじ2</dd>
+<dt class="icoA">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=「丸鶏がらスープ」" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=「丸鶏がらスープ」'; s2.tl(this,'o',s2.eVar25);">「丸鶏がらスープ」</a>
+</dt>
+<dd>小さじ1</dd>
+<dt class="">
+                    「AJINOMOTO ごま油好きの純正ごま油」                                      </dt>
+<dd>適量</dd>
+<dt class="">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=いり白ごま" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=いり白ごま'; s2.tl(this,'o',s2.eVar25);">いり白ごま</a>
+</dt>
+<dd>適量</dd>
+<dt class="">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=しょうがの酢漬け" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=しょうがの酢漬け'; s2.tl(this,'o',s2.eVar25);">紅しょうが</a>
+</dt>
+<dd>適量</dd>
+</dl>
+<p class="recipeProvider">レシピ提供：味の素KK</p>
+</div>
+</div>
+</div>
+<div class="wrap820 recipeCardSpOrder2">
+<div class="useItems">
+<div class="inTtl">
+<a class="smooth" href="#point01" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_brand_001'; s2.tl(this,'o',s2.eVar25);">このレシピで使われている商品はこちら</a>
+</div>
+<div class="images">
+<ul>
+<li>
+<a class="smooth" href="#point01" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_brand_001'; s2.tl(this,'o',s2.eVar25);">
+<img alt="「丸鶏がらスープ」" src="https://park.ajinomoto.co.jp/wp-content/uploads/pkg_image/5000042.jpg"/>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="wrap820 recipeCardSpOrder4">
+<div class="recipeMakeType02">
+<h2 class="bigTitle_uline">つくり方</h2>
+<div class="makeList" id="makeList">
+<ol>
+<li class="inGallery">
+<div class="txt numberTxt"><h3 class="num"><span class="textGrad">1</span><span class="numBg"></span></h3>卵は薄く焼き、錦糸卵にする。</div>
+</li>
+<li class="inGallery">
+<div class="txt numberTxt"><h3 class="num"><span class="textGrad">2</span><span class="numBg"></span></h3>きゅうりは板ずりし、きくらげはぬるま湯でもどす。焼き豚とともにそれぞれ<a href="https://park.ajinomoto.co.jp/recipe/basic/vege_cutting/hosogiri/">細切り</a>にする。</div>
+</li>
+<li class="inGallery">
+<div class="txt numberTxt"><h3 class="num"><span class="textGrad">3</span><span class="numBg"></span></h3>Ａは混ぜ合わせて、冷蔵庫で冷やし、たれを作る。</div>
+</li>
+<li class="inGallery">
+<div class="txt numberTxt"><h3 class="num"><span class="textGrad">4</span><span class="numBg"></span></h3>鍋にたっぷりの熱湯を沸かし、めんをゆでる。途中２回差し水をし、ゆで上がったら水にとってもみ洗いし、水気をきってごま油をからめる。</div>
+</li>
+<li class="inGallery">
+<div class="txt numberTxt"><h3 class="num"><span class="textGrad">5</span><span class="numBg"></span></h3>器に（４）のめんを盛り、（１）の錦糸卵、（２）のきゅうり・きくらげ・焼き豚、紅しょうがを飾り、（３）のたれをかけ、ごまをふる。</div>
+</li>
+</ol>
+</div>
+</div><!-- /.recipeMake -->
+</div>
+<div class="wrap820 recipeCardSpOrder5">
+<div class="recipeVideoType02">
+<div class="inCol2 clearfix">
+<div class="right">
+<div class="videoInfo">
+<h3 class="ttl">栄養情報 （1人分）</h3>
+<div class="nutrientListWrapper">
+<ul class="clearfix">
+<li><div><span>・エネルギー</span><span>459 kcal</span></div></li>
+<li><div><span>・塩分</span><span>3.2 g</span></div></li>
+<li><div><span>・たんぱく質</span><span>22.2 g</span></div></li>
+<li><div><span>・野菜摂取量※</span><span>50 g</span></div></li>
+</ul>
+<div class="inCap">※野菜摂取量はきのこ類・いも類を除く</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.recipeVideo -->
+</div>
+<div class="wrap820 recipeCardSpOrder7">
+<section class="relatedKeywords recipe_card">
+<h3>関連キーワード</h3>
+<div class="wrapperRelatedKeywords">
+<ul class="listHashtag">
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/200002?area=02" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'夏レシピ', 'tagArea':'recipe_tag_area_002'});">
+<span class="hashtagName textGrad"># 夏レシピ</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003?area=02" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'recipe_tag_area_002'});">
+<span class="hashtagName textGrad"># 20分以内</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/150002?area=02" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'豚肉', 'tagArea':'recipe_tag_area_002'});">
+<span class="hashtagName textGrad"># 豚肉</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/190003?area=02" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'中華風', 'tagArea':'recipe_tag_area_002'});">
+<span class="hashtagName textGrad"># 中華風</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/160004?area=02" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'主食', 'tagArea':'recipe_tag_area_002'});">
+<span class="hashtagName textGrad"># 主食</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/250004?area=02" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'麺料理', 'tagArea':'recipe_tag_area_002'});">
+<span class="hashtagName textGrad"># 麺料理</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/230009?area=02" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'丸鶏がらスープ', 'tagArea':'recipe_tag_area_002'});">
+<span class="hashtagName textGrad"># 丸鶏がらスープ</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/150031?area=02" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'卵', 'tagArea':'recipe_tag_area_002'});">
+<span class="hashtagName textGrad"># 卵</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/150036?area=02" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'きゅうり', 'tagArea':'recipe_tag_area_002'});">
+<span class="hashtagName textGrad"># きゅうり</span>
+<span class="bg"></span>
+</a>
+</li>
+</ul>
+</div>
+</section>
+</div>
+<div class="shareBtnBottom recipeCardSpOrder6">
+<section class="wrapperActions shareBtnBottomSpOrderWrap">
+<div class="btnLink wrapperClipBtn shareBtnBottomSpOrder2">
+<div class="clipTutorialPopupBG">
+<div class="clipTutorialPopup">
+<div class="title">ログインなしで保存できます</div>
+<p>気になるレシピを保存して便利に使おう</p>
+</div>
+</div>
+<div class="modalBtn">
+<a class="btnClip clip_btn" data-clip_btn_type="article_button" data-clip_flg="recipe_card" data-clip_type="recipe_clip_002" data-post_id="27506" tabindex="-1">
+<span class="iconIsCliped">
+<img class="imgClipBtn" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/AP_svg_icon_keep_grad.svg">
+<span class="clipedCount" id="numClipedCountBottom">129</span>
+</img></span>
+<span class="textBtnClip"><p>レシピをサイトに保存する</p></span>
+</a>
+</div>
+</div>
+<div class="shareBtnBottomSpOrder1 lineBookmarkSpOrderWrap lineBookmark">
+<div class="btnLink wrapperClipBtn lineBookmarkSpOrder2 modalBtn">
+<a class="btnClip btnLineBookmark" href="https://line.me/R/oaMessage/@ajinomoto/?%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%E2%96%BC%E3%83%96%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%AC%E3%82%B7%E3%83%94%E3%81%A8%E3%81%97%E3%81%A6%E4%BF%9D%E5%AD%98%0D%0Ahttps%3A%2F%2Fpark.ajinomoto.co.jp%2Frecipe%2Fcard%2F701013%2F" onclick="s.linkTrackVars='eVar44'; s.eVar44='line_bookmark'; s.tl(this,'o',s.eVar44);" target="_blank">
+<span class="iconLineBookmark">
+<img class="imgLineBookmarkBtn" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/btn_share_line.png"/>
+</span>
+<span class="textBtnLineBookmark"><p>レシピをLINEに保存する</p></span>
+</a>
+</div>
+<div class="modalBtnLinebookmarkWrapper lineBookmarkSpOrder1">
+<div class="modalBtn">
+<a class="modalBtnLinebookmark" href="#">
+<span>LINEに保存とは</span>
+</a>
+</div>
+</div>
+</div>
+<div class="wrapperShareBtn shareBtnBottomSpOrder3">
+<p>SHARE</p>
+<ul class="listShareBtn">
+<li class="itemListShareBtn">
+<a href="https://timeline.line.me/social-plugin/share?url=https%3A%2F%2Fpark.ajinomoto.co.jp%2Frecipe%2Fcard%2F701013%2F" onclick="s.customLinkTrack({'trackValue':'snssharerecip', 'tagArea':'sns_share2_01'});" target="_blank">
+<img alt="LINEで送る" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/btn_share_line.png"/>
+</a>
+</li>
+<li class="itemListShareBtn">
+<a href="https://twitter.com/share?url=https%3A%2F%2Fpark.ajinomoto.co.jp%2Frecipe%2Fcard%2F701013%2F" onclick="s.customLinkTrack({'trackValue':'snssharerecip', 'tagArea':'sns_share2_02'});" target="_blank">
+<img alt="ツイートする" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/btn_share_twitter.png"/>
+</a>
+</li>
+<li class="itemListShareBtn">
+<a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fpark.ajinomoto.co.jp%2Frecipe%2Fcard%2F701013%2F" onclick="s.customLinkTrack({'trackValue':'snssharerecip', 'tagArea':'sns_share2_03'});" target="_blank">
+<img alt="シェアする" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/btn_share_fb.png"/>
+</a>
+</li>
+<li class="itemListShareBtn">
+<a href="mailto:?subject=冷やし中華&amp;body=https%3A%2F%2Fpark.ajinomoto.co.jp%2Frecipe%2Fcard%2F701013%2F" onclick="s.customLinkTrack({'trackValue':'snssharerecip', 'tagArea':'sns_share2_04'});" target="_blank">
+<img alt="メールで送る" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/btn_share_mail.png"/>
+</a>
+</li>
+</ul>
+</div>
+</section>
+</div>
+<div class="wrap820 recipeCardSpOrderNone">
+<section class="wrapperFollowSNS">
+<div class="btnLink followTwitter">
+<a href="https://twitter.com/ajinomotopark" onclick="s.customLinkTrack({'trackValue':'snssharerecip', 'tagArea':'register_sns_001'});" target="_blank"></a>
+<div class="innerBtnLink">
+<div class="blockText">
+<p>最新情報をいち早くお知らせ！</p>
+<span>Twitterをフォローする</span>
+</div>
+<div class="blockIcon">
+<img src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/btn_share_twitter.png"/>
+</div>
+</div>
+</div>
+<div class="btnLink followLine">
+<a href="https://lin.ee/p9uazvf" onclick="s.customLinkTrack({'trackValue':'snssharerecip', 'tagArea':'register_sns_002'});" target="_blank"></a>
+<div class="innerBtnLink">
+<div class="blockText">
+<p>LINEからレシピ・献立検索ができる！</p>
+<span>LINEでお友だちになる</span>
+</div>
+<div class="blockIcon">
+<img src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/common/sp/btn_share_line.png"/>
+</div>
+</div>
+</div>
+</section> </div>
+</div><!-- /.recipeCardSpOrder -->
+<section class="automaticMenuCarousel">
+<h2 class="bigTitle_uline">このレシピに合う組み合わせ（献立）</h2>
+<ul class="automaticMenuCarouselArea">
+<li>
+<a href="https://park.ajinomoto.co.jp/menu/card/?main=701013&amp;sub1=802160&amp;sub2=802142" onclick="s.linkTrackVars='eVar44'; s.eVar44='kondatecard_kumiawase_001|https://park.ajinomoto.co.jp/menu/card/?main=701013&amp;sub1=802160&amp;sub2=802142'; s.tl(this,'o',s.eVar44);">
+<div class="imgArea">
+<img alt="にんじんとツナのごまみそだれ和え" src="https://park.ajinomoto.co.jp/wp-content/uploads/2021/06/802160-300x200.jpeg"/>
+<span>副菜</span>
+</div>
+<div class="imgArea">
+<img alt="ふんわりたまごスープ（塩分３０％カット）" src="https://park.ajinomoto.co.jp/wp-content/uploads/2021/05/802142-300x200.jpeg"/>
+<span>汁物</span>
+</div>
+<p>・にんじんとツナのごまみそだれ和え</p>
+<p>・ふんわりたまごスープ（塩分３０％カット）</p>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/menu/card/?main=701013&amp;sub1=801104&amp;sub2=800016" onclick="s.linkTrackVars='eVar44'; s.eVar44='kondatecard_kumiawase_002|https://park.ajinomoto.co.jp/menu/card/?main=701013&amp;sub1=801104&amp;sub2=800016'; s.tl(this,'o',s.eVar44);">
+<div class="imgArea">
+<img alt="無限ズッキーニ" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/06/801104-300x200.jpeg"/>
+<span>副菜</span>
+</div>
+<div class="imgArea">
+<img alt="トマトとスプラウトのスープ" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/800016-300x200.jpeg"/>
+<span>汁物</span>
+</div>
+<p>・無限ズッキーニ</p>
+<p>・トマトとスプラウトのスープ</p>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/menu/card/?main=701013&amp;sub1=706903&amp;sub2=709635" onclick="s.linkTrackVars='eVar44'; s.eVar44='kondatecard_kumiawase_003|https://park.ajinomoto.co.jp/menu/card/?main=701013&amp;sub1=706903&amp;sub2=709635'; s.tl(this,'o',s.eVar44);">
+<div class="imgArea">
+<img alt="トマトのスープサラダ" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/706903-300x200.jpeg"/>
+<span>副菜</span>
+</div>
+<div class="imgArea">
+<img alt="ごぼうと人参のきんぴら" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/709635-300x200.jpeg"/>
+<span>副菜</span>
+</div>
+<p>・トマトのスープサラダ</p>
+<p>・ごぼうと人参のきんぴら</p>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/menu/card/?main=701013&amp;sub1=702854&amp;sub2=800477" onclick="s.linkTrackVars='eVar44'; s.eVar44='kondatecard_kumiawase_004|https://park.ajinomoto.co.jp/menu/card/?main=701013&amp;sub1=702854&amp;sub2=800477'; s.tl(this,'o',s.eVar44);">
+<div class="imgArea">
+<img alt="にんじんのせん切りシンプル炒め" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/702854-300x200.jpeg"/>
+<span>副菜</span>
+</div>
+<div class="imgArea">
+<img alt="秒速　金のＷネギスープ" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/800477-300x200.jpeg"/>
+<span>汁物</span>
+</div>
+<p>・にんじんのせん切りシンプル炒め</p>
+<p>・秒速　金のＷネギスープ</p>
+</a>
+</li>
+</ul>
+<div class="linkArea">
+<a class="fade" href="https://park.ajinomoto.co.jp/menu/kenko/nutrition/kondate-kihon/#Automenu" onclick="s.linkTrackVars='eVar44'; s.eVar44='kondatecard_kumiawase'; s.tl(this,'o',s.eVar44);"><span class="arrow">味の素KKの組合せ（献立）の作り方</span></a>
+</div>
+</section>
+<section class="recipeMaterialOtherSection">
+<div class="wrap1200">
+<h2 class="bigTitle_uline">中華生めんを使ったレシピ</h2>
+<div class="horizontalScrollArea recipeCard fadeArea">
+<ul>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/707202/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_001|https://park.ajinomoto.co.jp/recipe/card/707202/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="担々麺" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/707202-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_2">担々麺</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/705569/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_003|https://park.ajinomoto.co.jp/recipe/card/705569/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="汁なし担々麺" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/705569-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_4">汁なし担々麺</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/140002" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'ピリ辛', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃ピリ辛</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/150004" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'ひき肉', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃ひき肉</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/703531/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_005|https://park.ajinomoto.co.jp/recipe/card/703531/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="冷やし中華（和風味）" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/703531-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_6">冷やし中華（和風味）</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/260001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'栄養バランス', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃栄養バランス</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/703768/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_007|https://park.ajinomoto.co.jp/recipe/card/703768/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="麻婆豆腐麺" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/703768-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_8">麻婆豆腐麺</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/701013/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_009|https://park.ajinomoto.co.jp/recipe/card/701013/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="冷やし中華" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/701013-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_10">冷やし中華</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/150002" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'豚肉', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃豚肉</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/710241/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_011|https://park.ajinomoto.co.jp/recipe/card/710241/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="楽々味噌ラーメン" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/710241-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_12">楽々味噌ラーメン</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110002" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'10分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃10分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/703797/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_013|https://park.ajinomoto.co.jp/recipe/card/703797/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="ジャージャー麻婆麺" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/703797-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_14">ジャージャー麻婆麺</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/702256/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_015|https://park.ajinomoto.co.jp/recipe/card/702256/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="冷やし中華と黒酢ダレ" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/702256-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_16">冷やし中華と黒酢ダレ</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/250004" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'麺料理', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃麺料理</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/160004" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'主食', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃主食</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/801874/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_017|https://park.ajinomoto.co.jp/recipe/card/801874/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="粗挽きひき肉でつくる麻婆冷やし麺" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2020/08/801874-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_18">粗挽きひき肉でつくる麻婆冷やし麺</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/010684/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_019|https://park.ajinomoto.co.jp/recipe/card/010684/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="冷やし中華そば 和風ソース" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/010684-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren1_20">冷やし中華そば 和風ソース</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/250004" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'麺料理', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃麺料理</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/160004" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'主食', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃主食</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="bottomTxtLink">
+<a class="fade" href="https://park.ajinomoto.co.jp/recipe/search/?search_word=中華生めん" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren1_search'; s2.tl(this,'o',s2.eVar25);">
+<span>他の中華生めん人気レシピを見る（34件）</span>
+</a>
+</div>
+</div>
+</section>
+<section class="recipeMaterialOtherSection">
+<div class="wrap1200">
+<h2 class="bigTitle_uline">きゅうりを使ったレシピ</h2>
+<div class="horizontalScrollArea recipeCard fadeArea">
+<ul>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/700595/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_001|https://park.ajinomoto.co.jp/recipe/card/700595/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="冷やしぶっかけうどん" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/700595-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_2">冷やしぶっかけうどん</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/260001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'栄養バランス', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃栄養バランス</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/800317/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_003|https://park.ajinomoto.co.jp/recipe/card/800317/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="やみつき！無限きゅうり" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/800317-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_4">やみつき！無限きゅうり</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'5分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃5分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/708376/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_005|https://park.ajinomoto.co.jp/recipe/card/708376/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="きゅうりの酢の物" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/708376-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_6">きゅうりの酢の物</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110002" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'10分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃10分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/708236/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_007|https://park.ajinomoto.co.jp/recipe/card/708236/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="うま辛　たたききゅうり" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/708236-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_8">うま辛　たたききゅうり</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'5分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃5分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/710243/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_009|https://park.ajinomoto.co.jp/recipe/card/710243/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="切り干し大根のごまマヨサラダ" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/710243-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_10">切り干し大根のごまマヨサラダ</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/130006" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'火を使わない', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃火を使わない</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/710222/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_011|https://park.ajinomoto.co.jp/recipe/card/710222/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="冷麺風キムチそうめん" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/710222-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_12">冷麺風キムチそうめん</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110002" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'10分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃10分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/706113/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_013|https://park.ajinomoto.co.jp/recipe/card/706113/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="きくらげときゅうりのうまうまナムル" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/706113-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_14">きくらげときゅうりのうまうまナムル</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110002" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'10分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃10分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/708233/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_015|https://park.ajinomoto.co.jp/recipe/card/708233/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="ピリ辛だれのねぎ豚しゃぶ" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/708233-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_16">ピリ辛だれのねぎ豚しゃぶ</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/710234/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_017|https://park.ajinomoto.co.jp/recipe/card/710234/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="レンジで簡単！ポテトサラダ" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/710234-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_18">レンジで簡単！ポテトサラダ</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/130001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'電子レンジだけ', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃電子レンジだけ</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/707343/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_019|https://park.ajinomoto.co.jp/recipe/card/707343/'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="オイキムチ" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/707343-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="kanren2_20">オイキムチ</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120006" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'お酒に合う', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃お酒に合う</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/130006" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'火を使わない', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃火を使わない</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="bottomTxtLink">
+<a class="fade" href="https://park.ajinomoto.co.jp/recipe/search/?search_word=きゅうり" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren2_search'; s2.tl(this,'o',s2.eVar25);">
+<span>他のきゅうり人気レシピを見る（670件）</span>
+</a>
+</div>
+</div>
+</section>
+<section class="recipeRelationSection wrap1100">
+<h2 class="bigTitle_uline">関連するレシピ</h2>
+<div class="mem-stripeBox">
+<ul class="recipeRelationBtns">
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=中華生めん+卵" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren3_001|https://park.ajinomoto.co.jp/recipe/search/?search_word=中華生めん+卵'; s2.tl(this,'o',s2.eVar25);">
+          「中華生めん×卵」のレシピ        </a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=中華生めん+きゅうり" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren3_002|https://park.ajinomoto.co.jp/recipe/search/?search_word=中華生めん+きゅうり'; s2.tl(this,'o',s2.eVar25);">
+          「中華生めん×きゅうり」のレシピ        </a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=卵+きゅうり" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipetop_kanren3_003|https://park.ajinomoto.co.jp/recipe/search/?search_word=卵+きゅうり'; s2.tl(this,'o',s2.eVar25);">
+          「卵×きゅうり」のレシピ        </a>
+</li>
+</ul>
+</div>
+</section>
+<section class="productOtherRecipesSection">
+<div class="wrap1200">
+<h2 class="bigTitle_uline">使用されている商品を使ったレシピ</h2>
+<div class="icoTitleArea">
+<h3>
+<span class="ico"><img alt="「丸鶏がらスープ」" src="https://park.ajinomoto.co.jp/wp-content/uploads/pkg_image/5000042.jpg"/></span>
+<span class="ttl">「丸鶏がらスープ」</span>
+</h3>
+</div>
+<div class="horizontalScrollArea recipeCard fadeArea">
+<ul>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/800270/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="やみつき！無限ピーマン" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/800270-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_1">やみつき！無限ピーマン</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'5分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃5分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/801534/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="やみつき！無限そうめん" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2019/05/801534-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_2">やみつき！無限そうめん</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110002" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'10分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃10分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120008" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'料理初心者', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃料理初心者</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/707349/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="こだわり手作り！麻婆茄子" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/707349-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_3">こだわり手作り！麻婆茄子</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120004" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'定番・基本', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃定番・基本</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/260001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'栄養バランス', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃栄養バランス</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/800317/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="やみつき！無限きゅうり" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/800317-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_4">やみつき！無限きゅうり</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'5分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃5分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/707201/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="かんたんチヂミ" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/707201-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_5">かんたんチヂミ</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/800670/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="鶏だし卵おかゆ（包装米飯使用）" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/800670-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_6">鶏だし卵おかゆ（包装米飯使用）</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/800722/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="やみつき！無限チンゲン菜" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/800722-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_7">やみつき！無限チンゲン菜</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'5分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃5分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/800313/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="やみつき！無限にんじん" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/800313-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_8">やみつき！無限にんじん</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'5分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃5分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/800720/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="やみつき！無限長ねぎ" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/800720-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_9">やみつき！無限長ねぎ</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'5分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃5分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="pc-scroll" href="https://park.ajinomoto.co.jp/recipe/card/702980/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<div class="img"><img alt="なすと豚肉の豆板醤炒め" class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/702980-300x200.jpeg"/></div>
+<div class="ttl ellipsis" id="recipe_using_products1_10">なすと豚肉の豆板醤炒め</div>
+</a>
+<div class="hashtagItem">
+<div class="listHashtag">
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/110003" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'20分以内', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃20分以内</span>
+<span class="bg"></span>
+</a>
+</div>
+<div class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'簡単・時短', 'tagArea':'hozonichiran_hashtag'});">
+<span class="hashtagName textGrad">＃簡単・時短</span>
+<span class="bg"></span>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="bottomTxtLink">
+<a class="fade" href="https://park.ajinomoto.co.jp/recipe/search/?search_word=「丸鶏がらスープ」" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_using_products_area'; s2.tl(this,'o',s2.eVar25);">
+<span>他の「丸鶏がらスープ」のレシピを見る</span>
+</a>
+</div>
+</div>
+</section>
+<section class="embeddedKarteSpecifiedTagMagazine">
+</section><section class="recommendRecipeCorner">
+<div class="sectionTitle">
+<p><span class="textGrad">「AJINOMOTO PARK」’S CHOICES</span></p>
+<h2>おすすめのレシピ特集</h2>
+</div>
+<div class="recommendCornerContent">
+<ul class="recommendCornerList">
+<li class="itemListRecommendCorner">
+<div class="btnRecommendCorner">
+<a href="https://park.ajinomoto.co.jp/recipe/corner/event/summervege/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='feature_001|https://park.ajinomoto.co.jp/recipe/corner/event/summervege/'; s2.tl(this,'o',s2.eVar25);"></a>
+<div class="btnRecommendCornerImg">
+<img alt="夏野菜レシピ特集" class="recommendRecipeImg" src="https://park.ajinomoto.co.jp/wp-content/uploads/2019/07/410f2b7900ff6d9448115716d6ec5a28-1024x685.jpg"/>
+</div>
+</div>
+<div class="recommendCornerItem">
+<div class="titleRecommendCornerItem">
+<p>
+<a href="https://park.ajinomoto.co.jp/recipe/corner/event/summervege/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='feature_001|https://park.ajinomoto.co.jp/recipe/corner/event/summervege/'; s2.tl(this,'o',s2.eVar25);">
+                                        夏野菜レシピ特集                                    </a>
+</p>
+</div>
+<div class="hashtagRecommendCornerItem">
+<ul class="listHashtag">
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120007" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'手間なし', 'tagArea':'feature_hashtag'});">
+<span class="hashtagName textGrad">＃手間なし</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/260001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'栄養バランス', 'tagArea':'feature_hashtag'});">
+<span class="hashtagName textGrad">＃栄養バランス</span>
+<span class="bg"></span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="itemListRecommendCorner">
+<div class="btnRecommendCorner">
+<a href="https://park.ajinomoto.co.jp/recipe/corner/event/summer-ranking/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='feature_002|https://park.ajinomoto.co.jp/recipe/corner/event/summer-ranking/'; s2.tl(this,'o',s2.eVar25);"></a>
+<div class="btnRecommendCornerImg">
+<img alt="人気の夏レシピ特集" class="recommendRecipeImg" src="https://park.ajinomoto.co.jp/wp-content/uploads/2020/05/801799.jpeg"/>
+</div>
+</div>
+<div class="recommendCornerItem">
+<div class="titleRecommendCornerItem">
+<p>
+<a href="https://park.ajinomoto.co.jp/recipe/corner/event/summer-ranking/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='feature_002|https://park.ajinomoto.co.jp/recipe/corner/event/summer-ranking/'; s2.tl(this,'o',s2.eVar25);">
+                                        人気の夏レシピ特集                                    </a>
+</p>
+</div>
+<div class="hashtagRecommendCornerItem">
+<ul class="listHashtag">
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/200002" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'夏レシピ', 'tagArea':'feature_hashtag'});">
+<span class="hashtagName textGrad">＃夏レシピ</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/250004" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'麺料理', 'tagArea':'feature_hashtag'});">
+<span class="hashtagName textGrad">＃麺料理</span>
+<span class="bg"></span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="itemListRecommendCorner">
+<div class="btnRecommendCorner">
+<a href="https://park.ajinomoto.co.jp/recipe/corner/products/knorr-tsumegyuu/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='feature_003|https://park.ajinomoto.co.jp/recipe/corner/products/knorr-tsumegyuu/'; s2.tl(this,'o',s2.eVar25);"></a>
+<div class="btnRecommendCornerImg">
+<img alt="「クノール®" class="recommendRecipeImg" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/91cd252640b8354a1c864dbf0ef19a5e-1024x290.jpg" を使ったおいしいレシピ="" カップスープ」冷たい牛乳でつくるスープ=""/>
+</div>
+</div>
+<div class="recommendCornerItem">
+<div class="titleRecommendCornerItem">
+<p>
+<a href="https://park.ajinomoto.co.jp/recipe/corner/products/knorr-tsumegyuu/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='feature_003|https://park.ajinomoto.co.jp/recipe/corner/products/knorr-tsumegyuu/'; s2.tl(this,'o',s2.eVar25);">
+                                        「クノール® カップスープ」冷たい牛乳でつくるスープ...                                    </a>
+</p>
+</div>
+<div class="hashtagRecommendCornerItem">
+<ul class="listHashtag">
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/250002" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'サラダ', 'tagArea':'feature_hashtag'});">
+<span class="hashtagName textGrad">＃サラダ</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/250004" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'麺料理', 'tagArea':'feature_hashtag'});">
+<span class="hashtagName textGrad">＃麺料理</span>
+<span class="bg"></span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="itemListRecommendCorner">
+<div class="btnRecommendCorner">
+<a href="https://park.ajinomoto.co.jp/recipe/corner/kantan/oneplate/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='feature_004|https://park.ajinomoto.co.jp/recipe/corner/kantan/oneplate/'; s2.tl(this,'o',s2.eVar25);"></a>
+<div class="btnRecommendCornerImg">
+<img alt="ワンプレートランチ" class="recommendRecipeImg" src="https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/704314_hr-1024x667.jpg" 料理・レシピ特集=""/>
+</div>
+</div>
+<div class="recommendCornerItem">
+<div class="titleRecommendCornerItem">
+<p>
+<a href="https://park.ajinomoto.co.jp/recipe/corner/kantan/oneplate/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='feature_004|https://park.ajinomoto.co.jp/recipe/corner/kantan/oneplate/'; s2.tl(this,'o',s2.eVar25);">
+                                        ワンプレートランチ　料理・レシピ特集                                    </a>
+</p>
+</div>
+<div class="hashtagRecommendCornerItem">
+<ul class="listHashtag">
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/160001" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'メイン料理', 'tagArea':'feature_hashtag'});">
+<span class="hashtagName textGrad">＃メイン料理</span>
+<span class="bg"></span>
+</a>
+</li>
+<li class="itemListHashtag">
+<a class="btnHashtag" href="https://park.ajinomoto.co.jp/tag/120007" onclick="s.customLinkTrack({'trackValue':'hashtag', 'tagValue':'手間なし', 'tagArea':'feature_hashtag'});">
+<span class="hashtagName textGrad">＃手間なし</span>
+<span class="bg"></span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="linkArea"><a href="https://park.ajinomoto.co.jp/recipe/corner/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='feature_cornertop'; s2.tl(this,'o',s2.eVar25);"><span>レシピ特集をもっと見る</span></a></div>
+</section>
+<section class="recommendContentCorner">
+<h2 class="bigTitle_uline">こちらもおすすめ</h2>
+</section>
+<section class="topContentsArea recommendContents">
+<div class="contentsSlider">
+<ul class="contentsSlideritem">
+<li>
+<a href="https://park.ajinomoto.co.jp/special/lovevege/matome/" onclick="s.linkTrackVars='eVar44'; s.eVar44='osusume_lovevege|https://park.ajinomoto.co.jp/special/lovevege/matome/'; s.tl(this,'o',s.eVar44);">
+<img class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2021/03/osusume_lovevege.png"/>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/special/kachimeshi/" onclick="s.linkTrackVars='eVar44'; s.eVar44='osusume_kachimeshi|https://park.ajinomoto.co.jp/special/kachimeshi/'; s.tl(this,'o',s.eVar44);">
+<img class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2022/04/MicrosoftTeams-image-42.png"/>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/special/smartsalt/" onclick="s.linkTrackVars='eVar44'; s.eVar44='osusume_smartsalt|https://park.ajinomoto.co.jp/special/smartsalt/'; s.tl(this,'o',s.eVar44);">
+<img class="object-fit" src="https://park.ajinomoto.co.jp/wp-content/uploads/2021/07/90c54e29b4295ed2ecf5b6357ce3906c.jpeg"/>
+</a>
+</li>
+</ul>
+</div>
+</section>
+<section class="moreRecommendContents">
+<div class="linkArea"><a href="https://park.ajinomoto.co.jp/special/" onclick="s.linkTrackVars='eVar44'; s.eVar44='osusume_more'; s.tl(this,'o',s.eVar44);"><span>スペシャルコンテンツをもっと見る</span></a></div>
+</section>
+<section class="modalIconSearchArea">
+<h2 class="bigTitle_uline" id="search_by_category">カテゴリからさがす</h2>
+<div class="clearfix">
+<div class="box">
+<h3 class="inTtl">定番食材で探す
+<ul class="lists">
+<li class="modalBtn">
+<a data-modal="num01" href="#">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_01.svg"/></span>
+<span class="txt">肉</span>
+</a>
+</li>
+<li class="modalBtn">
+<a data-modal="num02" href="#">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_02.svg"/></span>
+<span class="txt">魚介</span>
+</a>
+</li>
+<li class="modalBtn spBgNon">
+<a data-modal="num03" href="#">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_03.svg"/></span>
+<span class="txt">野菜</span>
+</a>
+</li>
+<li class="modalBtn">
+<a data-modal="num04" href="#">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_04.svg"/></span>
+<span class="txt">その他</span>
+</a>
+</li>
+</ul>
+</h3></div>
+<div class="box">
+<h3 class="inTtl">ジャンルで探す
+<ul class="lists">
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s3%5B%5D=1" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='和風'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_05.svg"/></span>
+<span class="txt">和風</span>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s3%5B%5D=2" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='洋風'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_06.svg"/></span>
+<span class="txt">洋風</span>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s3%5B%5D=3" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='中華風'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_07.svg"/></span>
+<span class="txt">中華風</span>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s3%5B%5D=4" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='韓国風'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_08.svg"/></span>
+<span class="txt">韓国風</span>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s3%5B%5D=5" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='エスニック'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_09.svg"/></span>
+<span class="txt wide">エスニック</span>
+</a>
+</li>
+</ul>
+</h3></div>
+<div class="box">
+<h3 class="inTtl">料理区分で探す
+<ul class="lists">
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s1%5B%5D=1" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='主菜'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_10.svg"/></span>
+<span class="txt">主菜</span>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s1%5B%5D=2" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='副菜'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_11.svg"/></span>
+<span class="txt">副菜</span>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s1%5B%5D=4" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='主食'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_13.svg"/></span>
+<span class="txt">主食</span>
+</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s1%5B%5D=3" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='汁物'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_12.svg"/></span>
+<span class="txt">汁物</span>
+</a>
+</li>
+<li class="wide">
+<a href="https://park.ajinomoto.co.jp/recipe/search/?s1%5B%5D=5" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='デザート'; s2.tl(this,'o',s2.eVar25);">
+<span class="ico"><img alt="" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/recipe/index/icon_category_14.svg"/></span>
+<span class="txt wide">デザート</span>
+</a>
+</li>
+</ul>
+</h3></div>
+</div>
+</section>
+<section class="checkedContents topContentsArea">
+<div class="titleArea">
+<h2>最近チェックしたページ</h2>
+<div class="linkArea"><a href="https://park.ajinomoto.co.jp/rireki/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recent_views_rireki'; s2.tl(this,'o',s2.eVar25);"><span>閲覧履歴を見る</span></a></div>
+</div>
+<div class="sliderArea">
+<div class="contentsSliderType01">
+<ul>
+</ul>
+</div>
+</div>
+</section>
+<section class="clipContents topContentsArea">
+<div class="titleArea">
+<h2>保存したページ</h2>
+<div class="linkArea"><a href="https://park.ajinomoto.co.jp/clip/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='hozon_ichiran'; s2.tl(this,'o',s2.eVar25);"><span>保存一覧を見る</span></a></div>
+</div>
+<div class="sliderArea">
+<div class="contentsSliderType01">
+<ul>
+</ul>
+</div>
+</div>
+</section>
+<section class="topContentsArea memberPromotionArea">
+<div class="mem-stripeBox">
+<div class="mem-stripeBox__inner">
+<p class="mem-sectionTitle">
+                会員登録でもっと便利に
+            </p>
+<div class="mem-stripeBox__wrap504">
+<div class="mem-about-imgAndText">
+<div class="mem-about-imgAndText__thumb">
+<img alt="日々の料理に使えるおすすめレシピやお役立ち情報をメールマガジンでお届け！" class="imgRespondive" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/about/icon_point1.svg"/>
+</div>
+<div class="mem-about-imgAndText__body">
+<p class="mem-about-imgAndText__text">
+                            保存した記事はPCとスマートフォンなど異なる環境でご覧いただくことができます。
+                        </p>
+</div>
+</div>
+<div class="mem-about-imgAndText">
+<div class="mem-about-imgAndText__thumb">
+<img alt="お気に入りのページを保存しておくこともできます。" class="imgRespondive" src="https://park.ajinomoto.co.jp/wp-content/themes/ajinomoto/resources/images/about/icon_point3.svg"/>
+</div>
+<div class="mem-about-imgAndText__body">
+<p class="mem-about-imgAndText__text">
+                            保存した記事を保存期間に限りなくご利用いただけます。
+                        </p>
+</div>
+</div>
+</div>
+<div class="mem-stripeBox__wrap504">
+<a class="mem-button mem-button--grad" href="/user/entry/?reg=1" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='shinnki_kaiinn_touroku'; s2.tl(this,'o',s2.eVar25);">
+<span class="mem-button__inner">
+<span class="mem-button__text">
+<p class="mem-button__label mem-gradText">
+                                新規会員登録
+                            </p>
+</span>
+</span>
+</a>
+</div>
+<div class="mem-stripeBox__wrap504">
+<a class="mem-button mem-button--default" href="/user/auth/login/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='kaiin_login'; s2.tl(this,'o',s2.eVar25);">
+<span class="mem-button__inner">
+<span class="mem-button__text">
+<p class="mem-button__label">
+                                ログイン
+                            </p>
+</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section id="point01">
+<h2 class="bigTitle_uline">このレシピで使われている商品</h2>
+<div class="relationItemLists">
+<div class="box">
+<h3 class="ttl">「丸鶏がらスープ」</h3>
+<div class="clearfix">
+<div class="img"><img alt="「丸鶏がらスープ」" src="https://park.ajinomoto.co.jp/wp-content/uploads/pkg_image/5000042.jpg"/></div>
+<ul class="texts">
+<li><a href="https://park.ajinomoto.co.jp/recipe/corner/marudori" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='product_pr_area'; s2.tl(this,'o',s2.eVar25);">レシピを見る</a></li>
+<li><a href="https://www.ajinomoto.co.jp/products/detail/?ProductName=marudorigara_1" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='product_pr_area'; s2.tl(this,'o',s2.eVar25);" target="_blank">成分・アレルギー情報を見る</a></li>
+<li><a href="https://www.ajinomoto.co.jp/chukadashi/marudori/" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='product_pr_area'; s2.tl(this,'o',s2.eVar25);" target="_blank">商品紹介を見る</a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="breadcrumb">
+<ul class="clearfix">
+<li><a href="https://park.ajinomoto.co.jp">「AJINOMOTO PARK」 トップ</a></li>
+<li><a href="https://park.ajinomoto.co.jp/recipe/">レシピ大百科</a></li>
+<li>冷やし中華</li>
+</ul>
+<ul class="clearfix">
+<li><a href="https://park.ajinomoto.co.jp">「AJINOMOTO PARK」 トップ</a></li>
+<li><a href="https://park.ajinomoto.co.jp/recipe/">レシピ大百科</a></li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=豚肉" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=豚肉'; s2.tl(this,'o',s2.eVar25);">豚肉</a>
+</li>
+<li>
+<a href="https://park.ajinomoto.co.jp/recipe/search/?search_word=焼き豚" onclick="s2.linkTrackVars='eVar25'; s2.eVar25='recipe_ingredient|https://park.ajinomoto.co.jp/recipe/search/?search_word=焼き豚'; s2.tl(this,'o',s2.eVar25);">焼き豚</a>
+</li>
+<li>
+      焼き豚            </li>
+</ul>
+</div>
+</article>]
