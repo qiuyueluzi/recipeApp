@@ -30,10 +30,10 @@ void Recipe::extract(string n, string c, string s, string p, string* m, string* 
     this->name = removal(n);
 
     this->cal = removal(c);
-    this->cal.erase(0, 3);
+    this->cal.erase(0, 18);
 
     this->salt = removal(s);
-    this->salt.erase(0, 3);
+    this->salt.erase(0, 9);
 
     this->num_p = removal(p);
 
@@ -56,7 +56,7 @@ void Recipe::csv_out(string pass)  //csvファイル出力関数
     ofs_csv_file << this->cal << endl;
     ofs_csv_file << this->salt << endl;
     ofs_csv_file << this->num_p << endl;
-    for(i = 0; i < this->c_1; i++) ofs_csv_file << this->Matar[i][0] << this->Matar[i][1] << endl;
+    for(i = 0; i < this->c_1; i++) ofs_csv_file << this->Matar[i][0] << " " << this->Matar[i][1] << endl;
     
     for(i = 0; i < this->c_2; i++)  ofs_csv_file << this->make_l[i] << endl;
 }
