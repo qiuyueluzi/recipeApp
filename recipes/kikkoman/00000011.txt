@@ -1,0 +1,372 @@
+[<main>
+<!-- レシピ検索フォーム（SP幅用） -->
+<div class="elem-page-title--horizontal-line" data-array="search-img" data-margin-bottom="" data-margin-top="" data-mq-hide="desktop"><div><div><div><div>
+<div class="recipe-leaf-top-content">
+<div class="horizontal-container">
+<form accept-charset="UTF-8" action="/homecook/search/select_search.html" enctype="" method="get" name="" target="">
+<div class="input-components--search" id="input-search--product-sp">
+<i class="material-icons"></i>
+<input id="free_word" name="free_word" placeholder="食材・料理名" style="ime-mode: active;" title="レシピ検索のキーワード" type="text" value=""/>
+<!-- /input-components --></div><!--
+--><div class="input-components--submit">
+<button name="" type="submit" value=""><b>レシピ検索</b></button>
+<!-- /input-components --></div>
+<input id="site-type" name="site_type" type="hidden" value="J">
+</input></form>
+<!-- /horizontal-container --></div><!--
+--><div class="horizontal-container" data-align="right">
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<a href="/homecook/index.html">
+<img alt="ホームクッキングレシピ" draggable="false" height="36" src="/img/homecook_logo_recepe_sp.gif" width="190"/>
+</a>
+<!-- /holder --></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /horizontal-container --></div>
+</div>
+<!-- /page-title--horizontal-line --></div></div></div></div></div>
+<div class="elem-page-title--horizontal-line" data-array="heading-img" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="horizontal-container home-cook-horizontal-container-right" data-align="right" data-mq-hide="tablet">
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<a href="/homecook/index.html" shape="rect">
+<img alt="ホームクッキングレシピ" draggable="false" height="110" src="/img/homecook_logo_top_pc.gif" width="587">
+</img></a>
+<!-- /holder --></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /horizontal-container --></div>
+<div class="horizontal-container home-cook-horizontal-container-left">
+<div class="elem-heading-lv1" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="heading-container">
+<div class="title-holder">
+<h1><span class="fn" itemprop="headline">牛肉とたけのこ、キャベツの炒め物</span></h1>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<!-- /elem-heading-lv1 --></div></div></div></div></div>
+<!-- /horizontal-container --></div>
+<!-- /page-title-horizontal-line --></div></div></div></div></div>
+<!-- wise indexon -->
+<div class="main-column" role="main"><div><div><div><div>
+<div class="elem-pic-block--recipe-overview" data-direction="horizontal" data-img-position="left" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="pic-container"><div id="pic-container--distribute">
+<div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="holder"><div>
+<img alt="写真：牛肉とたけのこ、キャベツの炒め物" class="photo" height="720" id="recipe_image" itemprop="image" src="/homecook/search/recipe/img/00000011.jpg" width="1080">
+<!-- /holder --></img></div></div>
+<!-- /elem-pic --></div></div></div></div></div>
+<!-- /container --></div></div>
+<div class="txt-container"><div>
+<div class="txt-body">
+<div class="elem-paragraph" data-margin-bottom="10" data-margin-top="0"><div><div><div><div>
+<p class="summary" data-font-size="small">オイスターソースの風味を生かして</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<div class="recipe-overview-list"><div><div><div><div>
+<dl data-label="time">
+<dt><span><i aria-hidden="true" class="material-icons"></i><span>調理時間</span></span></dt>
+<dd class="duration" content="PT20M" itemprop="cookTime">
+<b class="value-title" title="PT20M">20分</b>
+</dd>
+</dl>
+<dl data-label="calorie" itemprop="nutrition" itemscope="" itemtype="http://schema.org/NutritionInformation">
+<dt><span><i aria-hidden="true" class="material-icons"></i><span>エネルギー</span></span></dt>
+<dd itemprop="calories">
+<b class="nutrition">354kcal</b>
+</dd>
+</dl>
+<dl data-label="salt">
+<dt><span><i aria-hidden="true" class="material-icons icon--salt"></i><span>塩分</span></span></dt>
+<dd itemprop="">
+<b>1.6g</b>
+</dd>
+</dl>
+<!-- /recipe-overview-list --></div></div></div></div></div>
+<div class="elem-txt-list--note" data-margin-bottom="" data-margin-top="15"><div><div><div><div>
+<ul class="txt-list--note" data-direction="vertical">
+<li><div><span data-font-size="x-small">エネルギー・塩分は1人分です。</span></div></li>
+<!-- /txt-list --></ul>
+<!-- /elem-txt-list --></div></div></div></div></div>
+<!-- /text-body --></div>
+<div class="txt-foot">
+<div id="my-recipe"><my-recipe-toggle-btn></my-recipe-toggle-btn></div>
+<div class="elem-tags-list"><div role="list">
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;M1_1=1" rel="" shape="rect" target=""><span>牛肉</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;M4_102=102" rel="" shape="rect" target=""><span>たけのこ</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;M4_94=94" rel="" shape="rect" target=""><span>キャベツ</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C2=201" rel="" shape="rect" target=""><span>主菜</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C6=602" rel="" shape="rect" target=""><span>20分以内</span></a></div>
+<!-- /elem-tags-list --></div></div>
+<div align="" class="share-container" data-bg-color="1" data-type="pc-show"><div>
+<div class="share--content">
+<ul>
+<li><button onclick="lineShareBtn();" type="submit"><img alt="LINEでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/line.svg" width="40"/></button></li>
+<li><button onclick="twShareBtn();" type="submit"><img alt="Twitterでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/twitter.svg" width="40"/></button></li>
+<li><button onclick="fbShareBtn();" type="submit"><img alt="Facebookでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/facebook.svg" width="40"/></button></li>
+<li><a class="popup-iframe" href="/homecook/search/sendpc.html?title=%E7%89%9B%E8%82%89%E3%81%A8%E3%81%9F%E3%81%91%E3%81%AE%E3%81%93%E3%80%81%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84%E3%81%AE%E7%82%92%E3%82%81%E7%89%A9&amp;url=%2Fhomecook%2Fsearch%2Frecipe%2F00000011%2Findex.html" shape="rect"><img alt="このレシピをメールで送信" height="40" src="/common-kikkoman/img/img-common/icons/mail.svg" width="40"/></a></li>
+<li><button onclick="window.print();" type="submit"><img alt="このページを印刷" height="40" src="/common-kikkoman/img/img-common/icons/print.svg" width="40"/></button></li>
+</ul>
+<!-- /content --></div>
+<!-- /share-container --></div></div>
+<!-- /txt-foot --></div>
+<!-- /container --></div></div>
+<!-- /elem-pic-block --></div></div></div></div></div>
+<div class="divide-layout" data-column="2" data-column-break="true"><div><div><div><div>
+<div class="item--divide" data-bg-color=""><div>
+<form accept-charset="" action="" class="ingredients" enctype="" id="kikkoman-ingredients-form" method="" name="">
+<div class="elem-heading-lv2" data-border="" data-margin-bottom="10" data-margin-top="" data-sub-holder="true"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h2><span class="yield" itemprop="recipeYield">材料（2人分）</span></h2>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<div class="elem-txt-list--btn" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<ul class="txt-list--btn" data-align="right" data-btn-column="auto" data-direction="horizontal">
+<li>
+<div class="elem-btn btn--quantity" data-btn-color="3" data-icon="true" data-size="small"><div><div><div><div>
+<button class="popup-iframe-sp-disable" href="/homecook/search/meyasu.html" type="submit">
+<span>分量のめやす</span>
+<span class="ripple-ring" data-ripple-color="3"></span>
+</button>
+<!-- /elem-btn --></div></div></div></div></div>
+</li>
+<!-- /txt-list --></ul>
+<!-- /elem-txt-list --></div></div></div></div></div>
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv2 --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_1" name="material_1" type="checkbox" value="牛肉(切り落とし)">
+<label for="material_1">
+<span class="txt name" itemprop="recipeIngredient">牛肉(切り落とし)</span>
+</label>
+</input></dt>
+<dd><p class="amount">１５０ｇ</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_2" name="material_2" type="checkbox" value="たけのこ(水煮)"/>
+<label for="material_2">
+<span class="txt name" itemprop="recipeIngredient">たけのこ(水煮)</span>
+</label>
+</dt>
+<dd><p class="amount">７０ｇ</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_3" name="material_3" type="checkbox" value="ねぎ"/>
+<label for="material_3">
+<span class="txt name" itemprop="recipeIngredient">ねぎ</span>
+</label>
+</dt>
+<dd><p class="amount">1/2本</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_4" name="material_4" type="checkbox" value="キャベツ"/>
+<label for="material_4">
+<span class="txt name" itemprop="recipeIngredient">キャベツ</span>
+</label>
+</dt>
+<dd><p class="amount">１枚</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_5" name="material_5" type="checkbox" value="ごま油"/>
+<label for="material_5">
+<span class="txt name" itemprop="recipeIngredient">ごま油</span>
+</label>
+</dt>
+<dd><p class="amount">大さじ１と1/2</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="elem-heading-lv4" data-margin-bottom="" data-margin-top="20"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h4><span>(A)下味</span></h4>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv4 --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt><label><input id="product_6_1" name="product_6_1" type="checkbox" value="キッコーマン特選丸大豆しょうゆ"/>
+<a class="name" href="/products/product/K051005/index.html" itemprop="recipeIngredient" shape="rect">キッコーマン特選丸大豆しょうゆ</a>
+</label></dt>
+<dd><p class="amount">大さじ1/2</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt><label><input id="product_6_2" name="product_6_2" type="checkbox" value="マンジョウ国産米こだわり仕込み料理の清酒"/>
+<a class="name" href="/products/product/K102005/index.html" itemprop="recipeIngredient" shape="rect">マンジョウ国産米こだわり仕込み料理の清酒</a>
+</label></dt>
+<dd><p class="amount">小さじ２</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_6_3" name="material_6_3" type="checkbox" value="片栗粉"/>
+<label for="material_6_3">
+<span class="txt name" itemprop="recipeIngredient">片栗粉</span>
+</label>
+</dt>
+<dd><p class="amount">小さじ1/2</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="elem-heading-lv4" data-margin-bottom="" data-margin-top="20"><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h4><span>(B)合わせ調味料</span></h4>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv4 --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt><label><input id="product_7_1" name="product_7_1" type="checkbox" value="マンジョウ国産米こだわり仕込み料理の清酒"/>
+<a class="name" href="/products/product/K102005/index.html" itemprop="recipeIngredient" shape="rect">マンジョウ国産米こだわり仕込み料理の清酒</a>
+</label></dt>
+<dd><p class="amount">大さじ２</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt><label><input id="product_7_2" name="product_7_2" type="checkbox" value="キッコーマン特選丸大豆しょうゆ"/>
+<a class="name" href="/products/product/K051005/index.html" itemprop="recipeIngredient" shape="rect">キッコーマン特選丸大豆しょうゆ</a>
+</label></dt>
+<dd><p class="amount">大さじ1/2</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt><label><input id="product_7_3" name="product_7_3" type="checkbox" value="キッコーマンオイスターソース"/>
+<a class="name" href="/products/product/K400505/index.html" itemprop="recipeIngredient" shape="rect">キッコーマンオイスターソース</a>
+</label></dt>
+<dd><p class="amount">小さじ２</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<div class="ingredients-form--list"><div><div><div><div>
+<dl class="ingredient">
+<dt>
+<input id="material_7_4" name="material_7_4" type="checkbox" value="砂糖"/>
+<label for="material_7_4">
+<span class="txt name" itemprop="recipeIngredient">砂糖</span>
+</label>
+</dt>
+<dd><p class="amount">大さじ1/2</p></dd>
+</dl>
+<!-- /ingredients-form --></div></div></div></div></div>
+<!-- /ingredients-form --></form>
+<div class="elem-btn" data-btn-color="1" data-icon="true" data-size="large"><div><div><div><div>
+<button id="material_mailsend" type="submit">
+<span>食材にチェックを入れ、メールで送信</span>
+<span class="ripple-ring" data-ripple-color="1"></span>
+</button>
+<!-- /elem-btn --></div></div></div></div></div>
+<div class="elem-paragraph" data-margin-bottom="3" data-margin-top=""><div><div><div><div>
+<p class="author" data-align="" data-font-size="x-small" itemprop="author">
+												料理・武蔵裕子 / 料理コーディネート・中島久枝 / 撮影・三浦康史
+											</p>
+<!-- /elem-paragraph --></div></div></div></div></div>
+<!-- /item --></div></div>
+<div class="item--divide" data-bg-color=""><div>
+<div class="elem-heading-lv2" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h2><span>つくり方</span></h2>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv2 --></div></div></div></div></div>
+<div class="elem-txt-list--order" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<ol class="txt-list--order instructions" itemprop="recipeInstructions">
+<li><div><span class="instruction">牛肉は食べやすい大きさに切り、（Ａ）の下味をもみこんでおく。</span></div></li>
+<li><div><span class="instruction">（Ｂ）の合わせ調味料を合わせる。</span></div></li>
+<li><div><span class="instruction">たけのこは３～４ｃｍ長さの薄切り、ねぎは２ｃｍ長さに切る。キャベツはかたい芯を除いてひと口大のざく切りにする。</span></div></li>
+<li><div><span class="instruction">フライパンにごま油大さじ１を熱して（１）の牛肉を炒め、色が完全に変わったら取り出す。</span></div></li>
+<li><div><span class="instruction">同じフライパンにごま油大さじ1/2を足し、（３）を入れて１～２分炒める。牛肉をもどし、（２）をまわし入れて手早く炒め合わせる。</span></div></li>
+<!-- /txt-list --></ol>
+<!-- /elem-txt-list --></div></div></div></div></div>
+<div class="share-container" data-bg-color="1" data-type="sp-show"><div>
+<div class="share--content">
+<ul>
+<li><button onclick="lineShareBtn();" type="submit"><img alt="LINEでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/line.svg" width="40"/></button></li>
+<li><button onclick="twShareBtn();" type="submit"><img alt="Twitterでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/twitter.svg" width="40"/></button></li>
+<li><button onclick="fbShareBtn();" type="submit"><img alt="Facebookでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/facebook.svg" width="40"/></button></li>
+<li><a class="popup-iframe" href="/homecook/search/sendpc.html?title=%E7%89%9B%E8%82%89%E3%81%A8%E3%81%9F%E3%81%91%E3%81%AE%E3%81%93%E3%80%81%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84%E3%81%AE%E7%82%92%E3%82%81%E7%89%A9&amp;url=%2Fhomecook%2Fsearch%2Frecipe%2F00000011%2Findex.html" shape="rect"><img alt="このレシピをメールで送信" height="40" src="/common-kikkoman/img/img-common/icons/mail.svg" width="40"/></a></li>
+<li><button onclick="window.print();" type="submit"><img alt="このページを印刷" height="40" src="/common-kikkoman/img/img-common/icons/print.svg" width="40"/></button></li>
+</ul>
+<!-- /content --></div>
+<!-- /share-container --></div></div>
+<div class="elem-txt-list print-hide" data-margin-bottom="" data-margin-top=""><div><div><div><div>
+<ul class="txt-list" data-align="" data-direction="vertical">
+<!-- /txt-list --></ul>
+<!-- /elem-txt-list --></div></div></div></div></div>
+<div class="elem-heading-lv2" data-margin-bottom="0" data-margin-top=""><div><div><div><div>
+<div class="sub-container--upper">
+<!-- /container --></div>
+<div class="heading-container">
+<div class="title-holder">
+<h2><span>関連レシピを探す</span></h2>
+<!-- /title-holder --></div>
+<div class="sub-holder">
+<div class="sub-box">
+<!-- /sub-box --></div>
+<!-- /sub-holder --></div>
+<!-- /container --></div>
+<div class="sub-container--lower">
+<!-- /container --></div>
+<!-- /elem-heading-lv2 --></div></div></div></div></div>
+<div class="elem-tags-list"><div role="list">
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;code=12042" rel="" shape="rect" target=""><span>キッコーマン特選丸大豆しょうゆ</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;code=52025" rel="" shape="rect" target=""><span>マンジョウ国産米こだわり仕込み料理の清酒</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;code=32756" rel="" shape="rect" target=""><span>キッコーマンオイスターソース</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C1_103=103" rel="" shape="rect" target=""><span>中華風</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C5=502" rel="" shape="rect" target=""><span>400kcal以下</span></a></div>
+<!-- /elem-tags-list --></div></div>
+<!-- /item --></div></div>
+<!-- /divide-layout --></div></div></div></div></div>
+<!-- /main-column --></div></div></div></div></div>
+<!-- wise indexoff -->
+</main>]
