@@ -40,7 +40,6 @@ void Recipe::extract(string n, string c, string s, string p, string* m, string* 
     while(*m != "\0" && *q != "\0")
     {
         this->Matar[this->c_1][0] = removal(*m++);
-        this->Matar[this->c_1][0].erase(std::remove(this->Matar[this->c_1][0].begin(), this->Matar[this->c_1][0].end(), ' '), this->Matar[this->c_1][0].end());
         this->Matar[this->c_1++][1] = removal(*q++);
         //std::cout << this->Matar[this->c_1++][0] << std::endl;
     }
@@ -50,15 +49,15 @@ void Recipe::extract(string n, string c, string s, string p, string* m, string* 
 
 void Recipe::csv_out(string pass)  //csvファイル出力関数
 {
-    int i;
+    int i, j = 0;
     ofstream ofs_csv_file(pass);
-    ofs_csv_file << this->name << endl;
-    ofs_csv_file << this->cal << endl;
-    ofs_csv_file << this->salt << endl;
-    ofs_csv_file << this->num_p << endl;
-    for(i = 0; i < this->c_1; i++) ofs_csv_file << this->Matar[i][0] << " " << this->Matar[i][1] << endl;
-    
-    for(i = 0; i < this->c_2; i++)  ofs_csv_file << this->make_l[i] << endl;
+    ofs_csv_file << "料理名,エネルギー,塩分,想定人数,材料,分量,手順" << endl;
+    ofs_csv_file << this->name << "," << this->cal << "," << this->salt << "," << this->num_p << ",";
+    for(i = 0; i < this->c_1; i++) {
+        ofs_csv_file << this->Matar[i][0] << "," << this->Matar[i][1];
+        if(this->make_l[j] != "\0" && j < this->c_2) ofs_csv_file << "," << this->make_l[j++] << endl << ",,,,";
+        else ofs_csv_file << endl << ",,,,";
+    }
 }
 
 string removal(string a)    //文字列除去関数
@@ -67,6 +66,7 @@ string removal(string a)    //文字列除去関数
     {
         //std::cout << m.find("<") << " " << m.find(">") << std::endl;
         a.erase(a.find("<"), a.find(">")-a.find("<")+1);    //< から > までの文字列を除去
+        a.erase(std::remove(a.begin(), a.end(), ' '), a.end());
     }
     return a;
 }
