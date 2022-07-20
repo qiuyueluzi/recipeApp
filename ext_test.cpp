@@ -2,6 +2,7 @@
 #include <bits/stdc++.h>
 #include <fstream>
 #include <sstream>
+#include "removal.h"
 #define N 100
 using namespace std;
 using std::cout;    using std::cerr;
@@ -23,28 +24,26 @@ class Recipe    //Recipeクラス
         void csv_out(string pass);
 };
 
-string removal(string a);
-
 void Recipe::extract(string n, string c, string s, string p, string* m, string* q, string* l) //文字列抽出関数
 {
-    this->name = removal(n);
+    this->name = rm_bet(n, "<", ">");
 
-    this->cal = removal(c);
+    this->cal = rm_bet(c, "<", ">");
     this->cal.erase(0, 18);
 
-    this->salt = removal(s);
+    this->salt = rm_bet(s, "<", ">");
     this->salt.erase(0, 9);
 
-    this->num_p = removal(p);
+    this->num_p = rm_aro(p, "（", "）");
 
     while(*m != "\0" && *q != "\0")
     {
-        this->Matar[this->c_1][0] = removal(*m++);
-        this->Matar[this->c_1++][1] = removal(*q++);
+        this->Matar[this->c_1][0] = rm_bet(rm_char(*m++, ' '), "<", ">");
+        this->Matar[this->c_1++][1] = rm_bet(*q++, "<", ">");
         //std::cout << this->Matar[this->c_1++][0] << std::endl;
     }
 
-    while (*l != "\0")  this->make_l[this->c_2++] = removal(*l++);
+    while (*l != "\0")  this->make_l[this->c_2++] = rm_bet(*l++, "<", ">");
 }
 
 void Recipe::csv_out(string pass)  //csvファイル出力関数
@@ -58,17 +57,6 @@ void Recipe::csv_out(string pass)  //csvファイル出力関数
         if(this->make_l[j] != "\0" && j < this->c_2) ofs_csv_file << "," << this->make_l[j++] << endl << ",,,,";
         else ofs_csv_file << endl << ",,,,";
     }
-}
-
-string removal(string a)    //文字列除去関数
-{
-    while (a.find("<") != string::npos && a.find(">") != string::npos)
-    {
-        //std::cout << m.find("<") << " " << m.find(">") << std::endl;
-        a.erase(a.find("<"), a.find(">")-a.find("<")+1);    //< から > までの文字列を除去
-        a.erase(std::remove(a.begin(), a.end(), ' '), a.end());
-    }
-    return a;
 }
 
 int main(int argc, char *argv[])
@@ -89,19 +77,21 @@ int main(int argc, char *argv[])
     else {
         while (getline(myFile, line))   //一行ずつ探索した後、ヒットした文字列が含まれる行を代入
         {
+            //if(line.find("<div") != string::npos) cout << line << endl;
+
             if(line.find("titleText") != string::npos)
                 name = line;
-            else if(line.find("・エネルギー") != string::npos)
+            if(line.find("・エネルギー") != string::npos)
                 cal = line;
-            else if(line.find("・塩分") != string::npos)
+            if(line.find("・塩分") != string::npos)
                 salt = line;
-            else if(line.find("bigTitle_quantity") != string::npos)
+            if(line.find("bigTitle_quantity") != string::npos)
                 num_p = line;
-            else if(line.find("recipe_ingredient") != string::npos || line.find("水") != string::npos || (line.find("「") != string::npos && line.find("</dt>") != std::string::npos))
+            if(line.find("recipe_ingredient") != string::npos || line.find("水") != string::npos || (line.find("「") != string::npos && line.find("</dt>") != std::string::npos))
                 M_name[c_1] = line;
-            else if(line.find("<dd>") != string::npos)
+            if(line.find("<dd>") != string::npos)
                 M_quan[c_1++] = line;
-            else if(line.find("txt numberTxt") != string::npos)
+            if(line.find("txt numberTxt") != string::npos)
                 make_l[c_2++] = line;
         }
         //std::cout << salt << endl;
