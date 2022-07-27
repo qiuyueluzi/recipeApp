@@ -1,0 +1,21 @@
+dl{
+    border:2px solid #999;
+    width:300px;
+    background-color:rgb(214, 183, 135);
+}
+
+dt{
+    float:left;
+    width:200px;
+    padding:5px 0 5px 10px;
+    clear:both;
+    font-weight:bold;
+}
+
+dd{
+    width:100px;
+    margin-left:200px;
+    padding:5px 19px 5px 10px;
+    border-left:1px solid #999;
+    background-color: #FFF;
+}
