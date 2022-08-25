@@ -151,10 +151,10 @@ class kikkoman : public Recipe  //キッコーマンクラス
                 //cout << line << endl;
                 cal = stof(line);
             }
-            if(line.find("g</b>") != string::npos && line.find("r-list-itm03") != string::npos){
+            if(line.find("g</b>") != string::npos){
                 line = rm_bet(line, "<", ">");
                 //line.erase(0, 15);
-                //cout << line << endl;
+                cout << line << endl;
                 salt = stof(line);
             }
             if(line.find("recipeYield") != string::npos){
