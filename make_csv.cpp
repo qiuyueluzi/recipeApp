@@ -169,7 +169,7 @@ class kikkoman : public Recipe  //キッコーマンクラス
                 quantity[c_2++] = rm_bet(line, "<", ">");
             }
             if(line.find("<li>") != string::npos && line.find("instruction") != string::npos){
-                make_l[c_3] = rm_bet(line, "<", ">");
+                make_l[c_3++] = rm_bet(line, "<", ">");
                 //make_l[c_3++].erase(0,1);
             }
             if(line.find("value-title") != string::npos){
