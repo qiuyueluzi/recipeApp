@@ -70,6 +70,7 @@
 <li class="p-recipes-nav--sub__itm" data-product="freshstock"><a href="/recipes/products/freshstock/">フレッシュストック（生鮮売場向け商品）</a></li>
 <li class="p-recipes-nav--sub__itm" data-product="plantbasedfood"><a href="/recipes/products/plantbasedfood/">プラントベースフード</a></li>
 <li class="p-recipes-nav--sub__itm" data-product="bread"><a href="/recipes/products/bread/">ジャム・スプレッドなど</a></li>
+<li class="p-recipes-nav--sub__itm" data-product="genkinahone"><a href="/recipes/products/genkinahone/">元気な骨</a></li>
 <li class="p-recipes-nav--sub__itm" data-product="janef"><a href="/recipes/products/janef/">栄養・健康ケア食品</a></li>
 </ul>
 </div>
@@ -345,6 +346,36 @@
 <ul class="c-card-list-media__itms">
 <li class="r-itm">
 <div class="r-detail-wrapper">
+<a class="r-recipe-link" href="/recipes/recipe/QP10007433/">
+<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10007433_1M.jpg" loading="lazy"/></figure>
+</a>
+<div class="r-detail">
+<a class="r-recipe-link" href="/recipes/recipe/QP10007433/"><p class="r-hdg">ゆで卵とじゃがいものペイザンヌサラダ</p></a>
+<ul class="r-list">
+<li class="r-list-itm01">10分</li>
+<li class="r-list-itm02">182kcal</li>
+<li class="r-list-itm03">0.8g</li>
+<li class="r-list-itm04">48g</li>
+</ul>
+<div class="r-detail-inner">
+<div class="r-product">
+<a class="r-product-link" href="/products/product/dressing/regular/4901577087783/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577087783S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー ペイザンヌサラダ ドレッシング</p>
+</a>
+</div>
+</div>
+</div>
+<div class="r-product-sp">
+<a class="r-product-link" href="/products/product/dressing/regular/4901577087783/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577087783S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー ペイザンヌサラダ ドレッシング</p>
+</a>
+</div>
+</div>
+</li>
+<li class="r-itm">
+<div class="r-detail-wrapper">
 <a class="r-recipe-link" href="/recipes/recipe/QP10004958/">
 <figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10004958_1M.jpg" loading="lazy"/></figure>
 </a>
@@ -405,60 +436,30 @@
 </li>
 <li class="r-itm">
 <div class="r-detail-wrapper">
-<a class="r-recipe-link" href="/recipes/recipe/QP00009272/">
-<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP00009272_1M.jpg" loading="lazy"/></figure>
+<a class="r-recipe-link" href="/recipes/recipe/QP10006106/">
+<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10006106_1M.jpg" loading="lazy"/></figure>
 </a>
 <div class="r-detail">
-<a class="r-recipe-link" href="/recipes/recipe/QP00009272/"><p class="r-hdg">ブロッコリーとチキンの温サラダ</p></a>
+<a class="r-recipe-link" href="/recipes/recipe/QP10006106/"><p class="r-hdg">ブロッコリーとじゃがいもとゆで卵のマヨネーズ焼き</p></a>
 <ul class="r-list">
-<li class="r-list-itm01">20分</li>
-<li class="r-list-itm02">141kcal</li>
-<li class="r-list-itm03">2g</li>
-<li class="r-list-itm04">68g</li>
+<li class="r-list-itm01">25分</li>
+<li class="r-list-itm02">156kcal</li>
+<li class="r-list-itm03">0.3g</li>
+<li class="r-list-itm04">58g</li>
 </ul>
 <div class="r-detail-inner">
 <div class="r-product">
-<a class="r-product-link" href="/products/product/dressing/tasty/4901577080128/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577080128S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー テイスティドレッシング　和風 香味たまねぎ</p>
+<a class="r-product-link" href="/products/product/mayonnaise/mayonnaise/4901577042072/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577042072S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー マヨネーズ</p>
 </a>
 </div>
 </div>
 </div>
 <div class="r-product-sp">
-<a class="r-product-link" href="/products/product/dressing/tasty/4901577080128/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577080128S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー テイスティドレッシング　和風 香味たまねぎ</p>
-</a>
-</div>
-</div>
-</li>
-<li class="r-itm">
-<div class="r-detail-wrapper">
-<a class="r-recipe-link" href="/recipes/recipe/QP10004568/">
-<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10004568_1M.jpg" loading="lazy"/></figure>
-</a>
-<div class="r-detail">
-<a class="r-recipe-link" href="/recipes/recipe/QP10004568/"><p class="r-hdg">ブロッコリーとかにかまのたまごサラダ</p></a>
-<ul class="r-list">
-<li class="r-list-itm01">10分</li>
-<li class="r-list-itm02">194kcal</li>
-<li class="r-list-itm03">1.5g</li>
-<li class="r-list-itm04">28g</li>
-</ul>
-<div class="r-detail-inner">
-<div class="r-product">
-<a class="r-product-link" href="/products/product/egg/egg/4901577084928/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577084928S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピーのたまご つぶしてつくろう たまごサラダ</p>
-</a>
-</div>
-</div>
-</div>
-<div class="r-product-sp">
-<a class="r-product-link" href="/products/product/egg/egg/4901577084928/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577084928S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピーのたまご つぶしてつくろう たまごサラダ</p>
+<a class="r-product-link" href="/products/product/mayonnaise/mayonnaise/4901577042072/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577042072S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー マヨネーズ</p>
 </a>
 </div>
 </div>
@@ -485,6 +486,36 @@
 <div class="c-sec__lyt">
 <div class="c-card-list-media r-recipe">
 <ul class="c-card-list-media__itms">
+<li class="r-itm">
+<div class="r-detail-wrapper">
+<a class="r-recipe-link" href="/recipes/recipe/QP10005940/">
+<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10005940_1M.jpg" loading="lazy"/></figure>
+</a>
+<div class="r-detail">
+<a class="r-recipe-link" href="/recipes/recipe/QP10005940/"><p class="r-hdg">ごま油香る　小松菜とベーコンのパスタ</p></a>
+<ul class="r-list">
+<li class="r-list-itm01">15分</li>
+<li class="r-list-itm02">689kcal</li>
+<li class="r-list-itm03">2g</li>
+<li class="r-list-itm04">50g</li>
+</ul>
+<div class="r-detail-inner">
+<div class="r-product">
+<a class="r-product-link" href="/products/product/dressing/regular/4901577079863/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577079863S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー ごま油＆ガーリックドレッシング</p>
+</a>
+</div>
+</div>
+</div>
+<div class="r-product-sp">
+<a class="r-product-link" href="/products/product/dressing/regular/4901577079863/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577079863S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー ごま油＆ガーリックドレッシング</p>
+</a>
+</div>
+</div>
+</li>
 <li class="r-itm">
 <div class="r-detail-wrapper">
 <a class="r-recipe-link" href="/recipes/recipe/QP10005455/">
@@ -547,16 +578,16 @@
 </li>
 <li class="r-itm">
 <div class="r-detail-wrapper">
-<a class="r-recipe-link" href="/recipes/recipe/QP10003404/">
-<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10003404_1M.jpg" loading="lazy"/></figure>
+<a class="r-recipe-link" href="/recipes/recipe/QP10003406/">
+<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10003406_1M.jpg" loading="lazy"/></figure>
 </a>
 <div class="r-detail">
-<a class="r-recipe-link" href="/recipes/recipe/QP10003404/"><p class="r-hdg">たことトマトのバジルパスタ</p></a>
+<a class="r-recipe-link" href="/recipes/recipe/QP10003406/"><p class="r-hdg">サーモンときのこのバジルクリームパスタ</p></a>
 <ul class="r-list">
 <li class="r-list-itm01">15分</li>
-<li class="r-list-itm02">687kcal</li>
-<li class="r-list-itm03">3g</li>
-<li class="r-list-itm04">165g</li>
+<li class="r-list-itm02">1001kcal</li>
+<li class="r-list-itm03">2.4g</li>
+<li class="r-list-itm04">27g</li>
 </ul>
 <div class="r-detail-inner">
 <div class="r-product">
@@ -571,36 +602,6 @@
 <a class="r-product-link" href="/products/product/italiante/italiante/4901577035715/">
 <figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577035715S.jpg" loading="lazy"/></figure>
 <p class="r-product-txt">キユーピー Ｉｔａｌｉａｎｔｅ　バジルソース</p>
-</a>
-</div>
-</div>
-</li>
-<li class="r-itm">
-<div class="r-detail-wrapper">
-<a class="r-recipe-link" href="/recipes/recipe/QP10003144/">
-<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10003144_1M.jpg" loading="lazy"/></figure>
-</a>
-<div class="r-detail">
-<a class="r-recipe-link" href="/recipes/recipe/QP10003144/"><p class="r-hdg">アスパラガスといかのスパゲッティ</p></a>
-<ul class="r-list">
-<li class="r-list-itm01">15分</li>
-<li class="r-list-itm02">596kcal</li>
-<li class="r-list-itm03">3.5g</li>
-<li class="r-list-itm04">32g</li>
-</ul>
-<div class="r-detail-inner">
-<div class="r-product">
-<a class="r-product-link" href="/products/product/3cook_oil/3cook_oil/4901577047282/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577047282S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー３分クッキング パスタを手作りオイルソース　ガーリック＆赤とうがらし</p>
-</a>
-</div>
-</div>
-</div>
-<div class="r-product-sp">
-<a class="r-product-link" href="/products/product/3cook_oil/3cook_oil/4901577047282/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577047282S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー３分クッキング パスタを手作りオイルソース　ガーリック＆赤とうがらし</p>
 </a>
 </div>
 </div>
@@ -627,6 +628,36 @@
 <div class="c-sec__lyt">
 <div class="c-card-list-media r-recipe">
 <ul class="c-card-list-media__itms">
+<li class="r-itm">
+<div class="r-detail-wrapper">
+<a class="r-recipe-link" href="/recipes/recipe/QP10003446/">
+<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10003446_1M.jpg" loading="lazy"/></figure>
+</a>
+<div class="r-detail">
+<a class="r-recipe-link" href="/recipes/recipe/QP10003446/"><p class="r-hdg">じゃがいものグラタン　アンチョビー風味</p></a>
+<ul class="r-list">
+<li class="r-list-itm01">15分</li>
+<li class="r-list-itm02">182kcal</li>
+<li class="r-list-itm03">1.2g</li>
+<li class="r-list-itm04">24g</li>
+</ul>
+<div class="r-detail-inner">
+<div class="r-product">
+<a class="r-product-link" href="/products/product/cooking_sauce/cooking_sauce/49840544/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/49840544S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー アンチョビーソース</p>
+</a>
+</div>
+</div>
+</div>
+<div class="r-product-sp">
+<a class="r-product-link" href="/products/product/cooking_sauce/cooking_sauce/49840544/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/49840544S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー アンチョビーソース</p>
+</a>
+</div>
+</div>
+</li>
 <li class="r-itm">
 <div class="r-detail-wrapper">
 <a class="r-recipe-link" href="/recipes/recipe/QP10007009/">
@@ -659,6 +690,36 @@
 </li>
 <li class="r-itm">
 <div class="r-detail-wrapper">
+<a class="r-recipe-link" href="/recipes/recipe/QP10007008/">
+<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10007008_1M.jpg" loading="lazy"/></figure>
+</a>
+<div class="r-detail">
+<a class="r-recipe-link" href="/recipes/recipe/QP10007008/"><p class="r-hdg">かつおのカルパッチョ</p></a>
+<ul class="r-list">
+<li class="r-list-itm01">10分</li>
+<li class="r-list-itm02">150kcal</li>
+<li class="r-list-itm03">1g</li>
+<li class="r-list-itm04">82g</li>
+</ul>
+<div class="r-detail-inner">
+<div class="r-product">
+<a class="r-product-link" href="/products/product/cooking_sauce/cooking_sauce/49840544/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/49840544S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー アンチョビーソース</p>
+</a>
+</div>
+</div>
+</div>
+<div class="r-product-sp">
+<a class="r-product-link" href="/products/product/cooking_sauce/cooking_sauce/49840544/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/49840544S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー アンチョビーソース</p>
+</a>
+</div>
+</div>
+</li>
+<li class="r-itm">
+<div class="r-detail-wrapper">
 <a class="r-recipe-link" href="/recipes/recipe/QP10007007/">
 <figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10007007_1M.jpg" loading="lazy"/></figure>
 </a>
@@ -669,66 +730,6 @@
 <li class="r-list-itm02">141kcal</li>
 <li class="r-list-itm03">0.9g</li>
 <li class="r-list-itm04">3g</li>
-</ul>
-<div class="r-detail-inner">
-<div class="r-product">
-<a class="r-product-link" href="/products/product/cooking_sauce/cooking_sauce/49840544/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/49840544S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー アンチョビーソース</p>
-</a>
-</div>
-</div>
-</div>
-<div class="r-product-sp">
-<a class="r-product-link" href="/products/product/cooking_sauce/cooking_sauce/49840544/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/49840544S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー アンチョビーソース</p>
-</a>
-</div>
-</div>
-</li>
-<li class="r-itm">
-<div class="r-detail-wrapper">
-<a class="r-recipe-link" href="/recipes/recipe/QP10007006/">
-<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10007006_1M.jpg" loading="lazy"/></figure>
-</a>
-<div class="r-detail">
-<a class="r-recipe-link" href="/recipes/recipe/QP10007006/"><p class="r-hdg">ニョッキのアンチョビートマトソース煮</p></a>
-<ul class="r-list">
-<li class="r-list-itm01">10分</li>
-<li class="r-list-itm02">266kcal</li>
-<li class="r-list-itm03">2.5g</li>
-<li class="r-list-itm04">19g</li>
-</ul>
-<div class="r-detail-inner">
-<div class="r-product">
-<a class="r-product-link" href="/products/product/cooking_sauce/cooking_sauce/49840544/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/49840544S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー アンチョビーソース</p>
-</a>
-</div>
-</div>
-</div>
-<div class="r-product-sp">
-<a class="r-product-link" href="/products/product/cooking_sauce/cooking_sauce/49840544/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/49840544S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー アンチョビーソース</p>
-</a>
-</div>
-</div>
-</li>
-<li class="r-itm">
-<div class="r-detail-wrapper">
-<a class="r-recipe-link" href="/recipes/recipe/QP10006981/">
-<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10006981_1M.jpg" loading="lazy"/></figure>
-</a>
-<div class="r-detail">
-<a class="r-recipe-link" href="/recipes/recipe/QP10006981/"><p class="r-hdg">あじのマリネ</p></a>
-<ul class="r-list">
-<li class="r-list-itm01">5分</li>
-<li class="r-list-itm02">189kcal</li>
-<li class="r-list-itm03">0.6g</li>
-<li class="r-list-itm04">25g</li>
 </ul>
 <div class="r-detail-inner">
 <div class="r-product">
@@ -934,6 +935,7 @@
 <li class="r-itm"><a href="/recipes/products/freshstock/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_116S.png"/></span>フレッシュストック（生鮮売場向け商品）</a></li>
 <li class="r-itm"><a href="/recipes/products/plantbasedfood/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_121S.png"/></span>プラントベースフード</a></li>
 <li class="r-itm"><a href="/recipes/products/bread/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_53S.png"/></span>ジャム・スプレッドなど</a></li>
+<li class="r-itm"><a href="/recipes/products/genkinahone/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_98S.png"/></span>元気な骨</a></li>
 <li class="r-itm"><a href="/recipes/products/janef/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_80S.png"/></span>栄養・健康ケア食品</a></li>
 </ul>
 </div>

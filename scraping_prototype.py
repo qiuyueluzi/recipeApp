@@ -15,13 +15,24 @@ for i in range(1,50) :
         f.write(recipe)
         f.close()
 
-    url = "https://recipe.yamasa.com/recipes/" + urlnumber
-    path = "recipes/yamasa/" + urlnumber.zfill(8) + ".txt"
+    url = "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=" + urlnumber
+    path = "recipes/mizkan/" + urlnumber.zfill(6) + ".txt"
     r = requests.get(url)
     soup = BeautifulSoup(r.content, "html.parser")
-    recipe = str(soup.select("[id='main-content']"))
-    if("ご指定のページが見つかりませんでした。" not in recipe):
+    recipe = str(soup.select("[class='recipe_top recipeTop']")) + str(soup.select("[class='recipe_nutrition recipeNutrition']"))
+    if(len(recipe) > 4):
         f = open(path, "w")
         f.write(recipe)
         f.close()
     time.sleep(1)
+
+    #url = "https://recipe.yamasa.com/recipes/" + urlnumber
+    #path = "recipes/yamasa/" + urlnumber.zfill(8) + ".txt"
+    #r = requests.get(url)
+    #soup = BeautifulSoup(r.content, "html.parser")
+    #recipe = str(soup.select("[id='main-content']"))
+    #if("ご指定のページが見つかりませんでした。" not in recipe):
+    #    f = open(path, "w")
+    #    f.write(recipe)
+    #    f.close()
+    #time.sleep(1)

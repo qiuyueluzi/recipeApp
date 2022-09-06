@@ -95,6 +95,8 @@
 <div class="elem-tags-list"><div role="list">
 <div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;M8_156=156" rel="" shape="rect" target=""><span>油揚げ</span></a></div>
 <div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;M1_218=218" rel="" shape="rect" target=""><span>豚ひき肉</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;M1_6=6" rel="" shape="rect" target=""><span>ひき肉</span></a></div>
+<div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;M1_2=2" rel="" shape="rect" target=""><span>豚肉</span></a></div>
 <div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C2=201" rel="" shape="rect" target=""><span>主菜</span></a></div>
 <div role="listitem"><a href="/homecook/search/select_search.html?site_type=J&amp;C6=602" rel="" shape="rect" target=""><span>20分以内</span></a></div>
 <!-- /elem-tags-list --></div></div>
@@ -156,9 +158,9 @@
 <div class="ingredients-form--list"><div><div><div><div>
 <dl class="ingredient">
 <dt>
-<input id="material_2" name="material_2" type="checkbox" value="油揚げ"/>
+<input id="material_2" name="material_2" type="checkbox" value="油揚げ(２枚)"/>
 <label for="material_2">
-<span class="txt name" itemprop="recipeIngredient">油揚げ</span>
+<span class="txt name" itemprop="recipeIngredient">油揚げ(２枚)</span>
 </label>
 </dt>
 <dd><p class="amount">４０ｇ</p></dd>
@@ -290,10 +292,10 @@
 <div class="elem-txt-list--order" data-margin-bottom="" data-margin-top=""><div><div><div><div>
 <ol class="txt-list--order instructions" itemprop="recipeInstructions">
 <li><div><span class="instruction">キャベツはザク切りにする。</span></div></li>
-<li><div><span class="instruction">油揚げは長い辺一箇所を残して三方を切って開き、内側を上にして横長になるようにおく。</span></div></li>
+<li><div><span class="instruction">油揚げは熱湯をかけて水気をふく。菜ばしをころがして開きやすくして、一箇所を残して三方を切り、開いて内側を上にして横長になるように置く。</span></div></li>
 <li><div><span class="instruction">（Ａ）をよく混ぜる。</span></div></li>
-<li><div><span class="instruction">（２）の表面に片栗粉を薄くふり、（３）をのせて平らにならし、手前からひと巻きし、８等分する。</span></div></li>
-<li><div><span class="instruction">耐熱皿に（１）と（４）を並べ、電子レンジ（５００Ｗ）で約４分加熱する。取り出してぽんずをかける。</span></div></li>
+<li><div><span class="instruction">（２）の表面に片栗粉を薄くふり、（３）をのせて平らにならし、手前から巻いて、８等分する。</span></div></li>
+<li><div><span class="instruction">耐熱皿に（１）と（４）を並べ、ふたをして電子レンジ（５００Ｗ）で約４分加熱する。取り出してぽんずをかけて食べる。</span></div></li>
 <!-- /txt-list --></ol>
 <!-- /elem-txt-list --></div></div></div></div></div>
 <div class="share-container" data-bg-color="1" data-type="sp-show"><div>
