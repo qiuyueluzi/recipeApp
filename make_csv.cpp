@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+#include <iomanip>
 #include <fstream>
 #include <sstream>
 #include "removal.h"
@@ -15,20 +16,19 @@ class Recipe    //基底クラス
     protected:  //メンバ変数の宣言
         long ID;                                        //ID
         float cal, salt, num_p, time;                   //カロリー、塩分、想定人数、調理時間
-        string name, url;                               //料理名、URL
+        string name;    ostringstream url;              //料理名、URL
         string ingredient[N], quantity[N], make_l[N];   //材料、分量、手順
     public:
         void csv_out(string dir, string file_name){     //csvファイル出力用メンバ関数
             int i = 0;
             cout << dir<< endl;
-            ID = stol(file_name);
             cout << ID << endl;
 
             //出力ファイルのパスを指定
             ofstream    ofs_1("./data_file/" + dir +"/recipes/" + file_name.erase(file_name.size()-4) + ".csv"),
                         ofs_2("./data_file/" + dir +"/ingredients/" + file_name + ".csv"),
                         ofs_3("./data_file/" + dir +"/make_list/" + file_name + ".csv");
-            ofs_1 << ID << "," << name << "," << cal << "," << salt << "," << num_p << "," << time << endl;
+            ofs_1 << ID << "," << name << "," << cal << "," << salt << "," << num_p << "," << time << "," << url.str() << endl;
 
             while(ingredient[i] != "\0" && quantity[i] != "\0"){
                 ofs_2 << ID << "," << ingredient[i] << "," << quantity[i++] << endl;
@@ -49,9 +49,13 @@ class ajinomoto : public Recipe //味の素クラス
 {
     //using Recipe::Recipe;
     public:
+        void setID_URL(string file_name)    //ID、URL設定用メンバ関数
+        {
+            ID = stol(file_name);
+            url << "https://park.ajinomoto.co.jp/recipe/card/" << ID << "/";
+        }
         void extNew(string line)  //文字列抽出用メンバ関数
         {
-            Recipe r;
             line = rm_char(line, ' ');  //半角スペースの除去
             if(line.find("titleText") != string::npos){
                 name = rm_bet(line, "<", ">");
@@ -94,9 +98,13 @@ class ajinomoto : public Recipe //味の素クラス
 class kewpie : public Recipe    //キューピークラス
 {
     public:
+        void setID_URL(string file_name)    //ID、URL設定用メンバ関数
+        {
+            ID = stol(file_name);
+            url << "https://www.kewpie.co.jp/recipes/recipe/QP" << ID << "/";
+        }
         void extNew(string line)  //文字列抽出用メンバ関数
         {
-            Recipe r;
             line = rm_char(line, ' ');  //半角スペースの除去
             if(line.find("l-breadcrumb__itm--current") != string::npos){
                 name = rm_bet(line, "<", ">");
@@ -140,6 +148,11 @@ class kewpie : public Recipe    //キューピークラス
 class kikkoman : public Recipe  //キッコーマンクラス
 {
     public:
+        void setID_URL(string file_name)    //ID、URL設定用メンバ関数
+        {
+            ID = stol(file_name);
+            url << "https://www.kikkoman.co.jp/homecook/search/recipe/" << setw(8) << setfill('0') << ID << "/index.html";
+        }
         void extNew(string line)  //文字列抽出用メンバ関数
         {
             if(line.find("headline") != string::npos){
@@ -154,7 +167,7 @@ class kikkoman : public Recipe  //キッコーマンクラス
             if(line.find("g</b>") != string::npos){
                 line = rm_bet(line, "<", ">");
                 //line.erase(0, 15);
-                cout << line << endl;
+                //cout << line << endl;
                 salt = stof(line);
             }
             if(line.find("recipeYield") != string::npos){
@@ -241,16 +254,19 @@ int main(int argc, char *argv[])
     }else{
         //レシピサイト毎に各メンバ関数を呼び出す
         if(dir == "ajinomoto"){             //味の素の場合
+            aji.setID_URL(file_name);
             while(getline(in_file, line)){
                 aji.extNew(line);
             }
             aji.csv_out(dir, file_name);
         }else if(dir == "kewpie"){          //キューピーの場合
+            kew.setID_URL(file_name);
             while(getline(in_file, line)){
                 kew.extNew(line);
             }
             kew.csv_out(dir, file_name);
         }else if(dir == "kikkoman"){        //キッコーマンの場合
+            kik.setID_URL(file_name);
             while(getline(in_file, line)){
                 kik.extNew(line);
             }

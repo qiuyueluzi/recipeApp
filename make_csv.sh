@@ -16,13 +16,14 @@ for dir in $dirs;
             echo $dir $file OK
         done
     
-        cat ./csv_h/recipes_h.csv ./data_file/$dir/recipes/*.csv > ./data_file/$dir/recipes.csv
-        cat ./csv_h/ingredients_h.csv ./data_file/$dir/ingredients/*.csv > ./data_file/$dir/ingredients.csv
-        cat ./csv_h/make_list_h.csv ./data_file/$dir/make_list/*.csv > ./data_file/$dir/make_list.csv
+        cat ./data_file/$dir/recipes/*.csv > ./data_file/$dir/recipes.csv
+        cat ./data_file/$dir/ingredients/*.csv > ./data_file/$dir/ingredients.csv
+        cat ./data_file/$dir/make_list/*.csv > ./data_file/$dir/make_list.csv
 
 
     done
-#awk 'NR==1 || FNR!=1' ./data_file/ajinomoto/*.csv > ./data_file/ajinomoto.csv
+
+cat ./data_file/ajinomoto/recipes/*.csv ./data_file/kewpie/recipes/*.csv ./data_file/kikkoman/recipes/*.csv > ./data_file/recipes.csv
 
 echo complete
 
