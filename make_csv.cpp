@@ -261,20 +261,26 @@ class mizkan : public Recipe    //mizkanクラス
                 num_p = stof(line);
                 //cout << num_p << endl;
             }
-            if(line.find("MenuRecipeGroup") != string::npos || flag2 > 0 || line.find(">水") != string::npos){
+            if(line.find("MenuRecipeGroup") != string::npos || flag2 > 0 || line.find(">水") != string::npos|| line.find(">または") != string::npos){
 
                 if(flag2 == 3){
-                    //cout << line << endl;
                     quantity[c_2++] = line;
                     flag2 = 0;
                 }
                 else if(flag2 == 2 || flag2 == 1) flag2++;
                 else{
-                    //cout << "材料:" << line << endl;
+                    //cout << line << endl;
                     ingredient[c_1] = rm_bet(line, "<", ">");
-                    if(ingredient[c_1] == "水") flag2++;
-                    c_1++;
                     flag2++;
+                    //cout << "材料:" << ingredient[c_1] << endl;
+                    if(ingredient[c_1] == "または") {
+                        quantity[c_2++] = "-";
+                        quantity[c_2] = quantity[c_2-2];
+                        c_2++;
+                        flag2 = 0;
+                    }
+                    else if(ingredient[c_1] == "水") flag2++;
+                    c_1++;
                 }
             }
             if(line.find("recipeTopAboutHowto_item") != string::npos){
