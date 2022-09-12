@@ -1,0 +1,31 @@
+C:\xampp\mysql\bin>mysql.exe -u root -p
+
+
+MariaDB [(none)]> create database recipe;
+
+
+MariaDB [(none)]> use recipe;
+
+
+MariaDB [recipe]> create table test(
+    -> name varchar(50) not null,
+    -> energie varchar(50) not null,
+    -> solt varchar(50) not null,
+    -> people varchar(50) not null,
+    -> material varchar(50) not null,
+    -> quantity varchar(50) not null,
+    -> produce varchar(50) not null
+    -> );
+Query OK, 0 rows affected (0.018 sec)
+
+MariaDB [recipe]> select * from test;
+Empty set (0.003 sec)
+
+MariaDB [recipe]> load data local infile "ajinomoto.csv"
+    -> into table test
+    -> fields terminated by ','
+    -> ;
+Query OK, 428 rows affected, 360 warnings (0.013 sec)
+Records: 428  Deleted: 0  Skipped: 0  Warnings: 360
+
+MariaDB [recipe]> select * from test;

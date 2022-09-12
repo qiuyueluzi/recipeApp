@@ -39,7 +39,7 @@
 <div class="elem-heading-lv1" data-margin-bottom="" data-margin-top=""><div><div><div><div>
 <div class="heading-container">
 <div class="title-holder">
-<h1><span class="fn" itemprop="headline">【卵とチーズをのせたらトースターで】簡単リメイク！焼きカレー</span></h1>
+<h1><span class="fn" itemprop="headline">簡単リメイク！焼きカレー【卵とチーズをのせたらトースターで】</span></h1>
 <!-- /title-holder --></div>
 <div class="sub-holder">
 <div class="sub-box">
@@ -55,7 +55,7 @@
 <div class="pic-container"><div id="pic-container--distribute">
 <div class="elem-pic" data-align="" data-margin-bottom="" data-margin-top=""><div><div><div><div>
 <div class="holder"><div>
-<img alt="写真：【卵とチーズをのせたらトースターで】簡単リメイク！焼きカレー" class="photo" height="720" id="recipe_image" itemprop="image" src="/homecook/search/recipe/img/00000046.jpg" width="1080">
+<img alt="写真：簡単リメイク！焼きカレー【卵とチーズをのせたらトースターで】" class="photo" height="720" id="recipe_image" itemprop="image" src="/homecook/search/recipe/img/00000046.jpg" width="1080">
 <!-- /holder --></img></div></div>
 <!-- /elem-pic --></div></div></div></div></div>
 <!-- /container --></div></div>
@@ -102,7 +102,7 @@
 <li><button onclick="lineShareBtn();" type="submit"><img alt="LINEでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/line.svg" width="40"/></button></li>
 <li><button onclick="twShareBtn();" type="submit"><img alt="Twitterでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/twitter.svg" width="40"/></button></li>
 <li><button onclick="fbShareBtn();" type="submit"><img alt="Facebookでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/facebook.svg" width="40"/></button></li>
-<li><a class="popup-iframe" href="/homecook/search/sendpc.html?title=%E3%80%90%E5%8D%B5%E3%81%A8%E3%83%81%E3%83%BC%E3%82%BA%E3%82%92%E3%81%AE%E3%81%9B%E3%81%9F%E3%82%89%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%A7%E3%80%91%E7%B0%A1%E5%8D%98%E3%83%AA%E3%83%A1%E3%82%A4%E3%82%AF%EF%BC%81%E7%84%BC%E3%81%8D%E3%82%AB%E3%83%AC%E3%83%BC&amp;url=%2Fhomecook%2Fsearch%2Frecipe%2F00000046%2Findex.html" shape="rect"><img alt="このレシピをメールで送信" height="40" src="/common-kikkoman/img/img-common/icons/mail.svg" width="40"/></a></li>
+<li><a class="popup-iframe" href="/homecook/search/sendpc.html?title=%E7%B0%A1%E5%8D%98%E3%83%AA%E3%83%A1%E3%82%A4%E3%82%AF%EF%BC%81%E7%84%BC%E3%81%8D%E3%82%AB%E3%83%AC%E3%83%BC%E3%80%90%E5%8D%B5%E3%81%A8%E3%83%81%E3%83%BC%E3%82%BA%E3%82%92%E3%81%AE%E3%81%9B%E3%81%9F%E3%82%89%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%A7%E3%80%91&amp;url=%2Fhomecook%2Fsearch%2Frecipe%2F00000046%2Findex.html" shape="rect"><img alt="このレシピをメールで送信" height="40" src="/common-kikkoman/img/img-common/icons/mail.svg" width="40"/></a></li>
 <li><button onclick="window.print();" type="submit"><img alt="このページを印刷" height="40" src="/common-kikkoman/img/img-common/icons/print.svg" width="40"/></button></li>
 </ul>
 <!-- /content --></div>
@@ -233,7 +233,7 @@
 <li><button onclick="lineShareBtn();" type="submit"><img alt="LINEでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/line.svg" width="40"/></button></li>
 <li><button onclick="twShareBtn();" type="submit"><img alt="Twitterでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/twitter.svg" width="40"/></button></li>
 <li><button onclick="fbShareBtn();" type="submit"><img alt="Facebookでこのページをシェア" height="40" src="/common-kikkoman/img/img-common/icons/facebook.svg" width="40"/></button></li>
-<li><a class="popup-iframe" href="/homecook/search/sendpc.html?title=%E3%80%90%E5%8D%B5%E3%81%A8%E3%83%81%E3%83%BC%E3%82%BA%E3%82%92%E3%81%AE%E3%81%9B%E3%81%9F%E3%82%89%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%A7%E3%80%91%E7%B0%A1%E5%8D%98%E3%83%AA%E3%83%A1%E3%82%A4%E3%82%AF%EF%BC%81%E7%84%BC%E3%81%8D%E3%82%AB%E3%83%AC%E3%83%BC&amp;url=%2Fhomecook%2Fsearch%2Frecipe%2F00000046%2Findex.html" shape="rect"><img alt="このレシピをメールで送信" height="40" src="/common-kikkoman/img/img-common/icons/mail.svg" width="40"/></a></li>
+<li><a class="popup-iframe" href="/homecook/search/sendpc.html?title=%E7%B0%A1%E5%8D%98%E3%83%AA%E3%83%A1%E3%82%A4%E3%82%AF%EF%BC%81%E7%84%BC%E3%81%8D%E3%82%AB%E3%83%AC%E3%83%BC%E3%80%90%E5%8D%B5%E3%81%A8%E3%83%81%E3%83%BC%E3%82%BA%E3%82%92%E3%81%AE%E3%81%9B%E3%81%9F%E3%82%89%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%A7%E3%80%91&amp;url=%2Fhomecook%2Fsearch%2Frecipe%2F00000046%2Findex.html" shape="rect"><img alt="このレシピをメールで送信" height="40" src="/common-kikkoman/img/img-common/icons/mail.svg" width="40"/></a></li>
 <li><button onclick="window.print();" type="submit"><img alt="このページを印刷" height="40" src="/common-kikkoman/img/img-common/icons/print.svg" width="40"/></button></li>
 </ul>
 <!-- /content --></div>

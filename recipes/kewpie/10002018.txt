@@ -70,6 +70,7 @@
 <li class="p-recipes-nav--sub__itm" data-product="freshstock"><a href="/recipes/products/freshstock/">フレッシュストック（生鮮売場向け商品）</a></li>
 <li class="p-recipes-nav--sub__itm" data-product="plantbasedfood"><a href="/recipes/products/plantbasedfood/">プラントベースフード</a></li>
 <li class="p-recipes-nav--sub__itm" data-product="bread"><a href="/recipes/products/bread/">ジャム・スプレッドなど</a></li>
+<li class="p-recipes-nav--sub__itm" data-product="genkinahone"><a href="/recipes/products/genkinahone/">元気な骨</a></li>
 <li class="p-recipes-nav--sub__itm" data-product="janef"><a href="/recipes/products/janef/">栄養・健康ケア食品</a></li>
 </ul>
 </div>
@@ -356,17 +357,17 @@
 </ul>
 <div class="r-detail-inner">
 <div class="r-product">
-<a class="r-product-link" href="/products/product/3cook_mushini/3cook_mushini/4901577082122/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577082122S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー３分クッキング 蒸し煮用ソース　レモン＆塩麹</p>
+<a class="r-product-link" href="/products/product/3cook_mushini/3cook_mushini/4901577088643/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577088643S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー３分クッキング キャベツと鶏肉の蒸し煮用ソース　レモン香る塩麹味</p>
 </a>
 </div>
 </div>
 </div>
 <div class="r-product-sp">
-<a class="r-product-link" href="/products/product/3cook_mushini/3cook_mushini/4901577082122/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577082122S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー３分クッキング 蒸し煮用ソース　レモン＆塩麹</p>
+<a class="r-product-link" href="/products/product/3cook_mushini/3cook_mushini/4901577088643/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577088643S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー３分クッキング キャベツと鶏肉の蒸し煮用ソース　レモン香る塩麹味</p>
 </a>
 </div>
 </div>
@@ -403,30 +404,30 @@
 </li>
 <li class="r-itm">
 <div class="r-detail-wrapper">
-<a class="r-recipe-link" href="/recipes/recipe/QP00012057/">
-<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP00012057_1M.jpg" loading="lazy"/></figure>
+<a class="r-recipe-link" href="/recipes/recipe/QP10005358/">
+<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP10005358_1M.jpg" loading="lazy"/></figure>
 </a>
 <div class="r-detail">
-<a class="r-recipe-link" href="/recipes/recipe/QP00012057/"><p class="r-hdg">トマトとキャベツのフラワーサラダ</p></a>
+<a class="r-recipe-link" href="/recipes/recipe/QP10005358/"><p class="r-hdg">キャベツと鶏むね肉のドレッシング炒め</p></a>
 <ul class="r-list">
-<li class="r-list-itm01">15分</li>
-<li class="r-list-itm02">124kcal</li>
-<li class="r-list-itm03">0.7g</li>
-<li class="r-list-itm04">243g</li>
+<li class="r-list-itm01">10分</li>
+<li class="r-list-itm02">297kcal</li>
+<li class="r-list-itm03">0.9g</li>
+<li class="r-list-itm04">101g</li>
 </ul>
 <div class="r-detail-inner">
 <div class="r-product">
-<a class="r-product-link" href="/products/product/dressing/tasty/4901577080128/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577080128S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー テイスティドレッシング　和風 香味たまねぎ</p>
+<a class="r-product-link" href="/products/product/dressing/regular/4901577073557/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577073557S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー 深煎りごまドレッシング</p>
 </a>
 </div>
 </div>
 </div>
 <div class="r-product-sp">
-<a class="r-product-link" href="/products/product/dressing/tasty/4901577080128/">
-<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577080128S.jpg" loading="lazy"/></figure>
-<p class="r-product-txt">キユーピー テイスティドレッシング　和風 香味たまねぎ</p>
+<a class="r-product-link" href="/products/product/dressing/regular/4901577073557/">
+<figure class="r-product-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/products_src/g3/imgs/4901577073557S.jpg" loading="lazy"/></figure>
+<p class="r-product-txt">キユーピー 深煎りごまドレッシング</p>
 </a>
 </div>
 </div>
@@ -545,16 +546,16 @@
 </li>
 <li class="r-itm">
 <div class="r-detail-wrapper">
-<a class="r-recipe-link" href="/recipes/recipe/QP00012057/">
-<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP00012057_1M.jpg" loading="lazy"/></figure>
+<a class="r-recipe-link" href="/recipes/recipe/QP00010508/">
+<figure class="r-img"><img alt="" class="lazyload" data-src="https://img.kewpie.co.jp/recipes_src/recipe/img/QP00010508_1M.jpg" loading="lazy"/></figure>
 </a>
 <div class="r-detail">
-<a class="r-recipe-link" href="/recipes/recipe/QP00012057/"><p class="r-hdg">トマトとキャベツのフラワーサラダ</p></a>
+<a class="r-recipe-link" href="/recipes/recipe/QP00010508/"><p class="r-hdg">ハートフルリボンサラダ</p></a>
 <ul class="r-list">
-<li class="r-list-itm01">15分</li>
-<li class="r-list-itm02">124kcal</li>
-<li class="r-list-itm03">0.7g</li>
-<li class="r-list-itm04">243g</li>
+<li class="r-list-itm01">20分</li>
+<li class="r-list-itm02">301kcal</li>
+<li class="r-list-itm03">1.8g</li>
+<li class="r-list-itm04">79g</li>
 </ul>
 <div class="r-detail-inner">
 <div class="r-product">
@@ -904,6 +905,7 @@
 <li class="r-itm"><a href="/recipes/products/freshstock/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_116S.png"/></span>フレッシュストック（生鮮売場向け商品）</a></li>
 <li class="r-itm"><a href="/recipes/products/plantbasedfood/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_121S.png"/></span>プラントベースフード</a></li>
 <li class="r-itm"><a href="/recipes/products/bread/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_53S.png"/></span>ジャム・スプレッドなど</a></li>
+<li class="r-itm"><a href="/recipes/products/genkinahone/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_98S.png"/></span>元気な骨</a></li>
 <li class="r-itm"><a href="/recipes/products/janef/"><span class="r-img"><img src="https://img.kewpie.co.jp/products_src/g3/categories/imgs/category_80S.png"/></span>栄養・健康ケア食品</a></li>
 </ul>
 </div>

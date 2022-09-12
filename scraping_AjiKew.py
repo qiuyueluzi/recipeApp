@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 for i in range(1,50) :
     urlnumber = str(i)
     url = "https://park.ajinomoto.co.jp/recipe/card/701" + urlnumber.zfill(3) + "/"
-    path = "recipes/ajinomoto/703" + urlnumber.zfill(3) + ".txt"
+    path = "recipes/ajinomoto/701" + urlnumber.zfill(3) + ".txt"
     r = requests.get(url)
     soup = BeautifulSoup(r.content, "html.parser")
     recipe = str(soup.select("[id='recipeCard']"))

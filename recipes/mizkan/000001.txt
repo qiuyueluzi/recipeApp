@@ -1,0 +1,180 @@
+[<div class="recipe_top recipeTop">
+<h1 class="recipeTop_ttl ouchirecipe_ttl">若竹煮</h1>
+<noscript>
+<style>
+              .recipeTopInner_movie {
+                cursor: none;
+                pointer-events: none;
+              }
+              .recipeTopInnerMovie_play {
+                display: none !important;
+              }
+              .recipeTopInnerDetailsData_txt {
+                visibility: visible !important;
+              }
+              .ouchirecipe .recipe_top .recipeTop_inner .recipeTopInner_details .recipeTopInnerDetails_data .recipeTopInnerDetailsData_inner .recipeTopInnerDetailsData_item .recipeTopInnerDetailsData_txt span:first-child {
+                font-size: 20px !important;
+              }
+              .recipeTopAboutHowto_movie {
+                display: none !important;
+              }
+            </style>
+</noscript>
+<div class="recipeTop_inner">
+<div class="recipeTopInner_movie">
+<div class="recipeTopInnerMovie_img">
+<img alt="若竹煮のレシピ・作り方" src="/image.jsp?id=13163"/>
+</div>
+</div>
+<div class="recipeTopInner_details">
+<div class="recipeTopInnerDetails_data">
+<div class="recipeTopInnerDetailsData_inner">
+<div class="recipeTopInnerDetailsData_item time">
+<div class="recipeTopInnerDetailsData_img">
+<img alt="" src="/assets/img/ouchirecipe/ico_time.svg"/>
+<span>調理時間</span>
+</div>
+<p class="recipeTopInnerDetailsData_txt">
+<span class="time u-font-lato">20分</span>
+</p>
+</div>
+<div class="recipeTopInnerDetailsData_item energy">
+<div class="recipeTopInnerDetailsData_img">
+<img alt="" src="/assets/img/ouchirecipe/ico_energy.svg"/>
+<span>エネルギー</span>
+</div>
+<p class="recipeTopInnerDetailsData_txt">
+<span class="energy u-font-lato">38</span>
+<span class="u-font-lato">kcal</span>
+</p>
+</div>
+</div>
+<p class="recipeTopInnerDetailsData_caution">※エネルギーは1人前の値</p>
+</div>
+<div class="recipeTopInnerDetails_description">
+<p class="recipeTopInnerDetailsDescription_txt">
+</p>
+<ul class="recipeTopInnerDetailsDescription_list">
+</ul>
+</div>
+</div>
+<div class="recipeTopInner_details"></div>
+</div>
+<div class="recipeTop_about">
+<div class="recipeTopAbout_ingredients">
+<h2 class="recipeTopAboutIngredients_ttl">
+<span class="ttl">材料</span>
+<span class="for">
+<img alt="" src="/assets/img/ouchirecipe/ico_for.svg"/>
+<strong class="u-font-lato">2</strong>
+<em>人分</em>
+</span>
+</h2>
+<ul class="recipeTopAboutIngredients_list">
+<li class="recipeTopAboutIngredients_item">
+<span>
+<a href="/qssearch.jsp?searchGenre=recipe_k&amp;indexname=MenuRecipeIndex&amp;sort=metainfonum1+desc&amp;info_is_and=true&amp;searchtype=kw&amp;contentgroup=MenuRecipeGroup&amp;limit=20&amp;metainfoOption1=2&amp;metainfoOption2=1&amp;metainfoOption3=2&amp;metainfoOption4=2&amp;search=たけのこ　（ゆで）">たけのこ　（ゆで）</a>
+</span>
+<span>
+１本（小）
+</span>
+</li>
+</ul>
+<h3 class="recipeTopAboutIngredients_subTtl">＜調味料＞</h3>
+<ul class="recipeTopAboutIngredients_list">
+</ul>
+<li class="recipeTopAboutIngredients_item">
+<span>
+<a href="/qssearch.jsp?searchGenre=recipe_k&amp;indexname=MenuRecipeIndex&amp;sort=metainfonum1+desc&amp;info_is_and=true&amp;searchtype=kw&amp;contentgroup=MenuRecipeGroup&amp;limit=20&amp;metainfoOption1=2&amp;metainfoOption2=1&amp;metainfoOption3=2&amp;metainfoOption4=2&amp;search=ミツカン　プロが使う味　白だし">ミツカン　プロが使う味　白だし</a>
+</span>
+<span>
+大さじ２
+</span>
+</li>
+
+<li class="recipeTopAboutIngredients_item no-link">
+<span><a href="">水</a></span>
+<span>
+１カップ
+</span>
+</li>
+
+<li class="recipeTopAboutIngredients_item no-link">
+<span><a href=""></a></span>
+<span>
+</span>
+</li>
+
+<li class="recipeTopAboutIngredients_item">
+<span>
+<a href="/qssearch.jsp?searchGenre=recipe_k&amp;indexname=MenuRecipeIndex&amp;sort=metainfonum1+desc&amp;info_is_and=true&amp;searchtype=kw&amp;contentgroup=MenuRecipeGroup&amp;limit=20&amp;metainfoOption1=2&amp;metainfoOption2=1&amp;metainfoOption3=2&amp;metainfoOption4=2&amp;search=わかめ　（もどしたもの）">わかめ　（もどしたもの）</a>
+</span>
+<span>
+４０ｇ
+</span>
+</li>
+
+<li class="recipeTopAboutIngredients_item">
+<span>
+<a href="/qssearch.jsp?searchGenre=recipe_k&amp;indexname=MenuRecipeIndex&amp;sort=metainfonum1+desc&amp;info_is_and=true&amp;searchtype=kw&amp;contentgroup=MenuRecipeGroup&amp;limit=20&amp;metainfoOption1=2&amp;metainfoOption2=1&amp;metainfoOption3=2&amp;metainfoOption4=2&amp;search=木の芽">木の芽</a>
+</span>
+<span>
+適量
+</span>
+</li>
+
+
+<div class="recipeTopAboutIngredients_used">
+<div class="inner_container">
+<h3 class="recipeTopAboutIngredientsUsed_ttl">このレシピに使われている商品</h3>
+<div class="recipeTopAboutIngredientsUsed_item">
+<div class="recipeTopAboutIngredientsUsed_img">
+<img alt="プロが使う味 白だし 500ML" src="/image.jsp?id=109369"/>
+</div>
+<div class="recipeTopAboutIngredientsUsed_details">
+<h4 class="ttl">プロが使う味 白だし</h4>
+<div class="link"><a href="/product/group/index.html?gid=08025">商品情報はこちら</a></div>
+<div class="link"><a href="/oigatsuo/">ブランドサイトはこちら</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="recipeTopAbout_howto">
+<div class="inner_container">
+<h2 class="recipeTopAboutHowto_ttl">作り方</h2>
+<ul class="recipeTopAboutHowto_list"><li class="recipeTopAboutHowto_item"><span class="howTo_number">１</span>たけのこは穂先を６等分に切り、その他の部分は１ｃｍ厚さの<a href="/ouchirecipe/basic/cut/ichougiri/index.html">いちょう切り</a>にする。</li><li class="recipeTopAboutHowto_item"><span class="howTo_number">２</span>鍋に＜調味料＞を煮立て、たけのこを入れて煮汁が１／４量になるまで煮詰める。</li><li class="recipeTopAboutHowto_item"><span class="howTo_number">３</span>最後にわかめを加え、ひと煮立ちさせて火を止め、味を含ませる。器に盛り、木の芽を添える。</li></ul><p class="recipeTopAboutHowto_caution">
+</p></div>
+</div>
+</div>
+</div>][<div class="recipe_nutrition recipeNutrition">
+<div class="inner_container">
+<h3 class="recipeNutrition_ttl">栄養成分<span>（ 1人分 ）</span></h3>
+<div class="recipeNutrition_list">
+<div class="recipeNutrition_item">
+<p class="recipeNutrition_txt">エネルギー</p>
+<p class="recipeNutrition_num u-font-lato">38<span>kcal</span></p>
+</div>
+<div class="recipeNutrition_item">
+<p class="recipeNutrition_txt">タンパク質</p>
+<p class="recipeNutrition_num u-font-lato">3.9<span>g</span></p>
+</div>
+<div class="recipeNutrition_item">
+<p class="recipeNutrition_txt">脂質</p>
+<p class="recipeNutrition_num u-font-lato">0.2<span>g</span></p>
+</div>
+<div class="recipeNutrition_item">
+<p class="recipeNutrition_txt">炭水化物</p>
+<p class="recipeNutrition_num u-font-lato">7.3<span>g</span></p>
+</div>
+<div class="recipeNutrition_item">
+<p class="recipeNutrition_txt">野菜量</p>
+<p class="recipeNutrition_num u-font-lato">87.5<span>g</span></p>
+</div>
+<div class="recipeNutrition_item">
+<p class="recipeNutrition_txt">食塩相当量</p>
+<p class="recipeNutrition_num u-font-lato">2.4<span>g</span></p>
+</div>
+</div>
+</div>
+</div>]
