@@ -110,11 +110,11 @@ class kewpie : public Recipe    //キューピークラス
         void setID_URL(string file_name)    //ID、URL設定用メンバ関数
         {
             ID = stol(file_name);
-            if(ID < 10000000) {
+            if(ID < 9000) {
                 ID = ID + 10000000;
                 url << "https://www.kewpie.co.jp/recipes/recipe/QP" << setw(5) << setfill('0') << stol(file_name) << "/";
             }else{
-                url << "https://www.kewpie.co.jp/recipes/recipe/QP" << stol(file_name) << "/";
+                url << "https://www.kewpie.co.jp/recipes/recipe/QP" << setw(8) << setfill('0') << stol(file_name) << "/";
             }
         }
         void extNew(string line)  //文字列抽出用メンバ関数
