@@ -24,7 +24,7 @@ class Recipe    //基底クラス
         string ingredient[N], quantity[N], make_l[N];   //材料、分量、手順
     public:
         void csv_out(string dir, string file_name){     //csvファイル出力用メンバ関数
-            int i = 0;
+            int i = 0, j = 0;   //手順数、材料数
             cout << dir<< endl;
             cout << ID << endl;
 
@@ -32,15 +32,16 @@ class Recipe    //基底クラス
             ofstream    ofs_1("./data_file/" + dir +"/recipes/" + file_name.erase(file_name.size()-4) + ".csv"),
                         ofs_2("./data_file/" + dir +"/ingredients/" + file_name + ".csv"),
                         ofs_3("./data_file/" + dir +"/make_list/" + file_name + ".csv");
-            ofs_1 << ID << "," << name << "," << cal << "," << salt << "," << num_p << "," << time << "," << url.str() << endl;
 
             while(ingredient[i] != "\0" && quantity[i] != "\0"){
                 ofs_2 << ID << "," << ingredient[i] << "," << quantity[i++] << endl;
             }
-            i = 0;
-            while(make_l[i] != "\0") {
-                ofs_3 << ID << "," << i+1 << "," << make_l[i++] << endl;
+            
+            while(make_l[j] != "\0") {
+                ofs_3 << ID << "," << j+1 << "," << make_l[j++] << endl;
             }
+
+            ofs_1 << ID << ",," << name << "," << cal << "," << salt << "," << num_p << "," << time << "," << i << "," << j << "," << url.str() << endl;
 
             ofs_1.close();
             ofs_2.close();
@@ -55,8 +56,8 @@ class ajinomoto : public Recipe //味の素クラス
     public:
         void setID_URL(string file_name)    //ID、URL設定用メンバ関数
         {
-            ID = stol(file_name);
-            url << "https://park.ajinomoto.co.jp/recipe/card/" << ID << "/";
+            ID = stol(file_name) + 20000000;
+            url << "https://park.ajinomoto.co.jp/recipe/card/" << stol(file_name) << "/";
         }
         void extNew(string line)  //文字列抽出用メンバ関数
         {
@@ -64,22 +65,25 @@ class ajinomoto : public Recipe //味の素クラス
             if(line.find("titleText") != string::npos){
                 name = rm_bet(line, "<", ">");
             }
-            if(line.find("・エネルギー") != string::npos){
+            if(line.find("エネルギー<") != string::npos){
                 line = rm_bet(line, "<", ">");
                 line.erase(0, 18);
-                //cout << line.erase(line.size()-4) << endl;
+                //cout << line << endl;
                 cal = stof(line);
+                //cout << cal << endl;
             }
-            if(line.find("・塩分") != string::npos){
+            if(line.find("塩分<") != string::npos){
                 line = rm_bet(line, "<", ">");
                 line.erase(0, 9);
-                //cout << line.erase(line.size()-1) << endl;
+                //cout << line << endl;
                 salt = stof(line);
+                //cout << salt << endl;
             }
             if(line.find("bigTitle_quantity") != string::npos){
                 line = rm_aro(line, "（", "）");
-                //cout << line.erase(line.size()-6) << endl;
-                num_p = stof(line);
+                //cout << line << endl;
+                if(line.find("作りやすい分量") == string::npos) num_p = stof(line);
+                //cout << num_p << endl;
             }
             if((line.find("recipe_ingredient") != string::npos || line.find("水") != string::npos || ((line.find("「") != string::npos && line.find("</dt>") != string::npos)))){
                 ingredient[c_1++] = rm_bet(line, "<", ">");
@@ -93,8 +97,9 @@ class ajinomoto : public Recipe //味の素クラス
             }
             if(line.find("inTime") != string::npos){
                 line = rm_bet(line, "<", ">");
-                //cout << line.erase(line.size()-3) << endl;
+                //cout << line << endl;
                 time = stof(line);
+                //cout << time << endl;
             }
         }
 };
@@ -105,7 +110,13 @@ class kewpie : public Recipe    //キューピークラス
         void setID_URL(string file_name)    //ID、URL設定用メンバ関数
         {
             ID = stol(file_name);
-            url << "https://www.kewpie.co.jp/recipes/recipe/QP" << ID << "/";
+            if(ID < 9000) {
+                url << "https://www.kewpie.co.jp/recipes/recipe/QP" << setw(5) << setfill('0') << stol(file_name) << "/";
+            }else{
+                url << "https://www.kewpie.co.jp/recipes/recipe/QP" << setw(8) << setfill('0') << stol(file_name) << "/";
+            }
+
+            if(ID < 10000000) ID = ID + 10000000;
         }
         void extNew(string line)  //文字列抽出用メンバ関数
         {
@@ -116,18 +127,18 @@ class kewpie : public Recipe    //キューピークラス
             if(line.find("エネルギー") != string::npos && line.find("r-list-itm02") != string::npos){
                 line = rm_bet(line, "<", ">");
                 line.erase(0, 15);
-                //cout << line << endl;
+                //cout << "エネルギー:" + line << endl;
                 cal = stof(line);
             }
             if(line.find("食塩相当量") != string::npos && line.find("r-list-itm03") != string::npos){
                 line = rm_bet(line, "<", ">");
                 line.erase(0, 15);
-                //cout << line << endl;
+                //cout << "食塩:" + line << endl;
                 salt = stof(line);
             }
-            if(line.find("材料") != string::npos){
+            if(line.find("材料") != string::npos && line.find("人") != string::npos){
                 line = rm_aro(line, "（", "）");
-                //cout << line << endl;
+                //cout << "材料:" + line << endl;
                 num_p = stof(line);
             }
             if((line.find("<th>") != string::npos || line.find("水") != string::npos || ((line.find("「") != string::npos && line.find("</dt>") != string::npos)))){
@@ -140,10 +151,10 @@ class kewpie : public Recipe    //キューピークラス
                 make_l[c_3] = rm_bet(line, "<", ">");
                 make_l[c_3++].erase(0,1);
             }
-            if(line.find("調理時間") != string::npos){
+            if(line.find(">調理時間") != string::npos){
                 line = rm_bet(line, "<", ">");
                 line.erase(0, 12);
-                //cout << line << endl;
+                //cout << "time:" + line << endl;
                 time = stof(line);
             }
         }
@@ -154,8 +165,8 @@ class kikkoman : public Recipe  //キッコーマンクラス
     public:
         void setID_URL(string file_name)    //ID、URL設定用メンバ関数
         {
-            ID = stol(file_name);
-            url << "https://www.kikkoman.co.jp/homecook/search/recipe/" << setw(8) << setfill('0') << ID << "/index.html";
+            ID = stol(file_name) + 30000000;
+            url << "https://www.kikkoman.co.jp/homecook/search/recipe/" << setw(8) << setfill('0') << stol(file_name) << "/index.html";
         }
         void extNew(string line)  //文字列抽出用メンバ関数
         {
@@ -175,10 +186,11 @@ class kikkoman : public Recipe  //キッコーマンクラス
                 //cout << line << endl;
                 salt = stof(line);
             }
-            if(line.find("recipeYield") != string::npos){
+            if(line.find("recipeYield") != string::npos && line.find("（") != string::npos){
                 line = rm_aro(line, "（", "）");
                 //cout << line << endl;
                 num_p = stof(line);
+                //cout << num_p << endl;
             }
             if((line.find("recipeIngredient") != string::npos)){
                 ingredient[c_1++] = rm_bet(line, "<", ">");
@@ -203,7 +215,7 @@ class mizkan : public Recipe    //mizkanクラス
 {
     public:
         void csv_Newout(string dir, string file_name){     //csvファイル出力用メンバ関数(mizkan仕様)
-            int i = 0;
+            int i = 0, j = 0;
             cout << dir<< endl;
             cout << ID << endl;
 
@@ -211,16 +223,17 @@ class mizkan : public Recipe    //mizkanクラス
             ofstream    ofs_1("./data_file/" + dir +"/recipes/" + file_name.erase(file_name.size()-4) + ".csv"),
                         ofs_2("./data_file/" + dir +"/ingredients/" + file_name + ".csv"),
                         ofs_3("./data_file/" + dir +"/make_list/" + file_name + ".csv");
-            ofs_1 << ID << "," << name << "," << cal << "," << salt << "," << num_p << "," << time << "," << url.str() << endl;
 
             while(ingredient[i] != "\0" && quantity[i] != "\0"){
                 ofs_2 << ID << "," << ingredient[i] << "," << quantity[i++] << endl;
             }
-            i = 0;
-            while(make_l[i] != "\0") {
-                if(make_l[i].find("※") != string::npos) ofs_3 << ID << "," << "," << make_l[i++] << endl;
-                else ofs_3 << ID << "," << i+1 << "," << make_l[i++] << endl;
+
+            while(make_l[j] != "\0") {
+                if(make_l[j].find("※") != string::npos) ofs_3 << ID << "," << "," << make_l[j++] << endl;
+                else ofs_3 << ID << "," << j+1 << "," << make_l[j++] << endl;
             }
+
+            ofs_1 << ID << ",," << name << "," << cal << "," << salt << "," << num_p << "," << time << "," << i << "," << j << "," << url.str() << endl;
 
             ofs_1.close();
             ofs_2.close();
@@ -229,8 +242,8 @@ class mizkan : public Recipe    //mizkanクラス
 
         void setID_URL(string file_name)    //ID、URL設定用メンバ関数
         {
-            ID = stol(file_name);
-            url << "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=" << setw(6) << setfill('0') << ID << "/";
+            ID = stol(file_name) + 40000000;
+            url << "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=" << setw(6) << setfill('0') << stol(file_name) << "/";
         }
         void extNew(string line)  //文字列抽出用メンバ関数
         {
@@ -245,11 +258,11 @@ class mizkan : public Recipe    //mizkanクラス
                 cal = stof(line);
                 //cout << cal << endl;
             }
-            if(line.find("食塩相当量") != string::npos || flag1 == 1){
+            if(line.find("食塩相当量<") != string::npos || flag1 == 1){
                 
                 if(flag1 == 1){ //次の行場合の処理
                     line = rm_bet(line, "<", ">");
-                    //line.erase(0, 15);
+                    //cout << line << endl;
                     salt = stof(line);
                     //cout << salt << endl;
                     flag1 = 0;
@@ -293,8 +306,10 @@ class mizkan : public Recipe    //mizkanクラス
                 vector<string> arr = split(line, ",");
                 for(int i = 0; i < arr.size(); i++){
                     make_l[i] = arr[i];
-                    if(make_l[i].find("※") == string::npos)
+                    if(make_l[i].find("※") == string::npos) {
                         make_l[i].erase(0, 3);
+                        c_3++;
+                    }
                 }
             }
             if(line.find("time") != string::npos && line.find("分") != string::npos){
@@ -309,7 +324,8 @@ class mizkan : public Recipe    //mizkanクラス
 int main(int argc, char *argv[])
 {
     string line, dir = argv[1], file_name = argv[2];        //行読み込み用変数、ディレクトリ名、ファイル名
-    ifstream in_file("./recipes/" + dir + "/"+file_name);   //入力ファイルのパスを指定
+    //ifstream in_file("./recipes/" + dir + "/"+file_name);   //入力ファイルのパスを指定
+    ifstream in_file("/home/hika4423/recipes/" + dir + "/" + file_name);   //入力ファイルのパスを指定
 
     //各レシピサイト用のインスタンス生成
     Recipe r;
