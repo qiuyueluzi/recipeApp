@@ -14,7 +14,7 @@ using std::endl;    using std::string;
 int main(int argc, char *argv[])
 {
     int id, key1 = 0, key2 = 0, cnt = 0, i = 0, j = 0, k = 0;
-    string str, tmp, file_name = argv[1];
+    string str, IT, tmp, file_name = argv[1];
     vector<string> line, l_cate, s_cate;    //文字列読み込み用配列
 
     stringstream path;  //出力用ディレクトリのパスを指定
@@ -64,10 +64,6 @@ int main(int argc, char *argv[])
         s_cate.erase(s_cate.begin());
     }
 
-    for(int n = 1196; n > 917; n--){
-        s_cate.pop_back();
-    }
-
     int flag = 0;
     for(auto l = l_cate.begin(); l != l_cate.end(); l){
         string a = *l;
@@ -91,43 +87,39 @@ int main(int argc, char *argv[])
         while (getline(in_file2, tmp)) line.push_back(tmp);   
     }
 
-    auto name = l_cate.begin();
     for(it = line.begin(); it != line.end(); it)
     {
         j = 0;
-        cout << *name<< ":OK" << endl;
+        IT = *it;
+        cout << IT.erase(0, IT.find(",")+1) << ":OK" << endl;
         for(auto s = s_cate.begin(); s != s_cate.end(); s)
         {
-            if(j < 459){
-                tmp = *s;
-                if(tmp.find(*name) != string::npos){
-                    id = stoi(*it);
-                    out_file2 << ++key1 << "," << *s++ << "," << id << endl;
-                    ++j;
-                }else {
-                    *s++;
-                    ++j;
-                }
+            tmp = *s;
+            if(tmp.find(IT) != string::npos){
+                id = stoi(*it);
+                out_file2 << ++key1 << "," << *s++ << "," << id << endl;
+                ++j;
             }else {
                 *s++;
                 ++j;
             }
         }
         *it++;
-        *name++;
     }
 
     j = 0;
     for(auto s = s_cate.begin(); s != s_cate.end(); s)
     {
-        if(j > 458){
+        if(j > 458 && j < 917){
             out_file3 << ++key2 << "," << *s++ << endl;
+            ++j;
         }else {
             ++j;
             *s++;
         }
     }
     
+    in_file2.close();
     out_file2.close();
     out_file3.close();
 
