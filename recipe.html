@@ -4,11 +4,13 @@
         <title>recipe</title>
         <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.js"></script>
         <script src="https://unpkg.com/bootstrap@4.6.2/dist/js/bootstrap.js"></script>
+        <script src="https://unpkg.com/jquery-csv@1.0.21/src/jquery.csv.min.js"></script>
+        <script src="./javascriptCss/createRecipe.js"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.css"></link>
         <link rel="stylesheet" type="text/css" href="./javascriptCss/style.css"></link>
     </head>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ec955e;">
-      <a class="navbar-brand" href="#"><img src="./imgs/logo.png"></a>
+      <a class="navbar-brand" href="./index.html"><img src="./imgs/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,15 +39,52 @@
             </li -->
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="とりあえず今はid" aria-label="Search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
     </nav>
       
     <body>
-        <h1 class="text-center">あなたの自炊をもっと楽しく</h1>
-        <h2 class="text-left p-3">今日のおすすめレシピ</h2>
-        <a href="./recipe.html?recipeId=20300008" class="p-3">ヘルシーケーキすし</p>
+        <h1 id="recipeTitle" class="text-center"></h1>
+        <div class="container">
+        <div class="row">
+          <table class="table col-4 offset-1">
+            <thead>
+              <tr>
+                <th scope="col">材料</th>
+                <th scope="col">分量</th>
+              </tr>
+            </thead>
+            <tbody id="ingredients"></tbody>
+          </table>
+          <table class="table col-2 offset-2" height="200">
+            <tbody>
+              <tr>
+                <td>カロリー</td>
+                <td id="energy"></td>
+              </tr>
+              <tr>
+                <td>塩分</td>
+                <td id="salt"></td>
+              </tr>
+              <tr>
+                <td>人数</td>
+                <td id="people"></td>
+              </tr>
+              <tr>
+                <td>調理時間</td>
+                <td id="time"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="text-center">
+        <div>手順</div>
+        <ol id="process">
+        </ol>  
+      </div>
+        
     </body>
 </html>

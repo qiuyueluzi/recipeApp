@@ -19,3 +19,7 @@ dd{
     border-left:1px solid #999;
     background-color: #FFF;
 }
+
+body{
+    font-family: Meiryo,Georgia, 'Times New Roman', Times, serif;
+}
