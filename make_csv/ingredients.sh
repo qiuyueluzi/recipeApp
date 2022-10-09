@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirs="ajinomoto" ##kewpie kikkoman mizkan"
+dirs="ajinomoto kewpie" ##kikkoman mizkan"
 
 for dir in $dirs;
     do
@@ -12,16 +12,17 @@ for dir in $dirs;
     for file in $files;
         do
             set -e
-
+            ##txtファイルをjsonファイルに変換
             if [ $dir = "ajinomoto" ]; then
-                echo `basename -s ".txt" -a $file`.json
+                echo $dir `basename -s ".txt" -a $file`.json
                 cat ../../recipes/$dir/$file | pup 'div:nth-last-of-type(n+2) dl json{}' --color > ../data_file/$dir/ingredients/tmp/`basename -s ".txt" -a $file`.json
             elif [ $dir = "kewpie" ]; then
-                echo $dir
+                cat ../../recipes/$dir/$file | pup 'div:nth-last-of-type(n+2) tr json{}' --color > ../data_file/$dir/ingredients/tmp/`basename -s ".txt" -a $file`.json
+                echo $dir `basename -s ".txt" -a $file`.json
             elif [ $dir = "kikkoman" ]; then
-                echo $dir
+                echo $dir `basename -s ".txt" -a $file`.json
             elif [ $dir = "mizkan" ]; then
-                echo $dir
+                echo $dir `basename -s ".txt" -a $file`.json
             else
                 echo error
             fi
@@ -31,10 +32,10 @@ for dir in $dirs;
             echo $dir $file OK
 
         done
-
+        cat ../data_file/$dir/ingredients/*.csv > ../data_file/$dir/ingredients.csv
     done
 
-cat ../data_file/$dir/ingredients/*.csv > ../data_file/all/ingredients.csv
+##cat ../data_file/ajinomoto/ingredients/*.csv ../data_file/kewpie/ingredients/*.csv ../data_file/kikkoman/ingredients/*.csv > ../data_file/all/ingredients.csv
 
 for dir in $dirs;
     do

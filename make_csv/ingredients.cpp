@@ -62,7 +62,7 @@ class Ingredients
 class Ajinomoto : public Ingredients    //味の素クラス
 {
     public:
-        void setID_URL(string file_name)    //ID、URL設定用メンバ関数
+        void setID_URL(string file_name)    //ID設定用メンバ関数
         {
             ID = stol(file_name) + 20000000;
         }
@@ -106,6 +106,72 @@ class Ajinomoto : public Ingredients    //味の素クラス
         }
 };
 
+class Kewpie : public Ingredients   //キューピークラス
+{
+    public:
+        void setID_URL(string file_name)    //ID設定用メンバ関数
+        {
+            ID = stol(file_name) + 10000000;
+        }
+        void setIQ()
+        {
+            string str, sub;
+            for(auto l = line.begin(); l != line.end(); ++l){
+                str = rm_char(*l, ' '); //スペースを除去
+                //cout << str << endl;
+                if(str.find("class") != string::npos || str.find("tag") != string::npos || str.find("text") != string::npos || str.find("href") != string::npos){
+                    //材料名を抽出
+                    if(str.find("text") != string::npos && flag == 0){
+                        str.erase(str.size()-1);
+                        str.erase(0, 8);
+                        sub = str;
+                        //cout << str << endl;
+                    }else if(str.find("text") != string::npos && flag == 1){
+                        str.erase(str.size()-1);
+                        str.erase(0, 8);
+                        quantity.push_back(str);
+                        flag = 2;
+                    }
+
+                    if(str.find("c-detail-data") != string::npos && flag == 0){
+                        ingredient.push_back(sub);
+                        flag = 1;
+                    }
+
+                    if(str.find("tag") != string::npos && str.find("th") != string::npos || str.find("href") != string::npos){
+                        flag = 0;
+                    }
+                }
+            }
+        }
+};
+
+class Kikkoman : public Ingredients   //キッコーマンクラス
+{
+    public:
+        void setID_URL(string file_name)    //ID設定用メンバ関数
+        {
+            ID = stol(file_name) + 30000000;
+        }
+        void setIQ()
+        {
+
+        }
+};
+
+class Mizkan : public Ingredients   //mizkanクラス
+{
+    public:
+        void setID_URL(string file_name)    //ID設定用メンバ関数
+        {
+            ID = stol(file_name) + 40000000;
+        }
+        void setIQ()
+        {
+
+        }
+};
+
 int main(int argc, char *argv[])
 {
     string dir = argv[1], file_name = argv[2];//ディレクトリ名・ファイル名を代入
@@ -114,7 +180,8 @@ int main(int argc, char *argv[])
     path << "../data_file/" + dir + "/ingredients/";
 
     Ingredients i;
-    Ajinomoto Aji;
+    Ajinomoto Aji;  Kewpie Kew;
+    Kikkoman Kik;   Mizkan Miz;
 
     if(dir == "ajinomoto"){
         //ファイルが正常に開けた場合は実行
@@ -124,6 +191,15 @@ int main(int argc, char *argv[])
             Aji.setIQ();
             //cout << "ok" << endl;
             Aji.output(path.str(), file_name);
+        }else return EXIT_FAILURE;
+    }else if(dir == "kewpie"){
+        //ファイルが正常に開けた場合は実行
+        if(Kew.input(path.str(), file_name) == 0){
+            //メンバ関数の実行
+            Kew.setID_URL(file_name);
+            Kew.setIQ();
+            //cout << "ok" << endl;
+            Kew.output(path.str(), file_name);
         }else return EXIT_FAILURE;
     }
 
