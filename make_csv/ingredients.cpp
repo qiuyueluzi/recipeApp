@@ -73,7 +73,7 @@ class Ajinomoto : public Ingredients    //味の素クラス
                 str = rm_char(*l, ' '); //スペースを除去
                 //cout << str << endl;
                 if(str.find("class") != string::npos || str.find("tag") != string::npos || str.find("text") != string::npos){
-                    //材料名を抽出
+                    //材料名・分量を抽出
                     if(str.find("text") != string::npos && flag == 0){
                         str.erase(str.end()-1);
                         str.erase(0, 8);
@@ -120,7 +120,7 @@ class Kewpie : public Ingredients   //キューピークラス
                 str = rm_char(*l, ' '); //スペースを除去
                 //cout << str << endl;
                 if(str.find("class") != string::npos || str.find("tag") != string::npos || str.find("text") != string::npos || str.find("href") != string::npos){
-                    //材料名を抽出
+                    //材料名・分量を抽出
                     if(str.find("text") != string::npos && flag == 0){
                         str.erase(str.size()-1);
                         str.erase(0, 8);

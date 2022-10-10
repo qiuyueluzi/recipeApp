@@ -20,6 +20,7 @@ for dir in $dirs;
                 cat ../../recipes/$dir/$file | pup 'div:nth-last-of-type(n+2) tr json{}' --color > ../data_file/$dir/ingredients/tmp/`basename -s ".txt" -a $file`.json
                 echo $dir `basename -s ".txt" -a $file`.json
             elif [ $dir = "kikkoman" ]; then
+                cat ../../recipes/$dir/$file | pup 'div div div div div div div div div div div div div:nth-last-of-type(n+2) div json{}' --color > ../data_file/$dir/ingredients/tmp/`basename -s ".txt" -a $file`.json
                 echo $dir `basename -s ".txt" -a $file`.json
             elif [ $dir = "mizkan" ]; then
                 echo $dir `basename -s ".txt" -a $file`.json
