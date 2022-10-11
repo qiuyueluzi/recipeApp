@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirs="ajinomoto kewpie" ##kikkoman mizkan"
+dirs="ajinomoto kewpie kikkoman" ##ajinomoto kewpie kikkoman mizkan"
 
 for dir in $dirs;
     do

@@ -146,7 +146,7 @@ class Kewpie : public Ingredients   //キューピークラス
         }
 };
 
-class Kikkoman : public Ingredients   //キッコーマンクラス
+class Kikkoman : public Ingredients    //キッコーマンクラス
 {
     public:
         void setID_URL(string file_name)    //ID設定用メンバ関数
@@ -155,7 +155,42 @@ class Kikkoman : public Ingredients   //キッコーマンクラス
         }
         void setIQ()
         {
+            string str, sub;
+            for(auto l = line.begin(); l != line.end(); ++l){
+                str = rm_char(*l, ' '); //スペースを除去
+                //cout << str << endl;
+                if(str.find("itemprop") != string::npos || str.find("class") != string::npos || str.find("text") != string::npos){
+                    //cout << str << endl;
+                    if(str.find("recipeIngredient") != string::npos) flag = 1;
+                    if(str.find("amount") != string::npos) flag = 2;
+                    if(str.find("ingredient") != string::npos && flag == 1){
+                        quantity.push_back("-");
+                        flag == 0;
+                    }
 
+                    if(str.find("text") != string::npos && flag == 1){
+                        str.erase(str.size()-1);
+                        str.erase(0, 8);
+                        ingredient.push_back(str);
+                    }else if(str.find("text") != string::npos && flag == 2){
+                        str.erase(str.size()-1);
+                        str.erase(0, 8);
+                        quantity.push_back(str);
+                        flag = 0;
+                    }else if(str.find("text") != string::npos && flag == 0){
+                        if(str.find("(A)") != string::npos ||
+                        str.find("(B)") != string::npos ||
+                        str.find("(C)") != string::npos ||
+                        str.find("(D)") != string::npos){
+
+                            str.erase(str.size()-1);
+                            str.erase(0, 8);
+                            ingredient.push_back(str);
+                            quantity.push_back("-");
+                        }
+                    }
+                }
+            }
         }
 };
 
@@ -201,6 +236,17 @@ int main(int argc, char *argv[])
             //cout << "ok" << endl;
             Kew.output(path.str(), file_name);
         }else return EXIT_FAILURE;
+    }else if(dir == "kikkoman"){
+        //ファイルが正常に開けた場合は実行
+        if(Kik.input(path.str(), file_name) == 0){
+            //メンバ関数の実行
+            Kik.setID_URL(file_name);
+            Kik.setIQ();
+            //cout << "ok" << endl;
+            Kik.output(path.str(), file_name);
+        }else return EXIT_FAILURE;
+    }else if(dir == "mizkan"){
+        
     }
 
     return 0;
