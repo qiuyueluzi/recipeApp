@@ -26,7 +26,7 @@ class Ingredients
 
             if(!in_file.is_open()){
                 //ファイルオープン時のエラー処理
-                cerr << f << " - ファイルを開けませんでした" << endl;
+                cerr << p + "tmp/" + f << " - ファイルを開けませんでした" << endl;
 
                 return EXIT_FAILURE;
             }else{
@@ -203,7 +203,49 @@ class Mizkan : public Ingredients   //mizkanクラス
         }
         void setIQ()
         {
+            string str, sub;
+            for(auto l = line.begin(); l != line.end(); ++l){
+                str = rm_char(*l, ' '); //スペースを除去
+                //cout << str << endl;
+                if(str.find("tag") != string::npos || str.find("class") != string::npos || str.find("text") != string::npos){
+                    if(str.find("recipeTopAboutIngredients_ttl") != string::npos && flag == 0) flag = 1;
+                    if(str.find("recipeTopAboutIngredients_item") != string::npos && flag == 2){
+                        //cout << ingredient.size() << ":" << quantity.size() << endl;
+                        if(quantity.empty()) ingredient.pop_back();
+                        else if(ingredient.size() > quantity.size()){
+                            quantity.push_back(quantity.at(quantity.size()-2));
+                        }
+                        flag = 1;
+                    }
+                    if(str.find("recipeTopAboutIngredients_subTtl") != string::npos || str.find("または") != string::npos) flag = 3;
+                    if(str.find("recipeTopAboutIngredientsUsed_ttl") != string::npos && flag == 1) flag = 0;
 
+                    //cout << "flag:" << flag << endl;
+                    //cout << str << endl;
+                    if(str.find("text") != string::npos && flag == 1){
+                        str.erase(str.size()-1);
+                        str.erase(0, 8);
+                        ingredient.push_back(str);
+                        flag = 2;
+                    }else if(str.find("text") != string::npos && flag == 2){
+                        str.erase(str.size()-1);
+                        str.erase(0, 8);
+                        quantity.push_back(str);
+                    }else if(str.find("text") != string::npos && flag == 3){
+                        str.erase(str.size()-1);
+                        str.erase(0, 8);
+                        if(str.find("u0026") != string::npos){
+                            str = rm_bet(str, "u", ";");
+                            str.erase(0, 1);
+                            str.erase(str.size()-1);
+                            //cout << str << endl;
+                        }
+                        ingredient.push_back(str);
+                        quantity.push_back("-");
+                        flag = 1;
+                    }
+                }
+            }
         }
 };
 
@@ -246,7 +288,14 @@ int main(int argc, char *argv[])
             Kik.output(path.str(), file_name);
         }else return EXIT_FAILURE;
     }else if(dir == "mizkan"){
-        
+        //ファイルが正常に開けた場合は実行
+        if(Miz.input(path.str(), file_name) == 0){
+            //メンバ関数の実行
+            Miz.setID_URL(file_name);
+            Miz.setIQ();
+            //cout << "ok" << endl;
+            Miz.output(path.str(), file_name);
+        }else return EXIT_FAILURE;
     }
 
     return 0;
