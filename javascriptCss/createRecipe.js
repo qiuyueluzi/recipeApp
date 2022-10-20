@@ -16,7 +16,7 @@ $(function(){
 			let title = status.name;
 			document.getElementById("recipeTitle").innerHTML = title;
 			
-			console.log(status)
+			//console.log(status)
 			for(let material of materials){
 				let row = document.createElement("tr");
 				let food = document.createElement("td");
@@ -38,7 +38,7 @@ $(function(){
 			let timeDisplay = document.getElementById("time");
 			timeDisplay.textContent = status.time + "分";
 			
-			console.log(orders)
+			//console.log(orders)
 			for(let order of orders){
 				let row = document.createElement("li");
 				row.textContent = order.process;
