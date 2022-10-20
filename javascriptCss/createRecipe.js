@@ -1,7 +1,54 @@
 $(function(){
+	$.when(
+		$.getJSON('./make_json/recipes.json'),
+		$.getJSON('./make_json/make_list.json'),
+		$.getJSON('./make_json/ingredients.json'),
+		).then((recipesJson, make_listJson, ingredientsJson) => {
+			let allStatus = recipesJson[0];
+			let allOrders = make_listJson[0];
+			let allMaterials = ingredientsJson[0];
+			
+			let id = get("recipeId");
+			let status = allStatus.filter( e => e.id === id)[0]
+			let orders = allOrders.filter( e => e.id === id)
+			let materials = allMaterials.filter( e => e.id === id)
+			
+			let title = status.name;
+			document.getElementById("recipeTitle").innerHTML = title;
+			
+			console.log(status)
+			for(let material of materials){
+				let row = document.createElement("tr");
+				let food = document.createElement("td");
+				food.textContent = material.ingredient;
+				let volume = document.createElement("td");
+				volume.textContent = material.quantity;
+				row.appendChild(food);
+				row.appendChild(volume);
+				
+				document.getElementById("ingredients").appendChild(row)
+			}
+			
+			let energyDisplay = document.getElementById("energy")
+			energyDisplay.textContent = status.energy + "kcal";
+			let saltDisplay = document.getElementById("salt");
+			saltDisplay.textContent = status.salt + "g";
+			let peopleDisplay = document.getElementById("people");
+			peopleDisplay.textContent = status.num_people + "人";
+			let timeDisplay = document.getElementById("time");
+			timeDisplay.textContent = status.time + "分";
+			
+			console.log(orders)
+			for(let order of orders){
+				let row = document.createElement("li");
+				row.textContent = order.process;
+				document.getElementById("process").appendChild(row)
+			}
+		})
+		
 
 
-	function toArray(fileName){
+	/*function toArray(fileName){
 		let srt = new XMLHttpRequest();
 	
 		srt.open("GET", fileName, false);
@@ -25,7 +72,7 @@ $(function(){
 			}
 		}
 		return csletr
-	}
+	}*/
 
 	function get(varName){
 		var varLimit=2;
@@ -47,25 +94,19 @@ $(function(){
 		return null;
 	}
 	
-		
-
-	let allStatus = toArray('../data_file/all/recipes.csv');
+	/*let allStatus = toArray('../data_file/all/recipes.csv');
 	let allIngredients = toArray('../data_file/all/ingredients.csv');
 	let allProcess = toArray('../data_file/all/make_list.csv')
 
 	let id = get("recipeId");
 	let status = allStatus.filter( e => e[0] === id)
 	let ingredients = allIngredients.filter( e => e[0] === id)
-	let processes = allProcess.filter( e => e[0] === id)
+	let processes = allProcess.filter( e => e[0] === id)*/
+	
+	/*let title = status[0][2]
+	document.getElementById("recipeTitle").innerHTML = title;*/
 
-
-
-	console.log(status)
-	console.log(ingredients)
-	let title = status[0][2]
-	document.getElementById("recipeTitle").innerHTML = title;
-
-	for(let ingredient of ingredients){
+	/*for(let ingredient of ingredients){
 		let row = document.createElement("tr");
 		let food = document.createElement("td");
 		food.textContent = ingredient[1];
@@ -90,5 +131,5 @@ $(function(){
 		let row = document.createElement("li");
 		row.textContent = process[2];
 		document.getElementById("process").appendChild(row)
-	}
+	}*/
 })
