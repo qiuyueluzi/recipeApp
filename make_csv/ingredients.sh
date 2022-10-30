@@ -7,6 +7,7 @@ for dir in $dirs;
         mkdir -v -p ../data_file/$dir/ingredients
         mkdir -v -p ../data_file/$dir/ingredients/tmp
         file_path="../../recipes/$dir/*.txt"
+        #file_path="../../recipes/$dir/710229.txt"
         files=`find $file_path -type f | gawk -F/ '{print $NF}'`
 
     for file in $files;
