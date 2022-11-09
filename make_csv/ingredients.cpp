@@ -131,7 +131,9 @@ class Kewpie : public Ingredients //キューピークラス
 public:
     void setID_URL(string file_name) // ID設定用メンバ関数
     {
-        ID = stol(file_name) + 10000000;
+        ID = stol(file_name);
+        if (ID < 10000000)
+            ID = ID + 10000000;
     }
     void setIQ()
     {
