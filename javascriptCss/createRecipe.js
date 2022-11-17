@@ -9,6 +9,11 @@ $(function(){
 			let allMaterials = ingredientsJson[0];
 			
 			let id = get("recipeId");
+			let subId;
+			if(id.length>9){
+				subId = id.slice(-8);
+				id = id.slice(0, 8);
+			}
 			let status = allStatus.filter( e => e.id === id)[0]
 			let orders = allOrders.filter( e => e.id === id)
 			let materials = allMaterials.filter( e => e.id === id)
@@ -44,7 +49,85 @@ $(function(){
 				row.textContent = order.process;
 				document.getElementById("process").appendChild(row)
 			}
+
+			if(subId){
+				let statusC = allStatus.filter( e => e.id === subId)[0]
+				let ordersC = allOrders.filter( e => e.id === subId)
+				let materialsC = allMaterials.filter( e => e.id === subId)
+				
+				let titleC = statusC.name;
+				document.getElementById("recipeTitleC").innerHTML = titleC;
+				
+				//console.log(status)
+				for(let material of materialsC){
+					let row = document.createElement("tr");
+					let food = document.createElement("td");
+					food.textContent = material.ingredient;
+					let volume = document.createElement("td");
+					volume.textContent = material.quantity;
+					row.appendChild(food);
+					row.appendChild(volume);
+					
+					document.getElementById("ingredientsC").appendChild(row)
+				}
+				
+				let energyDisplay = document.getElementById("energyC")
+				energyDisplay.textContent = statusC.energy + "kcal";
+				let saltDisplay = document.getElementById("saltC");
+				saltDisplay.textContent = statusC.salt + "g";
+				let peopleDisplay = document.getElementById("peopleC");
+				peopleDisplay.textContent = statusC.num_people + "人";
+				let timeDisplay = document.getElementById("timeC");
+				timeDisplay.textContent = statusC.time + "分";
+				
+				//console.log(orders)
+				for(let order of ordersC){
+					let row = document.createElement("li");
+					row.textContent = order.process;
+					document.getElementById("processC").appendChild(row)
+				}
+			}
+
+			let suggest = [];
+			for(let i = 0; i < allStatus.length; i++){
+				let comparator = allStatus[i].name;
+				let distant = levenshteinDistance(title, comparator);
+				if(distant<5&&allStatus[i].id!=status.id)suggest.push([distant, allStatus[i].id]);
+			}
+			suggest.sort(function(a,b){
+				return a[0] - b[0];
+			})
+
+			for (let i = 0; i < 10; i++) {
+				let proposal = document.createElement("a");
+				proposal.textContent = allStatus.filter( e => e.id === suggest[i][1])[0].name;
+				proposal.href = "./comparison.html?recipeId=" + status.id + suggest[i][1];
+				let list = document.createElement("li");
+				list.appendChild(proposal)
+				document.getElementById("proposal").append(list);
+			}
+			
+
+			let clickBtn = function() {
+				
+				let text1 = form1.text1.value;
+				let text2 = form1.text2.value;
+				let dist = levenshteinDistance(text1, text2);
+				let result = document.getElementById('result');
+				let newRow = result.insertRow();
+				let rowData = [dist, text1, text2];
+				//tableに結果書き出し
+				for (let i=0; i<rowData.length; i++) {
+					let newCell = newRow.insertCell(),
+					newText = document.createTextNode(rowData[i]);
+					newCell.appendChild(newText);
+				}
+				return false;
+			}
+			
+
 		})
+		
 		
 
 
@@ -93,9 +176,30 @@ $(function(){
 		
 		return null;
 	}
+	//文字列の類似度チェック
+	levenshteinDistance = function(str1, str2) {
+		let r, c, cost,
+		d = [];
+		
+		for (r=0; r<=str1.length; r++) {
+			d[r] = [r];
+		}
+		for (c=0; c<=str2.length; c++) {
+			d[0][c] = c;
+		}
+		for (r=1; r<=str1.length; r++) {
+			for (c=1; c<=str2.length; c++) {
+				cost = str1.charCodeAt(r-1) == str2.charCodeAt(c-1) ? 0: 1;
+				d[r][c] = Math.min(d[r-1][c]+1, d[r][c-1]+1, d[r-1][c-1]+cost);
+			}
+		}
+		return d[str1.length][str2.length];
+	}
 	
-	/*let allStatus = toArray('../data_file/all/recipes.csv');
-	let allIngredients = toArray('../data_file/all/ingredients.csv');
+				
+				/*let allStatus = toArray('../data_file/all/recipes.csv');
+				let allIngredients = toArray('../data_file/all/ingredients.csv');
+				
 	let allProcess = toArray('../data_file/all/make_list.csv')
 
 	let id = get("recipeId");
