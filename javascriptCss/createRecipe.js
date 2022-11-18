@@ -92,7 +92,7 @@ $(function(){
 			for(let i = 0; i < allStatus.length; i++){
 				let comparator = allStatus[i].name;
 				let distant = levenshteinDistance(title, comparator);
-				if(distant<5&&allStatus[i].id!=status.id)suggest.push([distant, allStatus[i].id]);
+				if(distant<10&&allStatus[i].id!=status.id)suggest.push([distant, allStatus[i].id]);
 			}
 			suggest.sort(function(a,b){
 				return a[0] - b[0];
