@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
 	$.when(
 		$.getJSON('./make_json/recipes.json'),
 		$.getJSON('./make_json/make_list.json'),
@@ -20,8 +20,7 @@ $(function(){
 			
 			let title = status.name;
 			document.getElementById("recipeTitle").innerHTML = title;
-			let peopleDisplay = document.getElementById("people");
-			peopleDisplay.textContent =  "("+ status.num_people + "人分)";
+			
 			//console.log(status)
 			for(let material of materials){
 				let row = document.createElement("tr");
@@ -39,7 +38,8 @@ $(function(){
 			energyDisplay.textContent = status.energy + "kcal";
 			let saltDisplay = document.getElementById("salt");
 			saltDisplay.textContent = status.salt + "g";
-			
+			let peopleDisplay = document.getElementById("people");
+			peopleDisplay.textContent = status.num_people + "人";
 			let timeDisplay = document.getElementById("time");
 			timeDisplay.textContent = status.time + "分";
 			
@@ -57,8 +57,7 @@ $(function(){
 				
 				let titleC = statusC.name;
 				document.getElementById("recipeTitleC").innerHTML = titleC;
-				let peopleDisplay = document.getElementById("peopleC");
-				peopleDisplay.textContent ="("+ statusC.num_people + "人分)";
+				
 				//console.log(status)
 				for(let material of materialsC){
 					let row = document.createElement("tr");
@@ -76,6 +75,8 @@ $(function(){
 				energyDisplay.textContent = statusC.energy + "kcal";
 				let saltDisplay = document.getElementById("saltC");
 				saltDisplay.textContent = statusC.salt + "g";
+				let peopleDisplay = document.getElementById("peopleC");
+				peopleDisplay.textContent = statusC.num_people + "人";
 				let timeDisplay = document.getElementById("timeC");
 				timeDisplay.textContent = statusC.time + "分";
 				
@@ -235,4 +236,4 @@ $(function(){
 		row.textContent = process[2];
 		document.getElementById("process").appendChild(row)
 	}*/
-})
+})*/
