@@ -46,18 +46,9 @@
     </nav>
       
     <body>
-        <!--h1 id="recipeTitle" class="text-center"></h1>
+        <h1 id="recipeTitle" class="text-center"></h1>
         <div class="container">
         <div class="row">
-          <table class="table col-4 offset-1">
-            <thead>
-              <tr>
-                <th scope="col">材料</th>
-                <th scope="col">分量</th>
-              </tr>
-            </thead>
-            <tbody id="ingredients"></tbody>
-          </table>
           <table class="table col-2 offset-2" height="200">
             <tbody>
               <tr>
@@ -78,47 +69,20 @@
               </tr>
             </tbody>
           </table>
-        </div>
-      </div-->
-      <div class="text-center">
-      <h1 id="recipeTitle"></h1>
-      <h2 id="people"></h2>
-
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">材料</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">カロリー</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">塩分</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">調理時間</a>
-          </div>
-        </div>
-        <div class="col-8">
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-                <table class="table col-4 offset-1">
-                <thead>
-                  <tr>
-                    <th scope="col">材料</th>
-                    <th scope="col">分量</th>
-                  </tr>
-                </thead>  
-                <tbody id="ingredients"></tbody>
+          <div class="scroll_bar">
+            <table class="table col-4 offset-1">
+              <thead>
+                <tr>
+                  <th scope="col">材料</th>
+                  <th scope="col">分量</th>
+                </tr>
+              </thead>
+              <tbody id="ingredients"></tbody>
             </table>
             </div>
-            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                <p id="energy"></p>
-            </div>
-            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                <p id="salt"></p>
-            </div>
-            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                <p id="time"></p>
-            </div>
-          </div>
         </div>
       </div>
+      
       <div>
         <div class="text-center">手順</div>
         <ol style="margin-left:20px" id="process">
