@@ -20,6 +20,12 @@ dd{
     background-color: #FFF;
 }
 
+.scroll_bar{
+    overflow: auto;
+    width: 100%;
+    height: 300px;
+}
+
 body{
     font-family: Meiryo,Georgia, 'Times New Roman', Times, serif;
 }
