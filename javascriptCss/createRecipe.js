@@ -44,10 +44,12 @@ $(function(){
 			timeDisplay.textContent = status.time + "分";
 			
 			//console.log(orders)
+			
 			for(let order of orders){
 				let row = document.createElement("li");
 				row.textContent = order.process;
 				document.getElementById("process").appendChild(row)
+				row.classList.add("process_list");
 			}
 
 			if(subId){
@@ -83,7 +85,8 @@ $(function(){
 				for(let order of ordersC){
 					let row = document.createElement("li");
 					row.textContent = order.process;
-					document.getElementById("processC").appendChild(row)
+					document.getElementById("processC").appendChild(row);
+					row.classList.add("process_list");
 				}
 			}
 

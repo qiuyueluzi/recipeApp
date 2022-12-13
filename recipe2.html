@@ -46,8 +46,8 @@
     </nav>
       
     <body>
-        <h1 id="recipeTitle" class="text-center"></h1>
-        <div class="container">
+        <h2 id="recipeTitle" class="text-center"></h1>
+        <div class="container-fluid">
         <div class="row">
           <table class="table col-2 offset-2" height="200">
             <tbody>
@@ -69,8 +69,10 @@
               </tr>
             </tbody>
           </table>
-          <div class="scroll_bar">
-            <table class="table col-4 offset-1">
+          
+          <details>
+            <summary>材料を見る</summary>
+            <table class="table col-8 offset-1">
               <thead>
                 <tr>
                   <th scope="col">材料</th>
@@ -79,19 +81,19 @@
               </thead>
               <tbody id="ingredients"></tbody>
             </table>
-            </div>
+          </details>
+       
         </div>
       </div>
-      
-      <div>
-        <div class="text-center">手順</div>
-        <ol style="margin-left:20px" id="process">
-        </ol>  
-      </div>
-      <div>
-        <div>似たレシピ</div>
-        <li id="proposal"></li>
-      </div>
         
+        <ol id="process" style=" margin-right:100px;">
+        </ol> 
+        <footer>
+          <div>
+            <br>
+            <div>似たレシピ</div>
+            <li id="proposal"></li>
+          </div>
+        </footer> 
     </body>
 </html>
