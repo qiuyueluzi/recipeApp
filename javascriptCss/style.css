@@ -20,12 +20,19 @@ dd{
     background-color: #FFF;
 }
 
-.scroll_bar{
-    overflow: auto;
-    width: 100%;
-    height: 300px;
-}
-
 body{
     font-family: Meiryo,Georgia, 'Times New Roman', Times, serif;
+}
+.process_list{
+    float:left;
+    width:300px;
+    height:150px;
+    vertical-align:top;
+    margin-left:20px;
+}
+footer{
+    width:200px;
+    position:fixed;
+    right:0px;
+    top:200px;
 }
