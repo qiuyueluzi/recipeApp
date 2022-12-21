@@ -6,17 +6,20 @@ $(function () {
         let allStatus = recipesJson;
         let allItems = item_listJson;
 
-        //console.log(allStatus[allStatus.length - 1]);
+        let cnt = 0;
         let filterStatus = [];
         $("#submit").on("click", function () {
             let request = $("#search").val();
-            for (let i = 0; i < allStatus.length; i++) {
-                //if (val == 's') {
+            for (let i = 0; i < allStatus.length - 2; i++) {
+                //console.log(allStatus[i]);
                 for (let status of allStatus[i]) {
-                    console.log(status.name);
-                    let distant = levenshteinDistance(request, status.name);
-                    if (distant < 4) {
-                        filterStatus.push(allStatus[i]);
+                    if (cnt <= 30949) {
+                        //console.log(status.name);
+                        let distant = levenshteinDistance(request, status.name);
+                        if (distant < 4) {
+                            filterStatus.push(status);
+                        }
+                        cnt++;
                     }
                 }
                 //}
@@ -26,10 +29,6 @@ $(function () {
             index(filterStatus);
         });
 
-        for (let i = Object.keys(allStatus).length; i > 9; i--) {
-            delete allStatus[i];
-        }
-        //console.log(filterStatus);
         function index(Status) {
             for (let i = 0; i < Object.keys(Status).length; i++) {
                 let tr = document.createElement("tr");
