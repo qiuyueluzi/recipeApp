@@ -10,21 +10,28 @@ $(function () {
         let filterStatus = [];
         $("#submit").on("click", function () {
             let request = $("#search").val();
-            for (let i = 0; i < allStatus.length - 2; i++) {
+            console.log(request.length)
+            for (let i = 0; i < allStatus.length - 1; i++) {
                 //console.log(allStatus[i]);
                 for (let status of allStatus[i]) {
                     if (cnt <= 30949) {
                         //console.log(status.name);
-                        let distant = levenshteinDistance(request, status.name);
-                        if (distant < 4) {
-                            filterStatus.push(status);
+                        if (request.length > 3) {
+                            let distant = levenshteinDistance(request, status.name);
+                            if (distant < request.length / 2) {
+                                filterStatus.push(status);
+                            }
+                        } else {
+                            if (status.name.includes(request) == true) {
+                                filterStatus.push(status);
+                            }
                         }
                         cnt++;
                     }
                 }
                 //}
             }
-            console.log(filterStatus);
+            //console.log(filterStatus);
 
             index(filterStatus);
         });

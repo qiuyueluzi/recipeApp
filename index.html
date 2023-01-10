@@ -5,6 +5,7 @@
   <title>recipe</title>
   <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.js"></script>
   <script src="https://unpkg.com/bootstrap@4.6.2/dist/js/bootstrap.js"></script>
+  <script src="./javascriptCss/get_items.js"></script>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.css">
   </link>
   <link rel="stylesheet" type="text/css" href="./javascriptCss/style.css">
@@ -40,12 +41,12 @@
               <a class="nav-link disabled" href="#">Disabled</a>
             </li -->
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <form class="form-inline my-2 my-lg-0" action="itemsearch.html">
       <a role="button" class="btn btn-outline-light font-weight-bold my-2 my-sm-0 mr-2" href="itemsearch.html">
-        <i class="far fa-clone mr-1"></i>詳細検索へ
+        詳細検索へ
       </a>
-      <input class="form-control mr-sm-2" type="search" placeholder="a" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2" type="text" id="search" placeholder="キーワードを入力" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" value="検索">Search</button>
     </form>
   </div>
 </nav>
