@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>recipe</title>
+    <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.js"></script>
+    <script src="https://unpkg.com/bootstrap@4.6.2/dist/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/jquery-csv@1.0.21/src/jquery.csv.min.js"></script>
+    <script src="./javascriptCss/get_items.js"></script>
+    <script src="./javascriptCss/searchRecipe.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.css">
+    </link>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./javascriptCss/style.css">
+    </link>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ec955e;">
+    <a class="navbar-brand" href="index.html"><img src="./imgs/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0" onsubmit="return false;">
+            <a role="button" class="btn btn-outline-light font-weight-bold my-2 my-sm-0 mr-2" href="itemsearch.html">
+                クリア
+            </a>
+            <input class="form-control mr-sm-2" type="text" id="search" placeholder="キーワードを入力" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="submit" value="検索">Search</button>
+        </form>
+    </div>
+</nav>
+
+<body>
+    <div class="container">
+        <div class="my-3" style="text-align: center;">
+            <p>
+            <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                <button class="btn btn-orange shadow" type="button" data-toggle="collapse"
+                    data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">
+                    <span class="display-6"><i class="fas fa-chevron-down mr-1"></i>材料検索
+                </button>
+                <button class="btn btn-orange shadow" type="button" data-toggle="collapse"
+                    data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
+                    <span class="display-6"><i class="fas fa-chevron-up mr-1"></i>カロリー</span>
+                </button>
+                <button class="btn btn-orange shadow" type="button" data-toggle="collapse"
+                    data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">
+                    <span class="display-6"><i class="fas fa-chevron-up mr-1"></i>アレルギー</span>
+                </button>
+            </div>
+            </p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        <h4 class="text-center">
+                            材料一覧
+                            <button type="submit" class="btn btn-outline-orange my-1 ml-2">検索</button>
+                        </h4>
+                        <div class="row">
+                            <div class="row">
+                                <div class="filters" id="item"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="collapse show multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                        <form class="form-inline" style="margin: auto;">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">カロリー</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected>Select</option>
+                                <option value="1">0～200 kcal</option>
+                                <option value="2">201～400 kcal</option>
+                                <option value="3">401～600 kcal</option>
+                                <option value="4">600 kcal～</option>
+                            </select>
+                            <button type="submit" class="btn btn-outline-orange my-1">検索</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse show multi-collapse" id="multiCollapseExample3">
+                    <div class="card card-body text-center">
+                        アレルギー
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-3">
+            <table id="grid-basic" class="table-auto w-full table-striped table-warning border shadow"
+                style="width: auto; margin: auto;">
+                <tbody id="index">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

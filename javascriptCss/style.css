@@ -1,38 +1,166 @@
-dl{
-    border:2px solid #999;
-    width:300px;
-    background-color:rgb(214, 183, 135);
+dl {
+    border: 2px solid #999;
+    width: 300px;
+    background-color: rgb(214, 183, 135);
 }
 
-dt{
-    float:left;
-    width:200px;
-    padding:5px 0 5px 10px;
-    clear:both;
-    font-weight:bold;
+dt {
+    float: left;
+    width: 200px;
+    padding: 5px 0 5px 10px;
+    clear: both;
+    font-weight: bold;
 }
 
-dd{
-    width:100px;
-    margin-left:200px;
-    padding:5px 19px 5px 10px;
-    border-left:1px solid #999;
+dd {
+    width: 100px;
+    margin-left: 200px;
+    padding: 5px 19px 5px 10px;
+    border-left: 1px solid #999;
     background-color: #FFF;
 }
 
-body{
-    font-family: Meiryo,Georgia, 'Times New Roman', Times, serif;
+body {
+    font-family: Meiryo, Georgia, 'Times New Roman', Times, serif;
 }
-.process_list{
-    float:left;
-    width:300px;
-    height:150px;
-    vertical-align:top;
-    margin-left:20px;
+
+.process_list {
+    float: left;
+    width: 300px;
+    height: 150px;
+    vertical-align: top;
+    margin-left: 20px;
 }
-footer{
-    width:200px;
-    position:fixed;
-    right:0px;
-    top:200px;
+
+footer {
+    width: 200px;
+    position: fixed;
+    right: 0px;
+    top: 200px;
+}
+
+.text-pink {
+    color: #f66d9b !important;
+}
+
+.targets {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, 60px);
+    margin-top: 40px;
+}
+
+/* ラジオボタンを非表示に */
+input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+
+/* 以下はラベルのスタイル */
+.filters {
+    margin-bottom: 2rem;
+}
+
+.filters * {
+    display: inline-block;
+}
+
+.filters label {
+    text-align: center;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0.25rem;
+    min-width: 50px;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filters label:hover {
+    background: #b22222;
+    color: #fff;
+}
+
+.check {
+    display: none;
+}
+
+.bg-orange {
+    background-color: #eb8331 !important;
+}
+
+.btn-orange {
+    color: #ffffff;
+    background-color: #eb8331;
+    border-color: #ffffff;
+}
+
+.btn-orange:hover {
+    color: #ffffff;
+    background-color: #f77c1f;
+    border-color: #ff7b16;
+}
+
+.btn-orange:focus,
+.btn-orange.focus {
+    color: #ffffff;
+    background-color: #f77c1f;
+    border-color: #ff7b16;
+    box-shadow: 0 0 0 0.2rem rgba(222, 207, 69, 0.5);
+}
+
+.btn-orange.disabled,
+.btn-orange:disabled {
+    color: #ffffff;
+    background-color: #eb8331;
+    border-color: #eb8331;
+}
+
+.btn-orange:not(:disabled):not(.disabled):active,
+.btn-orange:not(:disabled):not(.disabled).active,
+.show>.btn-orange.dropdown-toggle {
+    color: #212529;
+    background-color: #f77c1f;
+    border-color: #ff7b16;
+}
+
+.btn-orange:not(:disabled):not(.disabled):active:focus,
+.btn-orange:not(:disabled):not(.disabled).active:focus,
+.show>.btn-orange.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(222, 207, 69, 0.5);
+}
+
+.btn-outline-orange {
+    color: #f06242;
+    border-color: #f06242;
+}
+
+.btn-outline-orange:hover {
+    color: #fff;
+    background-color: #f06242;
+    border-color: #f06242;
+}
+
+.btn-outline-orange:focus,
+.btn-outline-orange.focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-orange.disabled,
+.btn-outline-orange:disabled {
+    color: #f06242;
+    background-color: transparent;
+}
+
+.btn-outline-orange:not(:disabled):not(.disabled):active,
+.btn-outline-orange:not(:disabled):not(.disabled).active,
+.show>.btn-outline-orange.dropdown-toggle {
+    color: #fff;
+    background-color: #f06242;
+    border-color: #f06242;
+}
+
+.btn-outline-orange:not(:disabled):not(.disabled):active:focus,
+.btn-outline-orange:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-orange.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
