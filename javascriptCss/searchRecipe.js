@@ -49,7 +49,7 @@ $(function () {
 
                 let a = document.createElement("a");
                 a.classList.add("widelink", "text-pink");
-                a.href = "/recipeApp/recipe.html?recipeId=" + filterStatus[i].id;
+                a.href = "./recipe.html?recipeId=" + filterStatus[i].id;
 
                 let i_num = document.createElement("i");
                 i_num.classList.add("fas", "fa-user-friends", "mr-2", "text-primary");
