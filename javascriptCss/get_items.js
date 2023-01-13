@@ -1,40 +1,44 @@
 $(function () {
     $.when(
-        $.getJSON('./make_json/item_list.json')
-    ).then((item_listJson) => {
+        $.getJSON('./make_json/item_list.json'),
+        $.getJSON('./make_csv/detail.json')
+    ).then((item_listJson, detail_listJson) => {
         let allItems = item_listJson;
+        let allDetails = detail_listJson;
 
-        for (let a of allItems) {    //材料一覧をレンダリング
-            for (let item of a) {
-                let row = document.createElement("div");
-                let input = document.createElement("input");
-                row.classList.add("form-check", "p-0");
-
-                //inputタグを編集
-                input.classList.add("form-check-input", "check");
-                input.type = "checkbox";
-                input.name = "items";
-                input.id = item.field1;
-                input.aue = item.field1;
-                input.setAttribute('onclick', "onCheckFunc(" + item.field1 + ")");
-
-                //labelタグを編集
-                let label = document.createElement("label");
-                label.classList.add("form-check-label");
-                label.textContent = item.name;
-                label.htmlFor = item.field1;
-
-                row.appendChild(input);
-                row.appendChild(label);
-                document.getElementById("item").appendChild(row);
-            }
+        ID = 1;
+        for (let detail of allDetails[0]) {    //材料一覧をレンダリング
+            //for (let detail of val) {
+            detail.for = ID;
+            ID++;
+            //}
         }
-        function isString(value) {
-            if (typeof value === "string" || value instanceof String) {
-                return true;
-            } else {
-                return false;
-            }
+
+        //console.log(allDetails);
+        for (let detail of allDetails[0]) {    //材料一覧をレンダリング
+            //for (let detail of val) {
+            let row = document.createElement("div");
+            let input = document.createElement("input");
+            row.classList.add("form-check", "p-0");
+
+            //inputタグを編集
+            input.classList.add("form-check-input", "check");
+            input.type = "checkbox";
+            input.name = "items";
+            input.id = detail.for;
+            input.aue = detail.for;
+            input.setAttribute('onclick', "onCheckFunc(" + detail.for + ")");
+
+            //labelタグを編集
+            let label = document.createElement("label");
+            label.classList.add("form-check-label");
+            label.textContent = detail.text;
+            label.htmlFor = detail.for;
+
+            row.appendChild(input);
+            row.appendChild(label);
+            document.getElementById("details").appendChild(row);
+            //}
         }
     });
 
