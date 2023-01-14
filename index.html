@@ -6,6 +6,7 @@
   <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.js"></script>
   <script src="https://unpkg.com/bootstrap@4.6.2/dist/js/bootstrap.js"></script>
   <script src="./javascriptCss/searchRecipe.js"></script>
+  <script src="./javascriptCss/gacha.js"></script>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.css">
   </link>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -64,9 +65,35 @@
     </div>
   </div>
   <div class="row" style='height: 92vh;'>
-    <div class="col-md-3 p-0">
+    <div class="col-md-3">
       <h2 class="text-left p-3 lead">今日のおすすめレシピ</h2>
       <a href="./recipe.html?recipeId=20300008" class="p-3">ヘルシーケーキすし</a>
+        <h2>レシピガチャ</h2>
+        
+      
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" id="gacha-button">
+          ガチャを引く
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">レシピガチャ結果</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="gacha-display">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </div>
     <div class="col-md-9 p-0">
       <div class="container">
