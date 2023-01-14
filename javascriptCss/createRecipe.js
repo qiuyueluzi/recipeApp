@@ -45,7 +45,7 @@ $(function(){
 			let timeDisplay = document.getElementById("time");
 			timeDisplay.textContent = status.time + "分";
 			
-			//console.log(orders)
+			
 			
 			for(let order of orders){
 				let row = document.createElement("li");
@@ -130,6 +130,7 @@ $(function(){
 				}
 				return false;
 			}
+			difficulty(id, allStatus)
 			
 
 		})
@@ -203,6 +204,11 @@ $(function(){
 	}
 	
 				
+	function difficulty(recipeID, allStatus){
+		let status = allStatus.filter( e => e.id === recipeID)[0]
+		let difficult = status.num_process / status.time * status.num_item;
+		console.log(difficult)
+	}
 				/*let allStatus = toArray('../data_file/all/recipes.csv');
 				let allIngredients = toArray('../data_file/all/ingredients.csv');
 				
