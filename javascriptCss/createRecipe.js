@@ -45,15 +45,15 @@ $(function(){
 			let timeDisplay = document.getElementById("time");
 			timeDisplay.textContent = status.time + "分";
 			
-			
-			
 			for(let order of orders){
 				let row = document.createElement("li");
 				row.textContent = order.process;
 				document.getElementById("process").appendChild(row)
 				row.classList.add("process_list");
 			}
-
+			let rank = difficulty(id, allStatus);
+			let starDisplay = document.getElementById("star")
+			starDisplay.textContent = "難易度:" + "☆".repeat(rank);
 			if(subId){
 				let statusC = allStatus.filter( e => e.id === subId)[0]
 				let ordersC = allOrders.filter( e => e.id === subId)
@@ -84,6 +84,10 @@ $(function(){
 				saltDisplay.textContent = statusC.salt + "g";
 				let timeDisplay = document.getElementById("timeC");
 				timeDisplay.textContent = statusC.time + "分";
+
+				let rank = difficulty(subId, allStatus);
+				let starDisplay = document.getElementById("starC")
+				starDisplay.textContent = "難易度:" + "☆".repeat(rank);
 				
 				//console.log(orders)
 				for(let order of ordersC){
@@ -93,12 +97,12 @@ $(function(){
 					row.classList.add("process_list");
 				}
 			}
-
+			
 			let suggest = [];
 			for(let i = 0; i < allStatus.length; i++){
 				let comparator = allStatus[i].name;
 				let distant = levenshteinDistance(title, comparator);
-				if(distant<100&&allStatus[i].id!=status.id)suggest.push([distant, allStatus[i].id]);
+				if(allStatus[i].id!=status.id)suggest.push([distant, allStatus[i].id]);
 			}
 			suggest.sort(function(a,b){
 				return a[0] - b[0];
@@ -106,7 +110,7 @@ $(function(){
 
 			for (let i = 0; i < 10; i++) {
 				let proposal = document.createElement("a");
-				proposal.textContent = allStatus.filter( e => e.id === suggest[i][1])[0].name;
+				proposal.textContent = "☆"+difficulty(allStatus.filter( e => e.id === suggest[i][1])[0].id, allStatus) + "　" + allStatus.filter( e => e.id === suggest[i][1])[0].name;
 				proposal.href = "./comparison.html?recipeId=" + status.id + suggest[i][1];
 				let list = document.createElement("li");
 				list.appendChild(proposal)
@@ -130,41 +134,11 @@ $(function(){
 				}
 				return false;
 			}
-			let rank = difficulty(id, allStatus);
-			let starDisplay = document.getElementById("star")
-			starDisplay.textContent = "難易度:" + "☆".repeat(rank);
+			
 
 		
 		})
 		
-		
-
-
-	/*function toArray(fileName){
-		let srt = new XMLHttpRequest();
-	
-		srt.open("GET", fileName, false);
-		
-		try {
-			srt.send(null);
-		} catch (err) {
-			console.log(err)
-		}
-		
-		// 配列を用意
-		let csletr = [];
-		// 改行ごとに配列化
-		let lines = srt.responseText.split(/\r\n|\n/);
-		
-		// 1行ごとに処理
-		for (let i = 0; i < lines.length; ++i) {
-			let cells = lines[i].split(",");
-			if (cells.length != 1) {
-				csletr.push(cells);
-			}
-		}
-		return csletr
-	}*/
 
 	function get(varName){
 		var varLimit=2;
@@ -228,43 +202,4 @@ $(function(){
 		return rank;
 
 	}
-				/*let allStatus = toArray('../data_file/all/recipes.csv');
-				let allIngredients = toArray('../data_file/all/ingredients.csv');
-				
-	let allProcess = toArray('../data_file/all/make_list.csv')
-
-	let id = get("recipeId");
-	let status = allStatus.filter( e => e[0] === id)
-	let ingredients = allIngredients.filter( e => e[0] === id)
-	let processes = allProcess.filter( e => e[0] === id)*/
-	
-	/*let title = status[0][2]
-	document.getElementById("recipeTitle").innerHTML = title;*/
-
-	/*for(let ingredient of ingredients){
-		let row = document.createElement("tr");
-		let food = document.createElement("td");
-		food.textContent = ingredient[1];
-		let volume = document.createElement("td");
-		volume.textContent = ingredient[2];
-		row.appendChild(food);
-		row.appendChild(volume);
-
-		document.getElementById("ingredients").appendChild(row)
-	}
-
-	let energy = document.getElementById("energy")
-	energy.textContent = status[0][3] + "kcal";
-	let salt = document.getElementById("salt");
-	salt.textContent = status[0][4] + "g";
-	let people = document.getElementById("people");
-	people.textContent = status[0][5] + "人";
-	let time = document.getElementById("time");
-	time.textContent = status[0][6] + "分";
-
-	for(let process of processes){
-		let row = document.createElement("li");
-		row.textContent = process[2];
-		document.getElementById("process").appendChild(row)
-	}*/
 })
