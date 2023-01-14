@@ -21,7 +21,9 @@ $(function(){
 			let title = status.name;
 			document.getElementById("recipeTitle").innerHTML = title;
 			let peopleDisplay = document.getElementById("people");
-			peopleDisplay.textContent =  "("+ status.num_people + "人分)";
+			peopleDisplay.textContent =  status.num_people + "人分";
+			let people_zairyou_Display = document.getElementById("people_zairyou");
+			people_zairyou_Display.textContent =  "("+status.num_people + "人分)";
 			//console.log(status)
 			for(let material of materials){
 				let row = document.createElement("tr");
@@ -60,7 +62,9 @@ $(function(){
 				let titleC = statusC.name;
 				document.getElementById("recipeTitleC").innerHTML = titleC;
 				let peopleDisplay = document.getElementById("peopleC");
-				peopleDisplay.textContent ="("+ statusC.num_people + "人分)";
+				peopleDisplay.textContent = statusC.num_people + "人分";
+				let people_zairyouC_Display = document.getElementById("people_zairyouC");
+				people_zairyouC_Display.textContent =  "("+status.num_people + "人分)";
 				//console.log(status)
 				for(let material of materialsC){
 					let row = document.createElement("tr");
