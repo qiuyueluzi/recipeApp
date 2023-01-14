@@ -24,6 +24,21 @@ body {
     font-family: Meiryo, Georgia, 'Times New Roman', Times, serif;
 }
 
+.box {
+    width: auto;
+    /* 横幅を200pxに指定 */
+    height: 70%;
+    /* 横幅を200pxに指定 */
+    border: 1px solid #000;
+    /* わかりやすくボーダーを引く */
+    overflow-y: scroll;
+    /* 縦方向にスクロール可能にする */
+}
+
+.active {
+    display: block !important;
+}
+
 .process_list {
     float: left;
     width: 300px;
@@ -82,6 +97,11 @@ input[type="radio"] {
 
 .check {
     display: none;
+}
+
+
+.bg-lightgreen {
+    background-color: #d4f4d3 !important;
 }
 
 .bg-orange {

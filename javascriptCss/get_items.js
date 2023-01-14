@@ -14,31 +14,41 @@ $(function () {
             //}
         }
 
-        //console.log(allDetails);
+        console.log(allDetails);
         for (let detail of allDetails[0]) {    //材料一覧をレンダリング
-            //for (let detail of val) {
-            let row = document.createElement("div");
-            let input = document.createElement("input");
-            row.classList.add("form-check", "p-0");
+            if (detail.children) {
+                let parent = document.createElement("div");
+                parent.classList.add("h4");
+                parent.style = "width: 100%;"
+                let child = document.createElement("div");
+                child.textContent = detail.text;
 
-            //inputタグを編集
-            input.classList.add("form-check-input", "check");
-            input.type = "checkbox";
-            input.name = "items";
-            input.id = detail.for;
-            input.aue = detail.for;
-            input.setAttribute('onclick', "onCheckFunc(" + detail.for + ")");
+                parent.appendChild(child);
+                document.getElementById("details").appendChild(parent);
+            } else {
+                let row = document.createElement("div");
+                let input = document.createElement("input");
+                row.classList.add("form-check", "p-0");
 
-            //labelタグを編集
-            let label = document.createElement("label");
-            label.classList.add("form-check-label");
-            label.textContent = detail.text;
-            label.htmlFor = detail.for;
+                //inputタグを編集
+                input.classList.add("form-check-input", "check");
+                input.type = "checkbox";
+                input.name = "items";
+                input.id = detail.for;
+                input.aue = detail.for;
+                input.setAttribute('onclick', "onCheckFunc(" + detail.for + ")");
 
-            row.appendChild(input);
-            row.appendChild(label);
-            document.getElementById("details").appendChild(row);
-            //}
+                //labelタグを編集
+                let label = document.createElement("label");
+                label.classList.add("form-check-label");
+                label.textContent = detail.text;
+                label.htmlFor = detail.for;
+
+                row.appendChild(input);
+                row.appendChild(label);
+                document.getElementById("details").appendChild(row);
+
+            }
         }
     });
 
