@@ -61,6 +61,12 @@ $(function () {
             let cnt = 0;
             let resultID = [];
             let checks = document.getElementsByClassName('check');
+            let footer = document.getElementById("footer");
+            if (footer.style.display == "block") {
+                footer.style.display = "none";
+            } else {
+                footer.style.display = "block";
+            }
             for (i = 0; i < checks.length; i++) {
                 if (checks[i].checked === true) {
                     let listID = [];
@@ -99,11 +105,11 @@ $(function () {
             for (i = 1; i < resultID.length; i++) {
                 list = getArraysIntersect(list, resultID[i])
             }
-            console.log(list);
+            //console.log(list);
             let filterStatus = []
             for (let recipe of allrecipes[0]) {
                 if (list.includes(recipe.id) == true) {
-                    console.log(recipe)
+                    //console.log(recipe)
                     filterStatus.push(recipe);
                 }
             }

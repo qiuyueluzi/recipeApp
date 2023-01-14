@@ -4,25 +4,19 @@ $(function () {
     ).then((recipesJson) => {
         let allStatus = recipesJson;
 
-        /*let footer = document.createElement("footer");
-        footer.classList("box-asano active bg-lightgreen");
-        footer.style = "width: 35%;"
-
-        let table = document.createElement("table");
-        table.classList.add("table-auto", "w-full", "table-warning", "border", "shadow");
-        table.style = "width: auto; margin: auto;";
-        table.id = "index";
-
-        let tbody = document.createElement("tbody");
-        tbody.id = "index";
-
-        table.appendChild(tbody);
-        footer.appendChild(footer);*/
-
         let disp = document.getElementById("index");
         let cnt = 0;
         let filterStatus = [];
+
+        document.getElementById("footer").style.display = "none";
+
         $("#submit").click(function () {
+            let footer = document.getElementById("footer");
+            if (footer.style.display == "block") {
+                footer.style.display = "none";
+            } else {
+                footer.style.display = "block";
+            }
             if (filterStatus != null) {
                 console.log(filterStatus);
                 document.querySelector("#index").innerHTML = '';

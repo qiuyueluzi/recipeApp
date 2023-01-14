@@ -8,7 +8,7 @@
         "data-type": "all",
         "for": "M1",
         "tag": "label",
-        "text": "肉類 すべて"
+        "text": "肉類"
     },
     {
         "for": "M1_1",
@@ -99,7 +99,7 @@
         "data-type": "all",
         "for": "M2",
         "tag": "label",
-        "text": "魚介類 すべて"
+        "text": "魚介類"
     },
     {
         "for": "M2_36",
@@ -300,7 +300,7 @@
         "data-type": "all",
         "for": "M3",
         "tag": "label",
-        "text": "海藻類 すべて"
+        "text": "海藻類"
     },
     {
         "for": "M3_214",
@@ -336,7 +336,7 @@
         "data-type": "all",
         "for": "M4",
         "tag": "label",
-        "text": "野菜類 すべて"
+        "text": "野菜類"
     },
     {
         "for": "M4_61",
@@ -737,7 +737,7 @@
         "data-type": "all",
         "for": "M5",
         "tag": "label",
-        "text": "いも類 すべて"
+        "text": "いも類"
     },
     {
         "for": "M5_133",
@@ -773,7 +773,7 @@
         "data-type": "all",
         "for": "M6",
         "tag": "label",
-        "text": "きのこ類 すべて"
+        "text": "きのこ類"
     },
     {
         "for": "M6_134",
@@ -824,7 +824,7 @@
         "data-type": "all",
         "for": "M7",
         "tag": "label",
-        "text": "卵・乳製品 すべて"
+        "text": "卵・乳製品"
     },
     {
         "for": "M7_144",
@@ -870,7 +870,7 @@
         "data-type": "all",
         "for": "M8",
         "tag": "label",
-        "text": "豆腐・豆類 すべて"
+        "text": "豆腐・豆類"
     },
     {
         "for": "M8_207",
@@ -941,7 +941,7 @@
         "data-type": "all",
         "for": "M9",
         "tag": "label",
-        "text": "穀類 すべて"
+        "text": "穀類"
     },
     {
         "for": "M9_204",
@@ -1012,7 +1012,7 @@
         "data-type": "all",
         "for": "M10",
         "tag": "label",
-        "text": "種実・果実類 すべて"
+        "text": "種実・果実類"
     },
     {
         "for": "M10_174",
