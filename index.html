@@ -69,52 +69,54 @@
     <div class="col-md-3">
       <h2 class="text-left p-3 lead">今日のおすすめレシピ</h2>
       <a href="./recipe.html?recipeId=20300008" class="p-3">ヘルシーケーキすし</a>
-        <h2>レシピガチャ</h2>
-        
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" id="gacha-button">
-          単発ガチャ
-        </button>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">レシピガチャ結果</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div id="gacha-display">
-                </div>
+      <h2>レシピガチャ</h2>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"
+        id="gacha-button">
+        単発ガチャ
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">レシピガチャ結果</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="gacha-display">
               </div>
             </div>
           </div>
         </div>
+      </div>
 
 
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#title10" id="10gacha-button">
-          10連ガチャ
-        </button>
-        <!-- Modal -->
-        <div class="modal fade" id="title10" tabindex="-1" role="dialog" aria-labelledby="title10" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="title10">レシピガチャ10連結果</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div id="10gacha-display"></div>
-              </div>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#title10" id="10gacha-button">
+        10連ガチャ
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="title10" tabindex="-1" role="dialog" aria-labelledby="title10" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="title10">レシピガチャ10連結果</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="10gacha-display"></div>
             </div>
           </div>
         </div>
+      </div>
 
     </div>
-    <div class="col-md-9 p-0">
+    <div class="col-md-9 p-0" id="footer">
       <div class="container">
         <div class="py-3">
           <table id="grid-basic" class="table-auto w-full table-warning border shadow"
