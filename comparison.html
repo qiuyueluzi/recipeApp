@@ -9,144 +9,116 @@
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.css"></link>
         <link rel="stylesheet" type="text/css" href="./javascriptCss/style.css"></link>
     </head>
+
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ec955e;">
       <a class="navbar-brand" href="./index.html"><img src="./imgs/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <!-- li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li -->
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+            <ul class="navbar-nav mr-auto"></ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
-      
+    
     <body>
         <div class="row">
             <div class="col-4 offset-1">
                 <h1 id="recipeTitle" ></h1>
                 <div class="container">
-
-
-                            <table class ="table col-12 table_border_radius text-center">
-                                <tbody>
-                                    <tr >
-                                      <th scope="col">カロリー</th>
-                                      <th scope="col">塩分</th>
-                                      <th scope="col">人数</th>
-                                      <th scope="col">調理時間</th>
-                                    </tr>
-                                    <tr>
-                                      <td id="salt"></td>
-                                      <td id="energy"></td>
-                                      <td id="people"></td>
-                                      <td id="time"></td>
-                                    </tr>     
-                                  </tbody>
-                            </table>
-                            
-                           <details open>
-                            <summary>材料</summary>
-                            <table class="table col-12 table_border_radius zairyou">
+                    <table class ="table col-12 table_border_radius text-center">
+                        <tbody> 
+                            <tr>
+                                <th scope="col">カロリー</th>
+                                <th scope="col">塩分</th>
                                 
-                                    <tr>
-                                        <th scope="col">材料
-                                            <a id="people_zairyou"></a>
-                                        </th>
-                                        <th scope="col">分量</th>
-                                    </tr>
-
-                                <tbody id="ingredients"></tbody>
-                            </table>
-                        </details>
-
-
+                                <th scope="col">人数</th>
+                                <th scope="col">調理時間</th>
+                            </tr>
+                            <tr>
+                                <td id="salt"></td>
+                                <td id="energy"></td>
+                                <td id="people"></td>
+                                <td id="time"></td>
+                            </tr>     
+                        </tbody>
+                    </table>
+                    
+                    <details open>
+                        <summary>材料</summary>
+                        <table class="table col-12 table_border_radius zairyou">
+                            
+                            <tr>
+                                <th scope="col">材料
+                                    <a id="people_zairyou"></a>
+                                </th>
+                                <th scope="col">分量</th>
+                            </tr>
+                            
+                            <tbody id="ingredients"></tbody>
+                        </table>
+                    </details>
                 </div>
-                
             </div>
+
             <div class="col-4 offset-1">
                 <h1 id="recipeTitleC" ></h1>
-
-                <div class="container">
+                <div class="container"></div>
+                <table class="table col-12 text-center table_border_radius">
+                    <tbody>        
+                        <tr >
+                            <th scope="col">カロリー</th>
+                            <th scope="col">塩分</th>
+                            <th scope="col">人数</th>
+                            <th scope="col">調理時間</th>
+                        </tr>
+                        <tr>
+                            <td id="saltC"></td>
+                            <td id="energyC"></td>
+                            <td id="peopleC"></td>
+                            <td id="timeC"></td>
+                        </tr>     
+                    </tbody>
+                </table>
+                <details open>
+                    <summary>材料</summary>
+                    <table class="table col-12 table_border_radius zairyou">
+                        <tr>
+                            
+                            <th scope="col">材料
+                                <a id="people_zairyouC"></a>
+                            </th>            
+                            
+                            <th scope="col">分量</th>
+                        </tr>
                         
-
-                            <table class="table col-12 text-center table_border_radius">
-                                <tbody>
-                                    <tr >
-                                      <th scope="col">カロリー</th>
-                                      <th scope="col">塩分</th>
-                                      <th scope="col">人数</th>
-                                      <th scope="col">調理時間</th>
-                                    </tr>
-                                    <tr>
-                                      <td id="saltC"></td>
-                                      <td id="energyC"></td>
-                                      <td id="peopleC"></td>
-                                      <td id="timeC"></td>
-                                    </tr>     
-                                  </tbody>
-                            </table>
-                        
-                            <details open>
-                                <summary>材料</summary>
-                            <table class="table col-12 table_border_radius zairyou">
-                   
-                                    <tr>
-                                        <th scope="col">材料
-                                            <a id="people_zairyouC"></a>
-                                        </th>
-                                        
-
-                                        <th scope="col">分量</th>
-                                    </tr>
-    
-                                <tbody id="ingredientsC"></tbody>
-                            </table>
-                            </details>
-
-                    </div>
-                </div>
-                
+                        <tbody id="ingredientsC"></tbody>
+                    </table>
+                </details>
             </div>
-            <div class="row">
-                <div class="col-4 offset-1">
-                    <h2 class="box">手順</h2>
-                    <hr>
-                    <ol id="process">
-                    </ol>  
-                </div>
-                <div class="col-4 offset-1">
-                    <h2 class="box">手順</h2>
-                    <hr>
-                    <ol id="processC">
-                    </ol>  
-                </div>
-            </div>
-        </body>
-        </html>
+        </div>
         
+    </div>
+    <div class="row">
+        <div class="col-4 offset-1">
+            <h2 class="box">手順</h2>
+            <hr>
+            <ol id="process">
+            </ol>  
+        </div>
+        <div class="col-4 offset-1">
+            <h2 class="box">手順</h2>
+            <hr>
+            <ol id="processC">
+            </ol>  
+        </div>
+    </div>
+</body>
+</html>
+
+    
+    
         
