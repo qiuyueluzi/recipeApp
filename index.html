@@ -7,6 +7,7 @@
   <script src="https://unpkg.com/bootstrap@4.6.2/dist/js/bootstrap.js"></script>
   <script src="./javascriptCss/searchRecipe.js"></script>
   <script src="./javascriptCss/gacha.js"></script>
+  <script src="./javascriptCss/10gacha.js"></script>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.css">
   </link>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -70,12 +71,9 @@
       <a href="./recipe.html?recipeId=20300008" class="p-3">ヘルシーケーキすし</a>
         <h2>レシピガチャ</h2>
         
-      
-
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" id="gacha-button">
-          ガチャを引く
+          単発ガチャ
         </button>
-        
         <!-- Modal -->
         <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -89,6 +87,27 @@
               <div class="modal-body">
                 <div id="gacha-display">
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#title10" id="10gacha-button">
+          10連ガチャ
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="title10" tabindex="-1" role="dialog" aria-labelledby="title10" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="title10">レシピガチャ10連結果</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="10gacha-display"></div>
               </div>
             </div>
           </div>
