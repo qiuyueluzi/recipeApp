@@ -47,89 +47,106 @@
       
     <body>
         <div class="row">
-        <h1 id="recipeTitle" class="col-4 offset-2"></h1>
-        <h1 id="recipeTitleC" class="col-4"></h1>
-    </div>
-        <div class="container">
-            <div class="row">
-                <div class="row">
-                    <table class="table col-2 offset-2" height="200">
-                        <tbody>
-                            <tr>
-                                <td>カロリー</td>
-                                <td id="energy"></td>
-                            </tr>
-                            <tr>
-                                <td>塩分</td>
-                                <td id="salt"></td>
-                            </tr>
-                            <tr>
-                                <td>人数</td>
-                                <td id="people"></td>
-                            </tr>
-                            <tr>
-                                <td>調理時間</td>
-                                <td id="time"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table class="table col-2 offset-2" height="200">
-                        <tbody>
-                            <tr>
-                                <td>カロリー</td>
-                                <td id="energyC"></td>
-                            </tr>
-                            <tr>
-                                <td>塩分</td>
-                                <td id="saltC"></td>
-                            </tr>
-                            <tr>
-                                <td>人数</td>
-                                <td id="peopleC"></td>
-                            </tr>
-                            <tr>
-                                <td>調理時間</td>
-                                <td id="timeC"></td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="col-4 offset-1">
+                <h1 id="recipeTitle" ></h1>
+                <div class="container">
+
+
+                            <table class ="table col-12 table_border_radius text-center">
+                                <tbody>
+                                    <tr >
+                                      <th scope="col">カロリー</th>
+                                      <th scope="col">塩分</th>
+                                      <th scope="col">人数</th>
+                                      <th scope="col">調理時間</th>
+                                    </tr>
+                                    <tr>
+                                      <td id="salt"></td>
+                                      <td id="energy"></td>
+                                      <td id="people"></td>
+                                      <td id="time"></td>
+                                    </tr>     
+                                  </tbody>
+                            </table>
+                            
+                           <details open>
+                            <summary>材料</summary>
+                            <table class="table col-12 table_border_radius zairyou">
+                                
+                                    <tr>
+                                        <th scope="col">材料
+                                            <a id="people_zairyou"></a>
+                                        </th>
+                                        <th scope="col">分量</th>
+                                    </tr>
+
+                                <tbody id="ingredients"></tbody>
+                            </table>
+                        </details>
+
+
+                </div>
+                
+            </div>
+            <div class="col-4 offset-1">
+                <h1 id="recipeTitleC" ></h1>
+
+                <div class="container">
+                        
+
+                            <table class="table col-12 text-center table_border_radius">
+                                <tbody>
+                                    <tr >
+                                      <th scope="col">カロリー</th>
+                                      <th scope="col">塩分</th>
+                                      <th scope="col">人数</th>
+                                      <th scope="col">調理時間</th>
+                                    </tr>
+                                    <tr>
+                                      <td id="saltC"></td>
+                                      <td id="energyC"></td>
+                                      <td id="peopleC"></td>
+                                      <td id="timeC"></td>
+                                    </tr>     
+                                  </tbody>
+                            </table>
+                        
+                            <details open>
+                                <summary>材料</summary>
+                            <table class="table col-12 table_border_radius zairyou">
                    
-                    <table class="table col-5">
-                        <thead>
-                            <tr>
-                                <th scope="col">材料</th>
-                                <th scope="col">分量</th>
-                            </tr>
-                        </thead>
-                        <tbody id="ingredients"></tbody>
-                    </table>
-                  
-                 
-                    <table class="table col-5 offset-1">
-                        <thead>
-                            <tr>
-                                <th scope="col">材料</th>
-                                <th scope="col">分量</th>
-                            </tr>
-                        </thead>
-                        <tbody id="ingredientsC"></tbody>
-                    </table>
-                    
-                    <div class="col-5">
-                        <div>手順</div>
-                        <ol id="process">
-                        </ol>  
-                    </div>
-                    <div class="col-5 offset-1">
-                        <div>手順</div>
-                        <ol id="processC">
-                        </ol>  
+                                    <tr>
+                                        <th scope="col">材料
+                                            <a id="people_zairyouC"></a>
+                                        </th>
+                                        
+
+                                        <th scope="col">分量</th>
+                                    </tr>
+    
+                                <tbody id="ingredientsC"></tbody>
+                            </table>
+                            </details>
+
                     </div>
                 </div>
-        </div>
-        </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-4 offset-1">
+                    <h2 class="box">手順</h2>
+                    <hr>
+                    <ol id="process">
+                    </ol>  
+                </div>
+                <div class="col-4 offset-1">
+                    <h2 class="box">手順</h2>
+                    <hr>
+                    <ol id="processC">
+                    </ol>  
+                </div>
+            </div>
+        </body>
+        </html>
         
         
-        
-    </body>
-</html>
