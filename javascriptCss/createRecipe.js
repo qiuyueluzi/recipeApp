@@ -45,7 +45,7 @@ $(function(){
 			let timeDisplay = document.getElementById("time");
 			timeDisplay.textContent = status.time + "分";
 			
-			//console.log(orders)
+			
 			
 			for(let order of orders){
 				let row = document.createElement("li");
@@ -98,7 +98,7 @@ $(function(){
 			for(let i = 0; i < allStatus.length; i++){
 				let comparator = allStatus[i].name;
 				let distant = levenshteinDistance(title, comparator);
-				if(distant<10&&allStatus[i].id!=status.id)suggest.push([distant, allStatus[i].id]);
+				if(distant<100&&allStatus[i].id!=status.id)suggest.push([distant, allStatus[i].id]);
 			}
 			suggest.sort(function(a,b){
 				return a[0] - b[0];
@@ -130,8 +130,11 @@ $(function(){
 				}
 				return false;
 			}
-			
+			let rank = difficulty(id, allStatus);
+			let starDisplay = document.getElementById("star")
+			starDisplay.textContent = "難易度:" + "☆".repeat(rank);
 
+		
 		})
 		
 		
@@ -203,6 +206,28 @@ $(function(){
 	}
 	
 				
+	function difficulty(recipeID, allStatus){
+		let rank = 0;
+		let status = allStatus.filter( e => e.id === recipeID)[0]
+		let difficult = status.time / status.num_process * status.num_item*2;
+		if(difficult < 60){
+			rank = 1;
+		}
+		if(60 <= difficult && difficult < 110){
+			rank = 2;
+		}
+		if(110 <= difficult && difficult < 160){
+			rank = 3;
+		}
+		if(160 <= difficult && difficult < 210){
+			rank = 4;
+		}
+		if(210 <= difficult){
+			rank = 5;
+		}
+		return rank;
+
+	}
 				/*let allStatus = toArray('../data_file/all/recipes.csv');
 				let allIngredients = toArray('../data_file/all/ingredients.csv');
 				
