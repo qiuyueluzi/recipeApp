@@ -1,7 +1,7 @@
 $(function () {
     $.when(
         $.getJSON('./make_json/item_list.json'),
-        $.getJSON('./make_csv/detail.json')
+        $.getJSON('./make_json/detail.json')
     ).then((item_listJson, detail_listJson) => {
         let allItems = item_listJson;
         let allDetails = detail_listJson;

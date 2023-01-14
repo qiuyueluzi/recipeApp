@@ -3,16 +3,33 @@ $(function () {
         $.getJSON('./make_json/recipes.json')
     ).then((recipesJson) => {
         let allStatus = recipesJson;
-        let switchBtn = document.getElementsByTagName('button')[0];
 
+        /*let footer = document.createElement("footer");
+        footer.classList("box-asano active bg-lightgreen");
+        footer.style = "width: 35%;"
+
+        let table = document.createElement("table");
+        table.classList.add("table-auto", "w-full", "table-warning", "border", "shadow");
+        table.style = "width: auto; margin: auto;";
+        table.id = "index";
+
+        let tbody = document.createElement("tbody");
+        tbody.id = "index";
+
+        table.appendChild(tbody);
+        footer.appendChild(footer);*/
+
+        let disp = document.getElementById("index");
         let cnt = 0;
         let filterStatus = [];
         $("#submit").click(function () {
+            if (filterStatus != null) {
+                console.log(filterStatus);
+                document.querySelector("#index").innerHTML = '';
+            }
             let request = $("#search").val();
-            //console.log(request.length)
             for (let status of allStatus) {
                 if (cnt <= 30949) {
-                    //console.log(status.name);
                     if (request.length > 4) {
                         let distant = levenshteinDistance(request, status.name);
                         if (distant < request.length / 2) {
@@ -25,11 +42,9 @@ $(function () {
                     }
                     cnt++;
                 }
-                //}
             }
-            //console.log(filterStatus);
 
-            index(filterStatus);
+            disp = index(filterStatus);
         });
         $("#search").keypress(function (e) {
             if (e.which == 13) {
@@ -37,25 +52,8 @@ $(function () {
             }
         })
 
-        function indexFooter() {
-            let footer = document.createElement("footer");
-            footer.classList("box-asano active bg-lightgreen");
-            footer.style = "width: 35%;"
-
-            let table = document.createElement("table");
-            table.classList.add("table-auto", "w-full", "table-warning", "border", "shadow");
-            table.style = "width: auto; margin: auto;";
-            table.id = "index";
-
-            let tbody = document.createElement("tbody");
-            tbody = "index";
-
-            table.appendChild(tbody);
-            footer.appendChild(footer);
-
-            document.getElementById("footer").appendChild(footer);
-        }
         function index(Status) {
+            let list = [];
             for (let i = 0; i < Object.keys(Status).length; i++) {
                 let tr = document.createElement("tr");
                 tr.classList.add("border");
@@ -96,8 +94,9 @@ $(function () {
                 td.appendChild(span_time);
                 tr.appendChild(td_name);
                 tr.appendChild(td);
-                document.getElementById("index").appendChild(tr);
+                list[i] = document.getElementById("index").appendChild(tr);
             }
+            return list;
         }
     });
     //文字列の類似度チェック
