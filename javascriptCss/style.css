@@ -46,9 +46,9 @@ body {
 }
 
 footer {
-    width: 200px;
+    width: 250px;
     position: fixed;
-    right: 0px;
+    right: 20px;
     top: 200px;
 }
 
@@ -223,4 +223,8 @@ hr {
     border-left: #ec955e 5px solid;
     /*左の境界線の指定*/
     padding: 10px;
+}
+
+.nita{
+    list-style: none;
 }
