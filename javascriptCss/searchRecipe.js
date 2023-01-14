@@ -4,19 +4,6 @@ $(function () {
     ).then((recipesJson) => {
         let allStatus = recipesJson;
         let switchBtn = document.getElementsByTagName('button')[0];
-        let footer = document.getElementById('footer');
-
-        let changeElement = (el) => {
-            if (el.style.display == '') {
-                el.style.display = 'none';
-            } else {
-                el.style.display = '';
-            }
-        }
-        switchBtn.addEventListener('click', () => {
-            changeElement(box);
-        }, false)
-
 
         let cnt = 0;
         let filterStatus = [];
@@ -52,7 +39,21 @@ $(function () {
 
         function indexFooter() {
             let footer = document.createElement("footer");
-            footer.classList("box active bg-lightgreen");
+            footer.classList("box-asano active bg-lightgreen");
+            footer.style = "width: 35%;"
+
+            let table = document.createElement("table");
+            table.classList.add("table-auto", "w-full", "table-warning", "border", "shadow");
+            table.style = "width: auto; margin: auto;";
+            table.id = "index";
+
+            let tbody = document.createElement("tbody");
+            tbody = "index";
+
+            table.appendChild(tbody);
+            footer.appendChild(footer);
+
+            document.getElementById("footer").appendChild(footer);
         }
         function index(Status) {
             for (let i = 0; i < Object.keys(Status).length; i++) {
