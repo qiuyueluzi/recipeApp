@@ -59,7 +59,7 @@ $(function () {
                 span_num.textContent = filterStatus[i].num_people;
 
                 let i_time = document.createElement("i");
-                i_time.classList.add("fas", "fa-clock", "ml-2", "mr-1", "mt-2", "lead", "text-primary");
+                i_time.classList.add("far", "fa-clock", "ml-2", "mr-1", "mt-2", "lead");
 
                 let span_time = document.createElement("span");
                 span_time.classList.add("text-right", "mr-2");

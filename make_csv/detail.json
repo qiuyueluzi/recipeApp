@@ -1,0 +1,1102 @@
+[
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M1",
+        "tag": "label",
+        "text": "肉類 すべて"
+    },
+    {
+        "for": "M1_1",
+        "tag": "label",
+        "text": "牛肉"
+    },
+    {
+        "for": "M1_2",
+        "tag": "label",
+        "text": "豚肉"
+    },
+    {
+        "for": "M1_3",
+        "tag": "label",
+        "text": "鶏肉"
+    },
+    {
+        "for": "M1_4",
+        "tag": "label",
+        "text": "鴨肉"
+    },
+    {
+        "for": "M1_6",
+        "tag": "label",
+        "text": "ひき肉"
+    },
+    {
+        "for": "M1_195",
+        "tag": "label",
+        "text": "ラム"
+    },
+    {
+        "for": "M1_200",
+        "tag": "label",
+        "text": "馬肉"
+    },
+    {
+        "for": "M1_216",
+        "tag": "label",
+        "text": "羊肉"
+    },
+    {
+        "for": "M1_217",
+        "tag": "label",
+        "text": "牛ひき肉"
+    },
+    {
+        "for": "M1_218",
+        "tag": "label",
+        "text": "豚ひき肉"
+    },
+    {
+        "for": "M1_219",
+        "tag": "label",
+        "text": "鶏ひき肉"
+    },
+    {
+        "for": "M1_220",
+        "tag": "label",
+        "text": "合いびき肉"
+    },
+    {
+        "for": "M1_8",
+        "tag": "label",
+        "text": "ソーセージ"
+    },
+    {
+        "for": "M1_9",
+        "tag": "label",
+        "text": "ベーコン"
+    },
+    {
+        "for": "M1_10",
+        "tag": "label",
+        "text": "ハム"
+    },
+    {
+        "for": "M1_11",
+        "tag": "label",
+        "text": "コンビーフ缶"
+    },
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M2",
+        "tag": "label",
+        "text": "魚介類 すべて"
+    },
+    {
+        "for": "M2_36",
+        "tag": "label",
+        "text": "あさり"
+    },
+    {
+        "for": "M2_13",
+        "tag": "label",
+        "text": "あじ"
+    },
+    {
+        "for": "M2_14",
+        "tag": "label",
+        "text": "アンチョビー"
+    },
+    {
+        "for": "M2_42",
+        "tag": "label",
+        "text": "いか"
+    },
+    {
+        "for": "M2_47",
+        "tag": "label",
+        "text": "いくら"
+    },
+    {
+        "for": "M2_15",
+        "tag": "label",
+        "text": "いわし"
+    },
+    {
+        "for": "M2_16",
+        "tag": "label",
+        "text": "うなぎ"
+    },
+    {
+        "for": "M2_43",
+        "tag": "label",
+        "text": "うに"
+    },
+    {
+        "for": "M2_44",
+        "tag": "label",
+        "text": "えび"
+    },
+    {
+        "for": "M2_37",
+        "tag": "label",
+        "text": "かき"
+    },
+    {
+        "for": "M2_18",
+        "tag": "label",
+        "text": "かつお"
+    },
+    {
+        "for": "M2_45",
+        "tag": "label",
+        "text": "かに"
+    },
+    {
+        "for": "M2_53",
+        "tag": "label",
+        "text": "かまぼこ"
+    },
+    {
+        "for": "M2_19",
+        "tag": "label",
+        "text": "かれい"
+    },
+    {
+        "for": "M2_20",
+        "tag": "label",
+        "text": "きす"
+    },
+    {
+        "for": "M2_22",
+        "tag": "label",
+        "text": "きんめ鯛"
+    },
+    {
+        "for": "M2_21",
+        "tag": "label",
+        "text": "銀だら"
+    },
+    {
+        "for": "M2_48",
+        "tag": "label",
+        "text": "桜えび"
+    },
+    {
+        "for": "M2_23",
+        "tag": "label",
+        "text": "鮭"
+    },
+    {
+        "for": "M2_24",
+        "tag": "label",
+        "text": "さば"
+    },
+    {
+        "for": "M2_25",
+        "tag": "label",
+        "text": "さわら"
+    },
+    {
+        "for": "M2_26",
+        "tag": "label",
+        "text": "さんま"
+    },
+    {
+        "for": "M2_38",
+        "tag": "label",
+        "text": "しじみ"
+    },
+    {
+        "for": "M2_51",
+        "tag": "label",
+        "text": "しらす干し・ちりめんじゃこ"
+    },
+    {
+        "for": "M2_27",
+        "tag": "label",
+        "text": "白身魚"
+    },
+    {
+        "for": "M2_28",
+        "tag": "label",
+        "text": "鯛"
+    },
+    {
+        "for": "M2_46",
+        "tag": "label",
+        "text": "たこ"
+    },
+    {
+        "for": "M2_29",
+        "tag": "label",
+        "text": "たちうお"
+    },
+    {
+        "for": "M2_30",
+        "tag": "label",
+        "text": "たら"
+    },
+    {
+        "for": "M2_49",
+        "tag": "label",
+        "text": "たらこ・明太子"
+    },
+    {
+        "for": "M2_31",
+        "tag": "label",
+        "text": "ツナ缶"
+    },
+    {
+        "for": "M2_39",
+        "tag": "label",
+        "text": "はまぐり"
+    },
+    {
+        "for": "M2_54",
+        "tag": "label",
+        "text": "はんぺん"
+    },
+    {
+        "for": "M2_32",
+        "tag": "label",
+        "text": "ぶり"
+    },
+    {
+        "for": "M2_40",
+        "tag": "label",
+        "text": "帆立貝"
+    },
+    {
+        "for": "M2_33",
+        "tag": "label",
+        "text": "まぐろ"
+    },
+    {
+        "for": "M2_17",
+        "tag": "label",
+        "text": "めかじき"
+    },
+    {
+        "for": "M2_34",
+        "tag": "label",
+        "text": "わかさぎ"
+    },
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M3",
+        "tag": "label",
+        "text": "海藻類 すべて"
+    },
+    {
+        "for": "M3_214",
+        "tag": "label",
+        "text": "あおさ"
+    },
+    {
+        "for": "M3_56",
+        "tag": "label",
+        "text": "昆布"
+    },
+    {
+        "for": "M3_57",
+        "tag": "label",
+        "text": "のり"
+    },
+    {
+        "for": "M3_58",
+        "tag": "label",
+        "text": "ひじき"
+    },
+    {
+        "for": "M3_59",
+        "tag": "label",
+        "text": "わかめ"
+    },
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M4",
+        "tag": "label",
+        "text": "野菜類 すべて"
+    },
+    {
+        "for": "M4_61",
+        "tag": "label",
+        "text": "青じそ"
+    },
+    {
+        "for": "M4_62",
+        "tag": "label",
+        "text": "青ねぎ"
+    },
+    {
+        "for": "M4_66",
+        "tag": "label",
+        "text": "アスパラガス（グリーン）"
+    },
+    {
+        "for": "M4_223",
+        "tag": "label",
+        "text": "いんげん豆"
+    },
+    {
+        "for": "M4_89",
+        "tag": "label",
+        "text": "うど"
+    },
+    {
+        "for": "M4_124",
+        "tag": "label",
+        "text": "梅干し"
+    },
+    {
+        "for": "M4_210",
+        "tag": "label",
+        "text": "梅干し"
+    },
+    {
+        "for": "M4_116",
+        "tag": "label",
+        "text": "枝豆"
+    },
+    {
+        "for": "M4_222",
+        "tag": "label",
+        "text": "えんどう豆"
+    },
+    {
+        "for": "M4_213",
+        "tag": "label",
+        "text": "おかひじき"
+    },
+    {
+        "for": "M4_63",
+        "tag": "label",
+        "text": "オクラ"
+    },
+    {
+        "for": "M4_64",
+        "tag": "label",
+        "text": "貝割れ菜"
+    },
+    {
+        "for": "M4_90",
+        "tag": "label",
+        "text": "かぶ"
+    },
+    {
+        "for": "M4_65",
+        "tag": "label",
+        "text": "かぼちゃ"
+    },
+    {
+        "for": "M4_91",
+        "tag": "label",
+        "text": "カリフラワー"
+    },
+    {
+        "for": "M4_201",
+        "tag": "label",
+        "text": "かんぴょう"
+    },
+    {
+        "for": "M4_92",
+        "tag": "label",
+        "text": "木の芽"
+    },
+    {
+        "for": "M4_94",
+        "tag": "label",
+        "text": "キャベツ"
+    },
+    {
+        "for": "M4_95",
+        "tag": "label",
+        "text": "きゅうり"
+    },
+    {
+        "for": "M4_93",
+        "tag": "label",
+        "text": "切り干し大根"
+    },
+    {
+        "for": "M4_196",
+        "tag": "label",
+        "text": "空心菜"
+    },
+    {
+        "for": "M4_67",
+        "tag": "label",
+        "text": "クレソン"
+    },
+    {
+        "for": "M4_117",
+        "tag": "label",
+        "text": "グリーンピース"
+    },
+    {
+        "for": "M4_68",
+        "tag": "label",
+        "text": "小松菜"
+    },
+    {
+        "for": "M4_106",
+        "tag": "label",
+        "text": "コーン紙パック"
+    },
+    {
+        "for": "M4_96",
+        "tag": "label",
+        "text": "ごぼう"
+    },
+    {
+        "for": "M4_118",
+        "tag": "label",
+        "text": "さやいんげん"
+    },
+    {
+        "for": "M4_119",
+        "tag": "label",
+        "text": "さやえんどう"
+    },
+    {
+        "for": "M4_69",
+        "tag": "label",
+        "text": "サラダ菜"
+    },
+    {
+        "for": "M4_97",
+        "tag": "label",
+        "text": "山菜類"
+    },
+    {
+        "for": "M4_98",
+        "tag": "label",
+        "text": "しし唐辛子"
+    },
+    {
+        "for": "M4_70",
+        "tag": "label",
+        "text": "春菊"
+    },
+    {
+        "for": "M4_120",
+        "tag": "label",
+        "text": "スナップえんどう"
+    },
+    {
+        "for": "M4_99",
+        "tag": "label",
+        "text": "ズッキーニ"
+    },
+    {
+        "for": "M4_71",
+        "tag": "label",
+        "text": "せり"
+    },
+    {
+        "for": "M4_100",
+        "tag": "label",
+        "text": "セロリ"
+    },
+    {
+        "for": "M4_121",
+        "tag": "label",
+        "text": "そら豆"
+    },
+    {
+        "for": "M4_72",
+        "tag": "label",
+        "text": "タアツァイ"
+    },
+    {
+        "for": "M4_126",
+        "tag": "label",
+        "text": "高菜漬け"
+    },
+    {
+        "for": "M4_102",
+        "tag": "label",
+        "text": "たけのこ"
+    },
+    {
+        "for": "M4_103",
+        "tag": "label",
+        "text": "玉ねぎ"
+    },
+    {
+        "for": "M4_101",
+        "tag": "label",
+        "text": "大根"
+    },
+    {
+        "for": "M4_73",
+        "tag": "label",
+        "text": "大根の葉"
+    },
+    {
+        "for": "M4_194",
+        "tag": "label",
+        "text": "チコリ"
+    },
+    {
+        "for": "M4_74",
+        "tag": "label",
+        "text": "チンゲン菜"
+    },
+    {
+        "for": "M4_209",
+        "tag": "label",
+        "text": "つるむらさき"
+    },
+    {
+        "for": "M4_104",
+        "tag": "label",
+        "text": "とうがん"
+    },
+    {
+        "for": "M4_212",
+        "tag": "label",
+        "text": "豆苗"
+    },
+    {
+        "for": "M4_105",
+        "tag": "label",
+        "text": "とうもろこし"
+    },
+    {
+        "for": "M4_76",
+        "tag": "label",
+        "text": "トマト缶"
+    },
+    {
+        "for": "M4_77",
+        "tag": "label",
+        "text": "トマトジュース"
+    },
+    {
+        "for": "M4_75",
+        "tag": "label",
+        "text": "トマト・プチトマト"
+    },
+    {
+        "for": "M4_107",
+        "tag": "label",
+        "text": "なす"
+    },
+    {
+        "for": "M4_78",
+        "tag": "label",
+        "text": "菜の花"
+    },
+    {
+        "for": "M4_108",
+        "tag": "label",
+        "text": "にがうり（ゴーヤ）"
+    },
+    {
+        "for": "M4_79",
+        "tag": "label",
+        "text": "にら・黄にら"
+    },
+    {
+        "for": "M4_80",
+        "tag": "label",
+        "text": "にんじん"
+    },
+    {
+        "for": "M4_109",
+        "tag": "label",
+        "text": "ねぎ"
+    },
+    {
+        "for": "M4_110",
+        "tag": "label",
+        "text": "白菜"
+    },
+    {
+        "for": "M4_125",
+        "tag": "label",
+        "text": "白菜キムチ"
+    },
+    {
+        "for": "M4_211",
+        "tag": "label",
+        "text": "パクチー"
+    },
+    {
+        "for": "M4_81",
+        "tag": "label",
+        "text": "パセリ"
+    },
+    {
+        "for": "M4_198",
+        "tag": "label",
+        "text": "パプリカ"
+    },
+    {
+        "for": "M4_82",
+        "tag": "label",
+        "text": "ピーマン"
+    },
+    {
+        "for": "M4_111",
+        "tag": "label",
+        "text": "ふき"
+    },
+    {
+        "for": "M4_83",
+        "tag": "label",
+        "text": "ブロッコリー"
+    },
+    {
+        "for": "M4_84",
+        "tag": "label",
+        "text": "ほうれん草"
+    },
+    {
+        "for": "M4_85",
+        "tag": "label",
+        "text": "水菜"
+    },
+    {
+        "for": "M4_122",
+        "tag": "label",
+        "text": "ミックスベジタブル（冷凍）"
+    },
+    {
+        "for": "M4_86",
+        "tag": "label",
+        "text": "三つ葉"
+    },
+    {
+        "for": "M4_215",
+        "tag": "label",
+        "text": "みょうが"
+    },
+    {
+        "for": "M4_112",
+        "tag": "label",
+        "text": "もやし"
+    },
+    {
+        "for": "M4_199",
+        "tag": "label",
+        "text": "モロヘイヤ"
+    },
+    {
+        "for": "M4_113",
+        "tag": "label",
+        "text": "ラディッシュ"
+    },
+    {
+        "for": "M4_87",
+        "tag": "label",
+        "text": "ルッコラ"
+    },
+    {
+        "for": "M4_114",
+        "tag": "label",
+        "text": "レタス類"
+    },
+    {
+        "for": "M4_115",
+        "tag": "label",
+        "text": "れんこん"
+    },
+    {
+        "for": "M4_88",
+        "tag": "label",
+        "text": "わけぎ"
+    },
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M5",
+        "tag": "label",
+        "text": "いも類 すべて"
+    },
+    {
+        "for": "M5_133",
+        "tag": "label",
+        "text": "こんにゃく類"
+    },
+    {
+        "for": "M5_128",
+        "tag": "label",
+        "text": "さつまいも"
+    },
+    {
+        "for": "M5_129",
+        "tag": "label",
+        "text": "里芋"
+    },
+    {
+        "for": "M5_130",
+        "tag": "label",
+        "text": "じゃがいも"
+    },
+    {
+        "for": "M5_131",
+        "tag": "label",
+        "text": "長芋・山芋"
+    },
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M6",
+        "tag": "label",
+        "text": "きのこ類 すべて"
+    },
+    {
+        "for": "M6_134",
+        "tag": "label",
+        "text": "えのきたけ"
+    },
+    {
+        "for": "M6_135",
+        "tag": "label",
+        "text": "生しいたけ"
+    },
+    {
+        "for": "M6_136",
+        "tag": "label",
+        "text": "干ししいたけ"
+    },
+    {
+        "for": "M6_137",
+        "tag": "label",
+        "text": "しめじ"
+    },
+    {
+        "for": "M6_138",
+        "tag": "label",
+        "text": "なめこ"
+    },
+    {
+        "for": "M6_139",
+        "tag": "label",
+        "text": "まいたけ"
+    },
+    {
+        "for": "M6_140",
+        "tag": "label",
+        "text": "マッシュルーム"
+    },
+    {
+        "for": "M6_141",
+        "tag": "label",
+        "text": "エリンギ"
+    },
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M7",
+        "tag": "label",
+        "text": "卵・乳製品 すべて"
+    },
+    {
+        "for": "M7_144",
+        "tag": "label",
+        "text": "鶏卵"
+    },
+    {
+        "for": "M7_145",
+        "tag": "label",
+        "text": "うずら卵"
+    },
+    {
+        "for": "M7_147",
+        "tag": "label",
+        "text": "アイスクリーム"
+    },
+    {
+        "for": "M7_148",
+        "tag": "label",
+        "text": "牛乳"
+    },
+    {
+        "for": "M7_149",
+        "tag": "label",
+        "text": "生クリーム"
+    },
+    {
+        "for": "M7_150",
+        "tag": "label",
+        "text": "ヨーグルト"
+    },
+    {
+        "for": "M7_151",
+        "tag": "label",
+        "text": "チーズ"
+    },
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M8",
+        "tag": "label",
+        "text": "豆腐・豆類 すべて"
+    },
+    {
+        "for": "M8_207",
+        "tag": "label",
+        "text": "小豆・ささげ"
+    },
+    {
+        "for": "M8_155",
+        "tag": "label",
+        "text": "厚揚げ"
+    },
+    {
+        "for": "M8_156",
+        "tag": "label",
+        "text": "油揚げ"
+    },
+    {
+        "for": "M8_157",
+        "tag": "label",
+        "text": "おから"
+    },
+    {
+        "for": "M8_158",
+        "tag": "label",
+        "text": "高野豆腐"
+    },
+    {
+        "for": "M8_153",
+        "tag": "label",
+        "text": "大豆"
+    },
+    {
+        "for": "M8_247",
+        "tag": "label",
+        "text": "大豆麺"
+    },
+    {
+        "for": "M8_163",
+        "tag": "label",
+        "text": "豆乳・豆乳飲料"
+    },
+    {
+        "for": "M8_159",
+        "tag": "label",
+        "text": "豆腐"
+    },
+    {
+        "for": "M8_160",
+        "tag": "label",
+        "text": "納豆"
+    },
+    {
+        "for": "M8_161",
+        "tag": "label",
+        "text": "春雨"
+    },
+    {
+        "for": "M8_162",
+        "tag": "label",
+        "text": "湯葉"
+    },
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M9",
+        "tag": "label",
+        "text": "穀類 すべて"
+    },
+    {
+        "for": "M9_204",
+        "tag": "label",
+        "text": "小麦粉"
+    },
+    {
+        "for": "M9_164",
+        "tag": "label",
+        "text": "米"
+    },
+    {
+        "for": "M9_165",
+        "tag": "label",
+        "text": "パン"
+    },
+    {
+        "for": "M9_202",
+        "tag": "label",
+        "text": "麩"
+    },
+    {
+        "for": "M9_206",
+        "tag": "label",
+        "text": "餅"
+    },
+    {
+        "for": "M9_167",
+        "tag": "label",
+        "text": "うどん"
+    },
+    {
+        "for": "M9_172",
+        "tag": "label",
+        "text": "ギョウザなどの皮"
+    },
+    {
+        "for": "M9_170",
+        "tag": "label",
+        "text": "スパゲッティ・パスタ"
+    },
+    {
+        "for": "M9_169",
+        "tag": "label",
+        "text": "そうめん・ひやむぎ"
+    },
+    {
+        "for": "M9_168",
+        "tag": "label",
+        "text": "そば"
+    },
+    {
+        "for": "M9_171",
+        "tag": "label",
+        "text": "中華麺・ビーフン"
+    },
+    {
+        "for": "M9_224",
+        "tag": "label",
+        "text": "雑穀"
+    },
+    {
+        "children": [
+            {
+                "tag": "br"
+            }
+        ],
+        "data-type": "all",
+        "for": "M10",
+        "tag": "label",
+        "text": "種実・果実類 すべて"
+    },
+    {
+        "for": "M10_174",
+        "tag": "label",
+        "text": "アボカド"
+    },
+    {
+        "for": "M10_175",
+        "tag": "label",
+        "text": "いちご"
+    },
+    {
+        "for": "M10_176",
+        "tag": "label",
+        "text": "オレンジ"
+    },
+    {
+        "for": "M10_177",
+        "tag": "label",
+        "text": "キウイフルーツ"
+    },
+    {
+        "for": "M10_178",
+        "tag": "label",
+        "text": "グレープフルーツ"
+    },
+    {
+        "for": "M10_184",
+        "tag": "label",
+        "text": "ドライフルーツ"
+    },
+    {
+        "for": "M10_179",
+        "tag": "label",
+        "text": "バナナ"
+    },
+    {
+        "for": "M10_181",
+        "tag": "label",
+        "text": "パイナップル缶"
+    },
+    {
+        "for": "M10_183",
+        "tag": "label",
+        "text": "フルーツジュース"
+    },
+    {
+        "for": "M10_221",
+        "tag": "label",
+        "text": "みかん"
+    },
+    {
+        "for": "M10_180",
+        "tag": "label",
+        "text": "りんご"
+    },
+    {
+        "for": "M10_203",
+        "tag": "label",
+        "text": "レモン"
+    },
+    {
+        "for": "M10_186",
+        "tag": "label",
+        "text": "オリーブ"
+    },
+    {
+        "for": "M10_187",
+        "tag": "label",
+        "text": "くり"
+    },
+    {
+        "for": "M10_205",
+        "tag": "label",
+        "text": "くるみ"
+    },
+    {
+        "for": "M10_188",
+        "tag": "label",
+        "text": "ごま"
+    },
+    {
+        "for": "M10_189",
+        "tag": "label",
+        "text": "ナッツ・アーモンド"
+    }
+]

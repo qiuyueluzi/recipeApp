@@ -43,8 +43,8 @@
             </li -->
     </ul>
     <form class="form-inline my-2 my-lg-0" onsubmit="return false;">
-      <a role="button" class="btn btn-outline-light font-weight-bold my-2 my-sm-0 mr-2" href="itemsearch.html">
-        詳細検索へ
+      <a role="button" class="btn btn-outline-light font-weight-bold my-2 my-sm-0 mr-2" href="index.html">
+        クリア
       </a>
       <input class="form-control mr-sm-2" type="text" id="search" placeholder="キーワードを入力" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="submit" value="検索">Search</button>
@@ -53,6 +53,16 @@
 </nav>
 
 <body>
+  <div class="row">
+    <div class="d-flex" style="margin: auto;">
+      <div class="h1 text-center m-2">あなたの自炊をもっと楽しく</div>
+      <div>
+        <a role="button" class="btn btn-outline-orange btn-lg font-weight-bold m-2" href="itemsearch.html">
+          詳細検索へ
+        </a>
+      </div>
+    </div>
+  </div>
   <div class="row" style='height: 92vh;'>
     <div class="col-md-3 p-0">
       <h2 class="text-left p-3 lead">今日のおすすめレシピ</h2>
@@ -60,9 +70,8 @@
     </div>
     <div class="col-md-9 p-0">
       <div class="container">
-        <h1 class="text-center display-4">あなたの自炊をもっと楽しく</h1>
         <div class="py-3">
-          <table id="grid-basic" class="table-auto w-full table-striped table-warning border shadow"
+          <table id="grid-basic" class="table-auto w-full table-warning border shadow"
             style="width: auto; margin: auto;">
             <tbody id="index">
             </tbody>
