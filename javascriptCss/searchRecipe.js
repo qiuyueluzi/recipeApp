@@ -4,29 +4,30 @@ $(function () {
     ).then((recipesJson) => {
         let allStatus = recipesJson;
 
-        let disp = document.getElementById("index");
-        let cnt = 0;
-        let filterStatus = [];
-
         document.getElementById("footer").style.display = "none";
 
         $("#submit").click(function () {
+            /*console.log(filterStatus.length);
+            if (filterStatus.length != 0) {
+                //document.querySelector("#index").innerHTML = '';
+                filterStatus.length = 0;
+            }*/
+            let filterStatus = [];
+            let disp = document.getElementById("index");
+            let cnt = 0;
             let footer = document.getElementById("footer");
-            if (footer.style.display == "block") {
-                footer.style.display = "none";
-            } else {
+            if (footer.style.display == "none") {
                 footer.style.display = "block";
-            }
-            if (filterStatus != null) {
-                console.log(filterStatus);
+            } else {
                 document.querySelector("#index").innerHTML = '';
             }
             let request = $("#search").val();
             for (let status of allStatus) {
                 if (cnt <= 30949) {
-                    if (request.length > 4) {
+                    if (request.length > 3) {
                         let distant = levenshteinDistance(request, status.name);
                         if (distant < request.length / 2) {
+                            console.log(distant);
                             filterStatus.push(status);
                         }
                     } else {
@@ -60,25 +61,25 @@ $(function () {
 
                 let a = document.createElement("a");
                 a.classList.add("widelink", "text-pink");
-                a.href = "./recipe.html?recipeId=" + filterStatus[i].id;
+                a.href = "./recipe.html?recipeId=" + Status[i].id;
 
                 let i_num = document.createElement("i");
                 i_num.classList.add("fas", "fa-user-friends", "mr-2", "text-primary");
 
                 let span_num = document.createElement("span");
                 span_num.classList.add("text-left");
-                span_num.textContent = filterStatus[i].num_people;
+                span_num.textContent = Status[i].num_people;
 
                 let i_time = document.createElement("i");
                 i_time.classList.add("far", "fa-clock", "ml-2", "mr-1", "mt-2", "lead");
 
                 let span_time = document.createElement("span");
                 span_time.classList.add("text-right", "mr-2");
-                span_time.textContent = filterStatus[i].time + " min";
+                span_time.textContent = Status[i].time + " min";
 
                 let h5 = document.createElement("h5");
                 h5.classList.add("font-weight-bold");
-                h5.textContent = filterStatus[i].name;
+                h5.textContent = Status[i].name;
 
                 a.appendChild(h5);
                 td.appendChild(i_num);

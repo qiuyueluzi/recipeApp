@@ -62,10 +62,10 @@ $(function () {
             let resultID = [];
             let checks = document.getElementsByClassName('check');
             let footer = document.getElementById("footer");
-            if (footer.style.display == "block") {
-                footer.style.display = "none";
-            } else {
+            if (footer.style.display == "none") {
                 footer.style.display = "block";
+            } else {
+                document.querySelector("#index").innerHTML = '';
             }
             for (i = 0; i < checks.length; i++) {
                 if (checks[i].checked === true) {
