@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>recipe</title>
-      <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.js"></script>
-      <script src="https://unpkg.com/bootstrap@4.6.2/dist/js/bootstrap.js"></script>
-      <script src="https://unpkg.com/jquery-csv@1.0.21/src/jquery.csv.min.js"></script>
-      <script src="./javascriptCss/createRecipe.js"></script>
-      <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.css"></link>
-      <link rel="stylesheet" type="text/css" href="./javascriptCss/style.css"></link>
-    </head>
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ec955e;">
-      <a class="navbar-brand" href="./index.html"><img src="./imgs/logo.png"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">  
-        <ul class="navbar-nav mr-auto"></ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-    
-    <body>
+<head>
+  <title>recipe</title>
+  <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.js"></script>
+  <script src="https://unpkg.com/bootstrap@4.6.2/dist/js/bootstrap.js"></script>
+  <script src="https://unpkg.com/jquery-csv@1.0.21/src/jquery.csv.min.js"></script>
+  <script src="./javascriptCss/createRecipe.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.css">
+  </link>
+  <link rel="stylesheet" type="text/css" href="./javascriptCss/style.css">
+  </link>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ec955e;">
+  <a class="navbar-brand" href="./index.html"><img src="./imgs/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto"></ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<body>
+  <div class="row" style='height: 92vh; width: auto;'>
+    <div class="col-md-8 p-0">
       <h1 id="recipeTitle" class="text-center"></h1>
       <h3 id="star" class="text-center"></h3>
       <br>
       <table class="table col-7 offset-2 text-center table_border_radius">
         <tbody>
-          <tr >
+          <tr>
             <th scope="col">カロリー</th>
             <th scope="col">塩分</th>
             <th scope="col">人数</th>
@@ -41,43 +47,46 @@
             <td id="energy"></td>
             <td id="people"></td>
             <td id="time"></td>
-          </tr>     
+          </tr>
         </tbody>
       </table>
-      
+
       <br>
       <br>
       <div class="container-fluid">
-        <div class="row">
-          <table class="table col-4 offset-1 table_border_radius zairyou">
-            <tr>
-              <th scope="col">材料
-                <a id="people_zairyou"></a>
-              </th>
-              <th scope="col">分量</th>
-            </tr>
-            <tbody id="ingredients"></tbody>
-          </table>
-          
-          <div class="col-4 offset-1">
-            <h2 style="margin-left:5px"class="box">手順</h2>
+        <div class="row" style="width: auto;">
+          <div class="col-md-5 p-0">
+            <table class="table offset-1 table_border_radius zairyou" style="width: auto; margin-right: 5em;"
+              align="right">
+              <tr>
+                <th scope="col">材料
+                  <a id="people_zairyou"></a>
+                </th>
+                <th scope="col">分量</th>
+              </tr>
+              <tbody id="ingredients"></tbody>
+            </table>
+          </div>
+          <div class="col-md-6 offset-1 p-0" style="text-align: left;">
+            <h2 style="margin-left: 5px;" class="box">手順</h2>
             <hr>
             <ol id="process">
             </ol>
           </div>
         </div>
       </div>
-        
-      <footer>
-        <div>
-          <br>
-          <div>似たレシピ</div>
-          <li id="proposal" class="nita"></li>
-        </div>
-      </footer> 
-    </body>
-</html>
-    
-    
+    </div>
+    <div class="col-md-4 p-0">
+      <footer style="width: 30%;">
+        <div class="h3 text-center">似たレシピ</div>
+        <!--li id="proposal" class="nita"></li-->
+        <table id="grid-basic" class="table-auto w-full table-warning border shadow" style="margin: auto;">
+          <tbody id="proposal">
+          </tbody>
+        </table>
+      </footer>
+    </div>
+  </div>
+</body>
 
-            
+</html>
