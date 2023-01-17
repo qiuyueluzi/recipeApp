@@ -27,7 +27,7 @@ body {
 .box-asano {
     width: auto;
     /* 横幅を200pxに指定 */
-    height: 70%;
+    height: 73%;
     /* 横幅を200pxに指定 */
     border: 1px solid #000;
     /* わかりやすくボーダーを引く */
@@ -97,6 +97,9 @@ input[type="radio"] {
     display: none;
 }
 
+.bg-lightorange {
+    background-color: #ffe292 !important;
+}
 
 .bg-lightgreen {
     background-color: #d4f4d3 !important;
@@ -225,6 +228,6 @@ hr {
     padding: 10px;
 }
 
-.nita{
+.nita {
     list-style: none;
 }
