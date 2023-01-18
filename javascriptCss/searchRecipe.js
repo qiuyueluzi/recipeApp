@@ -15,21 +15,24 @@ $(function () {
             let filterStatus = [];
             let disp = document.getElementById("index");
             let alert = document.getElementById("alert");
+            let calSelect = document.getElementById("cal");
             let cnt = 0;
             let footer = document.getElementById("footer");
+
             if (footer.style.display == "none") {
                 footer.style.display = "block";
             } else {
                 document.querySelector("#index").innerHTML = '';
+                document.querySelector("#alert").innerHTML = '';
             }
             let request = $("#search").val();
             for (let status of allStatus) {
                 if (cnt <= 30949) {
                     //if (request.length > 3) {
-                    let distant = levenshteinDistance(request, status.name);
                     //} else {
                     if (status.name.includes(request) == true) {
-                        status.distant = 0;
+                        let distant = levenshteinDistance(request, status.name);
+                        status.distant = distant;
                         filterStatus.push(status);
                     }
                     //}
@@ -40,6 +43,7 @@ $(function () {
             if (filterStatus.length == 0) {
                 for (let status of allStatus) {
                     if (cnt <= 30949) {
+                        let distant = levenshteinDistance(request, status.name);
                         if (distant < request.length / 2) {
                             //console.log(distant);
                             status.distant = distant;
@@ -48,6 +52,9 @@ $(function () {
                         cnt++;
                     }
                 }
+            }
+            if (calSelect.value != "Select") {
+                filterStatus = filterCal(filterStatus, calSelect.value);
             }
             if (filterStatus.length != 0) {
                 filterStatus.sort((a, b) => a.distant - b.distant);
@@ -99,7 +106,7 @@ $(function () {
 
                 let h5 = document.createElement("h5");
                 h5.classList.add("font-weight-bold");
-                h5.textContent = Status[i].name;
+                h5.textContent = "☆" + difficulty(Status[i]) + "　" + Status[i].name;
 
                 a.appendChild(h5);
                 td.appendChild(i_num);
@@ -133,5 +140,47 @@ $(function () {
             }
         }
         return d[str1.length][str2.length];
+    }
+
+    filterCal = function (Status, value) {
+        let cnt = 0;
+        list = [];
+        for (let element of Status) {
+            if (cnt <= 30949) {
+                if (value == 1 && element.energy > 0 && element.energy < 200) {
+                    list.push(element);
+                } else if (value == 2 && element.energy >= 200 && element.energy < 400) {
+                    list.push(element);
+                } else if (value == 3 && element.energy >= 400 && element.energy < 600) {
+                    list.push(element);
+                }
+            } else if (value == 4 && element.energy >= 600) {
+                list.push(element);
+            }
+            cnt++;
+        }
+        return list;
+    }
+
+    function difficulty(Status) {
+        let rank = 0;
+        let difficult = Status.time / Status.num_process * Status.num_item * 2;
+        if (difficult < 60) {
+            rank = 1;
+        }
+        if (60 <= difficult && difficult < 110) {
+            rank = 2;
+        }
+        if (110 <= difficult && difficult < 160) {
+            rank = 3;
+        }
+        if (160 <= difficult && difficult < 210) {
+            rank = 4;
+        }
+        if (210 <= difficult) {
+            rank = 5;
+        }
+        return rank;
+
     }
 });
