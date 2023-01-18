@@ -121,18 +121,18 @@ $(function () {
 			let a = document.createElement("a");
 			a.classList.add("widelink", "text-pink");
 			a.href = "./comparison.html?recipeId=" + status.id + suggest[i][1];
-			a.target = "_blank"
+			//a.target = "_blank"
 
-			let h5 = document.createElement("h5");
-			h5.classList.add("font-weight-bold");
-			h5.textContent = "☆" + difficulty(allStatus.filter(e => e.id === suggest[i][1])[0].id, allStatus) + "　" + allStatus.filter(e => e.id === suggest[i][1])[0].name;
+			let div = document.createElement("div");
+			div.classList.add("font-weight-bold");
+			div.textContent = "☆" + difficulty(allStatus.filter(e => e.id === suggest[i][1])[0].id, allStatus) + "　" + allStatus.filter(e => e.id === suggest[i][1])[0].name;
 
 			/*let proposal = document.createElement("a");
 			proposal.textContent = "☆" + difficulty(allStatus.filter(e => e.id === suggest[i][1])[0].id,
 				allStatus) + "　" + allStatus.filter(e => e.id === suggest[i][1])[0].name;
 			proposal.href = "./comparison.html?recipeId=" + status.id + suggest[i][1];*/
 
-			a.appendChild(h5);
+			a.appendChild(div);
 			td_name.appendChild(a);
 			//td_name.appendChild(proposal);
 			tr.appendChild(td_name);

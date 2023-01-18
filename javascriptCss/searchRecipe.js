@@ -14,6 +14,7 @@ $(function () {
             }*/
             let filterStatus = [];
             let disp = document.getElementById("index");
+            let alert = document.getElementById("alert");
             let cnt = 0;
             let footer = document.getElementById("footer");
             if (footer.style.display == "none") {
@@ -24,22 +25,41 @@ $(function () {
             let request = $("#search").val();
             for (let status of allStatus) {
                 if (cnt <= 30949) {
-                    if (request.length > 3) {
-                        let distant = levenshteinDistance(request, status.name);
-                        if (distant < request.length / 2) {
-                            console.log(distant);
-                            filterStatus.push(status);
-                        }
-                    } else {
-                        if (status.name.includes(request) == true) {
-                            filterStatus.push(status);
-                        }
+                    //if (request.length > 3) {
+                    let distant = levenshteinDistance(request, status.name);
+                    //} else {
+                    if (status.name.includes(request) == true) {
+                        status.distant = 0;
+                        filterStatus.push(status);
                     }
+                    //}
                     cnt++;
                 }
             }
+            cnt = 0;
+            if (filterStatus.length == 0) {
+                for (let status of allStatus) {
+                    if (cnt <= 30949) {
+                        if (distant < request.length / 2) {
+                            //console.log(distant);
+                            status.distant = distant;
+                            filterStatus.push(status);
+                        }
+                        cnt++;
+                    }
+                }
+            }
+            if (filterStatus.length != 0) {
+                filterStatus.sort((a, b) => a.distant - b.distant);
+                disp = index(filterStatus);
+            } else {
+                let div = document.createElement("div");
+                div.classList.add("alert", "alert-warning");
+                div.role = "alert";
+                div.textContent = "キーワードがヒットしませんでした";
 
-            disp = index(filterStatus);
+                alert = document.getElementById("alert").appendChild(div);
+            }
         });
         $("#search").keypress(function (e) {
             if (e.which == 13) {
