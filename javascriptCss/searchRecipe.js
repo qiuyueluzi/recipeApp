@@ -31,7 +31,8 @@ $(function () {
                     //if (request.length > 3) {
                     //} else {
                     if (status.name.includes(request) == true) {
-                        status.distant = 0;
+                        let distant = levenshteinDistance(request, status.name);
+                        status.distant = distant;
                         filterStatus.push(status);
                     }
                     //}
@@ -105,7 +106,7 @@ $(function () {
 
                 let h5 = document.createElement("h5");
                 h5.classList.add("font-weight-bold");
-                h5.textContent = Status[i].name;
+                h5.textContent = "☆" + difficulty(Status[i]) + "　" + Status[i].name;
 
                 a.appendChild(h5);
                 td.appendChild(i_num);
@@ -159,5 +160,27 @@ $(function () {
             cnt++;
         }
         return list;
+    }
+
+    function difficulty(Status) {
+        let rank = 0;
+        let difficult = Status.time / Status.num_process * Status.num_item * 2;
+        if (difficult < 60) {
+            rank = 1;
+        }
+        if (60 <= difficult && difficult < 110) {
+            rank = 2;
+        }
+        if (110 <= difficult && difficult < 160) {
+            rank = 3;
+        }
+        if (160 <= difficult && difficult < 210) {
+            rank = 4;
+        }
+        if (210 <= difficult) {
+            rank = 5;
+        }
+        return rank;
+
     }
 });
