@@ -53,7 +53,8 @@ $(function () {
                     }
                 }
             }
-            if (calSelect.value != "Select") {
+            console.log(calSelect);
+            if (calSelect != null && calSelect.value != "Select") {
                 filterStatus = filterCal(filterStatus, calSelect.value);
             }
             if (filterStatus.length != 0) {
@@ -79,6 +80,8 @@ $(function () {
             for (let i = 0; i < Object.keys(Status).length; i++) {
                 let tr = document.createElement("tr");
                 tr.classList.add("border");
+
+                let nobr = document.createElement("p-asano");
 
                 let td_name = document.createElement("td");
                 td_name.classList.add("px-3", "pt-1");
@@ -112,8 +115,9 @@ $(function () {
                 td.appendChild(i_num);
                 td_name.appendChild(a);
                 td.appendChild(span_num);
-                td.appendChild(i_time);
-                td.appendChild(span_time);
+                nobr.appendChild(i_time);
+                nobr.appendChild(span_time);
+                td.appendChild(nobr);
                 tr.appendChild(td_name);
                 tr.appendChild(td);
                 list[i] = document.getElementById("index").appendChild(tr);
@@ -153,9 +157,9 @@ $(function () {
                     list.push(element);
                 } else if (value == 3 && element.energy >= 400 && element.energy < 600) {
                     list.push(element);
+                } else if (value == 4 && element.energy >= 600) {
+                    list.push(element);
                 }
-            } else if (value == 4 && element.energy >= 600) {
-                list.push(element);
             }
             cnt++;
         }
