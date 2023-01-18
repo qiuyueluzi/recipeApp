@@ -77,6 +77,20 @@ $(function () {
 
 				document.getElementById("ingredientsC").appendChild(row)
 			}
+<<<<<<< HEAD
+			
+			let energyDisplay = document.getElementById("energy")
+			energyDisplay.textContent = status.energy + "kcal";
+			let saltDisplay = document.getElementById("salt");
+			saltDisplay.textContent = status.salt + "g";
+			
+			let timeDisplay = document.getElementById("time");
+			timeDisplay.textContent = status.time + "分";
+
+			
+			
+			for(let order of orders){
+=======
 
 			let energyDisplay = document.getElementById("energyC")
 			energyDisplay.textContent = statusC.energy + "kcal";
@@ -91,11 +105,99 @@ $(function () {
 
 			//console.log(orders)
 			for (let order of ordersC) {
+>>>>>>> 25255caafb02b6645d694fdf7c5205e8f898df9d
 				let row = document.createElement("li");
 				row.textContent = order.process;
 				document.getElementById("processC").appendChild(row);
 				row.classList.add("process_list");
 			}
+<<<<<<< HEAD
+			let rank = difficulty(id, allStatus);
+			let starDisplay = document.getElementById("star")
+			starDisplay.textContent = "難易度:" + "☆".repeat(rank);
+			let URLDisplay = document.getElementById("URL");
+				URLDisplay.href = status.url;
+
+
+			if(subId){
+				let statusC = allStatus.filter( e => e.id === subId)[0]
+				let ordersC = allOrders.filter( e => e.id === subId)
+				let materialsC = allMaterials.filter( e => e.id === subId)
+				
+				let titleC = statusC.name;
+				document.getElementById("recipeTitleC").innerHTML = titleC;
+				let peopleDisplay = document.getElementById("peopleC");
+				peopleDisplay.textContent = statusC.num_people + "人分";
+				let people_zairyouC_Display = document.getElementById("people_zairyouC");
+				people_zairyouC_Display.textContent =  "("+status.num_people + "人分)";
+				//console.log(status)
+				for(let material of materialsC){
+					let row = document.createElement("tr");
+					let food = document.createElement("td");
+					food.textContent = material.ingredient;
+					let volume = document.createElement("td");
+					volume.textContent = material.quantity;
+					row.appendChild(food);
+					row.appendChild(volume);
+					
+					document.getElementById("ingredientsC").appendChild(row)
+				}
+				
+				let energyDisplay = document.getElementById("energyC")
+				energyDisplay.textContent = statusC.energy + "kcal";
+				let saltDisplay = document.getElementById("saltC");
+				saltDisplay.textContent = statusC.salt + "g";
+				let timeDisplay = document.getElementById("timeC");
+				timeDisplay.textContent = statusC.time + "分";
+
+				let URLDisplay = document.getElementById("URLC");
+				URLDisplay.href = statusC.url;
+
+				let rank = difficulty(subId, allStatus);
+				let starDisplay = document.getElementById("starC")
+				starDisplay.textContent = "難易度:" + "☆".repeat(rank);
+				
+				//console.log(orders)
+				for(let order of ordersC){
+					let row = document.createElement("li");
+					row.textContent = order.process;
+					document.getElementById("processC").appendChild(row);
+					row.classList.add("process_list");
+				}
+			}
+			
+			let suggest = [];
+			for(let i = 0; i < allStatus.length; i++){
+				let comparator = allStatus[i].name;
+				let distant = levenshteinDistance(title, comparator);
+				if(allStatus[i].id!=status.id)suggest.push([distant, allStatus[i].id]);
+			}
+			suggest.sort(function(a,b){
+				return a[0] - b[0];
+			})
+
+			for (let i = 0; i < 10; i++) {
+				let proposal = document.createElement("a");
+				proposal.textContent = "☆"+difficulty(allStatus.filter( e => e.id === suggest[i][1])[0].id, allStatus) + "　" + allStatus.filter( e => e.id === suggest[i][1])[0].name;
+				proposal.href = "./comparison.html?recipeId=" + status.id + suggest[i][1];
+				let list = document.createElement("li");
+				list.appendChild(proposal)
+				document.getElementById("proposal").append(list);
+			}
+			
+
+			let clickBtn = function() {
+				
+				let text1 = form1.text1.value;
+				let text2 = form1.text2.value;
+				let dist = levenshteinDistance(text1, text2);
+				let result = document.getElementById('result');
+				let newRow = result.insertRow();
+				let rowData = [dist, text1, text2];
+				//tableに結果書き出し
+				for (let i=0; i<rowData.length; i++) {
+					let newCell = newRow.insertCell(),
+=======
 		}
 
 		let suggest = [];
@@ -152,6 +254,7 @@ $(function () {
 			//tableに結果書き出し
 			for (let i = 0; i < rowData.length; i++) {
 				let newCell = newRow.insertCell(),
+>>>>>>> 25255caafb02b6645d694fdf7c5205e8f898df9d
 					newText = document.createTextNode(rowData[i]);
 				newCell.appendChild(newText);
 			}
