@@ -4,47 +4,69 @@ $(function () {
     ).then((recipesJson) => {
         let allStatus = recipesJson;
 
-        /*let footer = document.createElement("footer");
-        footer.classList("box-asano active bg-lightgreen");
-        footer.style = "width: 35%;"
+        document.getElementById("footer").style.display = "none";
 
-        let table = document.createElement("table");
-        table.classList.add("table-auto", "w-full", "table-warning", "border", "shadow");
-        table.style = "width: auto; margin: auto;";
-        table.id = "index";
-
-        let tbody = document.createElement("tbody");
-        tbody.id = "index";
-
-        table.appendChild(tbody);
-        footer.appendChild(footer);*/
-
-        let disp = document.getElementById("index");
-        let cnt = 0;
-        let filterStatus = [];
         $("#submit").click(function () {
-            if (filterStatus != null) {
-                console.log(filterStatus);
+            /*console.log(filterStatus.length);
+            if (filterStatus.length != 0) {
+                //document.querySelector("#index").innerHTML = '';
+                filterStatus.length = 0;
+            }*/
+            let filterStatus = [];
+            let disp = document.getElementById("index");
+            let alert = document.getElementById("alert");
+            let calSelect = document.getElementById("cal");
+            let cnt = 0;
+            let footer = document.getElementById("footer");
+
+            if (footer.style.display == "none") {
+                footer.style.display = "block";
+            } else {
                 document.querySelector("#index").innerHTML = '';
+                document.querySelector("#alert").innerHTML = '';
             }
             let request = $("#search").val();
             for (let status of allStatus) {
                 if (cnt <= 30949) {
-                    if (request.length > 4) {
+                    //if (request.length > 3) {
+                    //} else {
+                    if (status.name.includes(request) == true) {
                         let distant = levenshteinDistance(request, status.name);
-                        if (distant < request.length / 2) {
-                            filterStatus.push(status);
-                        }
-                    } else {
-                        if (status.name.includes(request) == true) {
-                            filterStatus.push(status);
-                        }
+                        status.distant = distant;
+                        filterStatus.push(status);
                     }
+                    //}
                     cnt++;
                 }
             }
+            cnt = 0;
+            if (filterStatus.length == 0) {
+                for (let status of allStatus) {
+                    if (cnt <= 30949) {
+                        let distant = levenshteinDistance(request, status.name);
+                        if (distant < request.length / 2) {
+                            //console.log(distant);
+                            status.distant = distant;
+                            filterStatus.push(status);
+                        }
+                        cnt++;
+                    }
+                }
+            }
+            if (calSelect.value != "Select") {
+                filterStatus = filterCal(filterStatus, calSelect.value);
+            }
+            if (filterStatus.length != 0) {
+                filterStatus.sort((a, b) => a.distant - b.distant);
+                disp = index(filterStatus);
+            } else {
+                let div = document.createElement("div");
+                div.classList.add("alert", "alert-warning");
+                div.role = "alert";
+                div.textContent = "キーワードがヒットしませんでした";
 
-            disp = index(filterStatus);
+                alert = document.getElementById("alert").appendChild(div);
+            }
         });
         $("#search").keypress(function (e) {
             if (e.which == 13) {
@@ -66,25 +88,25 @@ $(function () {
 
                 let a = document.createElement("a");
                 a.classList.add("widelink", "text-pink");
-                a.href = "./recipe.html?recipeId=" + filterStatus[i].id;
+                a.href = "./recipe.html?recipeId=" + Status[i].id;
 
                 let i_num = document.createElement("i");
                 i_num.classList.add("fas", "fa-user-friends", "mr-2", "text-primary");
 
                 let span_num = document.createElement("span");
                 span_num.classList.add("text-left");
-                span_num.textContent = filterStatus[i].num_people;
+                span_num.textContent = Status[i].num_people;
 
                 let i_time = document.createElement("i");
                 i_time.classList.add("far", "fa-clock", "ml-2", "mr-1", "mt-2", "lead");
 
                 let span_time = document.createElement("span");
                 span_time.classList.add("text-right", "mr-2");
-                span_time.textContent = filterStatus[i].time + " min";
+                span_time.textContent = Status[i].time + " min";
 
                 let h5 = document.createElement("h5");
                 h5.classList.add("font-weight-bold");
-                h5.textContent = filterStatus[i].name;
+                h5.textContent = "☆" + difficulty(Status[i]) + "　" + Status[i].name;
 
                 a.appendChild(h5);
                 td.appendChild(i_num);
@@ -118,5 +140,47 @@ $(function () {
             }
         }
         return d[str1.length][str2.length];
+    }
+
+    filterCal = function (Status, value) {
+        let cnt = 0;
+        list = [];
+        for (let element of Status) {
+            if (cnt <= 30949) {
+                if (value == 1 && element.energy > 0 && element.energy < 200) {
+                    list.push(element);
+                } else if (value == 2 && element.energy >= 200 && element.energy < 400) {
+                    list.push(element);
+                } else if (value == 3 && element.energy >= 400 && element.energy < 600) {
+                    list.push(element);
+                }
+            } else if (value == 4 && element.energy >= 600) {
+                list.push(element);
+            }
+            cnt++;
+        }
+        return list;
+    }
+
+    function difficulty(Status) {
+        let rank = 0;
+        let difficult = Status.time / Status.num_process * Status.num_item * 2;
+        if (difficult < 60) {
+            rank = 1;
+        }
+        if (60 <= difficult && difficult < 110) {
+            rank = 2;
+        }
+        if (110 <= difficult && difficult < 160) {
+            rank = 3;
+        }
+        if (160 <= difficult && difficult < 210) {
+            rank = 4;
+        }
+        if (210 <= difficult) {
+            rank = 5;
+        }
+        return rank;
+
     }
 });

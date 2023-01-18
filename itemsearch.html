@@ -25,20 +25,13 @@
         <ul class="navbar-nav mr-auto">
 
         </ul>
-        <form class="form-inline my-2 my-lg-0" onsubmit="return false;">
-            <a role="button" class="btn btn-outline-light font-weight-bold my-2 my-sm-0 mr-2" href="itemsearch.html">
-                クリア
-            </a>
-            <input class="form-control mr-sm-2" type="text" id="search" placeholder="キーワードを入力" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="submit" value="検索">Search</button>
-        </form>
     </div>
 </nav>
 
 <body>
-    <div class="container">
-        <div class="row" style='height: 92vh;'>
-            <div class="col-md-8 p-0">
+    <div class="px-5">
+        <div class="row" style='height: 92vh; width: auto;'>
+            <div class="col-md-7 p-0">
                 <div class="my-3" style="text-align: center;">
                     <p>
                     <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
@@ -57,23 +50,34 @@
                             aria-controls="multiCollapseExample3">
                             <span class="display-6"><i class="fas fa-chevron-down mr-1"></i>アレルギー</span>
                         </button>
+                        <a role="button" class="btn btn-orange btn-lg px-3 shadow" href="itemsearch.html"
+                            style="text-align: center; padding-top: 3mm;">
+                            クリア
+                        </a>
                     </div>
                     </p>
+                    <form class=" form-inline my-lg-0 bg-lightorange p-2" onsubmit="return false;">
+                        <span class="text-primary h5 mt-2 ml-4"> キーワード・材料などで検索できます。 </span>
+                        <input class=" form-control mr-sm-2" style="margin-left: auto;" type="search" id="search"
+                            placeholder="キーワードを入力" aria-label="Search">
+                        <button class="btn btn-outline-success btn-lg font-weight-bold py-1" type="button" id="submit"
+                            value="検索">検 索</button>
+                    </form>
                 </div>
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
                             <div class="card card-body">
                                 <form class="form-inline" style="margin: auto;">
-                                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">カロリー</label>
-                                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                    <label class="my-1 mr-2" for="cal">カロリー</label>
+                                    <select class="custom-select my-1 mr-sm-2" id="cal">
                                         <option selected>Select</option>
                                         <option value="1">0～200 kcal</option>
                                         <option value="2">201～400 kcal</option>
                                         <option value="3">401～600 kcal</option>
                                         <option value="4">600 kcal～</option>
                                     </select>
-                                    <button type="submit" class="btn btn-outline-orange my-1">検索</button>
+                                    <!--button type="submit" class="btn btn-outline-orange btn-lg my-1 p-2">検 索</button-->
                                 </form>
                             </div>
                         </div>
@@ -92,7 +96,8 @@
                             <div class="card card-body">
                                 <h4 class="text-center">
                                     材料一覧
-                                    <button type="submit" class="btn btn-outline-orange my-1 ml-2">検索</button>
+                                    <button type="submit" class="btn btn-outline-orange
+                                    btn-lg m-2 py-1" id="checkVal">検 索</button>
                                 </h4>
                                 <div class="row m-3">
                                     <div class="row">
@@ -105,13 +110,17 @@
                 </div>
             </div>
         </div>
-        <footer class="box-asano active bg-lightgreen" style="width: 35%;">
-            <table id="grid-basic" class="table-auto w-full table-warning border shadow"
-                style="width: auto; margin: auto;">
-                <tbody id="index">
-                </tbody>
-            </table>
-        </footer>
+        <div id="footer">
+            <footer class="box-asano active bg-lightgreen mr-auto" style="width: 40%;">
+                <div id="alert">
+                </div>
+                <table id="grid-basic" class="table-auto w-full table-warning border shadow"
+                    style="width: auto; margin: auto;">
+                    <tbody id="index">
+                    </tbody>
+                </table>
+            </footer>
+        </div>
     </div>
 </body>
 

@@ -44,17 +44,11 @@
               <a class="nav-link disabled" href="#">Disabled</a>
             </li -->
     </ul>
-    <form class="form-inline my-2 my-lg-0" onsubmit="return false;">
-      <a role="button" class="btn btn-outline-light font-weight-bold my-2 my-sm-0 mr-2" href="index.html">
-        クリア
-      </a>
-      <input class="form-control mr-sm-2" type="text" id="search" placeholder="キーワードを入力" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="submit" value="検索">Search</button>
-    </form>
   </div>
 </nav>
 
 <body>
+<<<<<<< HEAD
   <div class="row">
     <div class="d-flex" style="margin: auto;">
       <div class="h1 text-center m-2">あなたの自炊をもっと楽しく</div>
@@ -90,42 +84,76 @@
               <div class="modal-body">
                 <div id="gacha-display">
                 </div>
+=======
+  <div class="row" style='height: 92vh;'>
+    <div class="col-md-6" style="text-align: center;">
+      <div class="h1 m-3">あなたの自炊をもっと楽しく</div>
+      <h2 class="p-3 lead">今日のおすすめレシピ</h2>
+      <a href="./recipe.html?recipeId=20300008" class="p-3">ヘルシーケーキすし</a>
+      <h2>レシピガチャ</h2>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"
+        id="gacha-button">
+        単発ガチャ
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">レシピガチャ結果</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="gacha-display">
+>>>>>>> 25255caafb02b6645d694fdf7c5205e8f898df9d
               </div>
             </div>
           </div>
         </div>
+      </div>
 
 
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#title10" id="10gacha-button">
-          10連ガチャ
-        </button>
-        <!-- Modal -->
-        <div class="modal fade" id="title10" tabindex="-1" role="dialog" aria-labelledby="title10" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="title10">レシピガチャ10連結果</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div id="10gacha-display"></div>
-              </div>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#title10" id="10gacha-button">
+        10連ガチャ
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="title10" tabindex="-1" role="dialog" aria-labelledby="title10" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="title10">レシピガチャ10連結果</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="10gacha-display"></div>
             </div>
           </div>
         </div>
+      </div>
 
     </div>
-    <div class="col-md-9 p-0">
-      <div class="container">
-        <div class="py-3">
-          <table id="grid-basic" class="table-auto w-full table-warning border shadow"
-            style="width: auto; margin: auto;">
-            <tbody id="index">
-            </tbody>
-          </table>
-        </div>
+    <div class="col-md-6">
+      <form class="form-inline my-2 my-lg-0" onsubmit="return false;">
+        <footer class="active" style="width: 45%;">
+          <a role="button" class="btn btn-outline-orange btn-lg font-weight-bold m-2 py-1" href="itemsearch.html">
+            詳細検索へ
+          </a>
+          <input class="form-control mr-sm-2" type="search" id="search" placeholder="キーワードを入力" aria-label="Search">
+          <button class="btn btn-outline-success btn-lg font-weight-bold m-2 py-1" type="button" id="submit"
+            value="検索">検 索</button>
+      </form>
+      </footer>
+      <div id="footer" style="margin-top: 5em; margin-right: 15em;">
+        <table id="grid-basic" class="table-auto w-full table-warning border shadow" style="width: auto; margin: auto;">
+          <tbody id="index">
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
