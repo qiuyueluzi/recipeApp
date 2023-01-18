@@ -91,13 +91,11 @@ $(function () {
 
 			//console.log(orders)
 			for (let order of ordersC) {
-
 				let row = document.createElement("li");
 				row.textContent = order.process;
 				document.getElementById("processC").appendChild(row);
 				row.classList.add("process_list");
 			}
-
 		}
 
 		let suggest = [];
@@ -154,7 +152,6 @@ $(function () {
 			//tableに結果書き出し
 			for (let i = 0; i < rowData.length; i++) {
 				let newCell = newRow.insertCell(),
-
 					newText = document.createTextNode(rowData[i]);
 				newCell.appendChild(newText);
 			}
