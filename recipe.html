@@ -21,16 +21,16 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto"></ul>
-    <form class="form-inline my-2 my-lg-0">
+    <!--form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form-->
   </div>
 </nav>
 
 <body>
   <div class="row" style='height: 92vh; width: auto;'>
-    <div class="col-md-8 p-0">
+    <div class="col-md-9 p-0">
       <h1 id="recipeTitle" class="text-center"></h1>
       <h3 id="star" class="text-center"></h3>
       <br>
@@ -55,9 +55,8 @@
       <br>
       <div class="container-fluid">
         <div class="row" style="width: auto;">
-          <div class="col-md-5 p-0">
-            <table class="table offset-1 table_border_radius zairyou" style="width: auto; margin-right: 5em;"
-              align="right">
+          <div class="col-md-6 p-0">
+            <table class="table offset-2 table_border_radius zairyou" style="width: auto;">
               <tr>
                 <th scope="col">材料
                   <a id="people_zairyou"></a>
@@ -67,7 +66,7 @@
               <tbody id="ingredients"></tbody>
             </table>
           </div>
-          <div class="col-md-6 offset-1 p-0" style="text-align: left;">
+          <div class="col-md-6 p-0" style="text-align: left;">
             <h2 style="margin-left: 5px;" class="box">手順</h2>
             <hr>
             <ol id="process">
@@ -76,8 +75,8 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 p-0">
-      <footer style="width: 30%;">
+    <div class="col-md-3 p-0">
+      <footer style="width: 20%;">
         <div class="h3 text-center">似たレシピ</div>
         <!--li id="proposal" class="nita"></li-->
         <table id="grid-basic" class="table-auto w-full table-warning border shadow" style="margin: auto;">
