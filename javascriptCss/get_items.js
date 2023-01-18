@@ -58,6 +58,7 @@ $(function () {
 
         $("#checkVal").click(function () {
             let disp = document.getElementById("index");
+            let calSelect = document.getElementById("cal");
             let cnt = 0;
             let resultID = [];
             let checks = document.getElementsByClassName('check');
@@ -66,6 +67,7 @@ $(function () {
                 footer.style.display = "block";
             } else {
                 document.querySelector("#index").innerHTML = '';
+                document.querySelector("#alert").innerHTML = '';
             }
             for (i = 0; i < checks.length; i++) {
                 if (checks[i].checked === true) {
@@ -107,13 +109,31 @@ $(function () {
             }
             //console.log(list);
             let filterStatus = []
-            for (let recipe of allrecipes[0]) {
+            let filtered = [];
+            if (calSelect.value != "Select") {
+                filtered = filterCal(allrecipes[0], calSelect.value);
+                console.log(filtered);
+            } else {
+                filtered = allrecipes[0];
+                console.log(filtered);
+            }
+
+            for (let recipe of filtered) {
                 if (list.includes(recipe.id) == true) {
                     //console.log(recipe)
                     filterStatus.push(recipe);
                 }
             }
-            disp = index(filterStatus);
+            if (filterStatus != 0) {
+                disp = index(filterStatus);
+            } else {
+                let div = document.createElement("div");
+                div.classList.add("alert", "alert-warning");
+                div.role = "alert";
+                div.textContent = "項目がヒットしませんでした";
+
+                alert = document.getElementById("alert").appendChild(div);
+            }
         });
         function index(Status) {
             let list = [];
@@ -147,7 +167,7 @@ $(function () {
 
                 let h5 = document.createElement("h5");
                 h5.classList.add("font-weight-bold");
-                h5.textContent = Status[i].name;
+                h5.textContent = "☆" + difficulty(Status[i]) + "　" + Status[i].name;
 
                 a.appendChild(h5);
                 td.appendChild(i_num);
@@ -194,4 +214,46 @@ function onCheckFunc(chkID) {
         ID.parentNode.style.backgroundColor = '#fff';
         ID.parentNode.style.color = '#000';
     }
+}
+
+filterCal = function (Status, value) {
+    let cnt = 0;
+    list = [];
+    for (let element of Status) {
+        if (cnt <= 30949) {
+            if (value == 1 && element.energy > 0 && element.energy < 200) {
+                list.push(element);
+            } else if (value == 2 && element.energy >= 200 && element.energy < 400) {
+                list.push(element);
+            } else if (value == 3 && element.energy >= 400 && element.energy < 600) {
+                list.push(element);
+            }
+        } else if (value == 4 && element.energy >= 600) {
+            list.push(element);
+        }
+        cnt++;
+    }
+    return list;
+}
+
+function difficulty(Status) {
+    let rank = 0;
+    let difficult = Status.time / Status.num_process * Status.num_item * 2;
+    if (difficult < 60) {
+        rank = 1;
+    }
+    if (60 <= difficult && difficult < 110) {
+        rank = 2;
+    }
+    if (110 <= difficult && difficult < 160) {
+        rank = 3;
+    }
+    if (160 <= difficult && difficult < 210) {
+        rank = 4;
+    }
+    if (210 <= difficult) {
+        rank = 5;
+    }
+    return rank;
+
 }
