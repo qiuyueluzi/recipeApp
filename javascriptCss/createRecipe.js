@@ -78,6 +78,7 @@ $(function () {
 				document.getElementById("ingredientsC").appendChild(row)
 			}
 
+
 			let energyDisplay = document.getElementById("energyC")
 			energyDisplay.textContent = statusC.energy + "kcal";
 			let saltDisplay = document.getElementById("saltC");
@@ -96,6 +97,7 @@ $(function () {
 				document.getElementById("processC").appendChild(row);
 				row.classList.add("process_list");
 			}
+
 		}
 
 		let suggest = [];
