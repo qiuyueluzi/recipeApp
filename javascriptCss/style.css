@@ -101,6 +101,10 @@ input[type="radio"] {
     background-color: #ffe292 !important;
 }
 
+.bg-lightgray {
+    background-color: #dedede !important;
+}
+
 .bg-lightgreen {
     background-color: #d4f4d3 !important;
 }
@@ -230,4 +234,8 @@ hr {
 
 .nita {
     list-style: none;
+}
+
+p-asano {
+    white-space: nowrap;
 }

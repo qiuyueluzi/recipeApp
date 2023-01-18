@@ -22,7 +22,7 @@ $(function () {
         for (let detail of allDetails[0]) {    //材料一覧をレンダリング
             if (detail.children) {
                 let parent = document.createElement("div");
-                parent.classList.add("h4");
+                parent.classList.add("h4", "mt-2");
                 parent.style = "width: 100%;"
                 let child = document.createElement("div");
                 child.textContent = detail.text;
@@ -32,7 +32,7 @@ $(function () {
             } else {
                 let row = document.createElement("div");
                 let input = document.createElement("input");
-                row.classList.add("form-check", "p-0");
+                row.classList.add("form-check", "p-0", "border-bottom", "border-danger");
 
                 //inputタグを編集
                 input.classList.add("form-check-input", "check");
@@ -141,6 +141,8 @@ $(function () {
                 let tr = document.createElement("tr");
                 tr.classList.add("border");
 
+                let nobr = document.createElement("p-asano");
+
                 let td_name = document.createElement("td");
                 td_name.classList.add("px-3", "pt-1");
 
@@ -173,9 +175,10 @@ $(function () {
                 td.appendChild(i_num);
                 td_name.appendChild(a);
                 td.appendChild(span_num);
-                td.appendChild(i_time);
-                td.appendChild(span_time);
+                nobr.appendChild(i_time);
+                nobr.appendChild(span_time);
                 tr.appendChild(td_name);
+                td.appendChild(nobr);
                 tr.appendChild(td);
                 list[i] = document.getElementById("index").appendChild(tr);
             }
@@ -227,9 +230,9 @@ filterCal = function (Status, value) {
                 list.push(element);
             } else if (value == 3 && element.energy >= 400 && element.energy < 600) {
                 list.push(element);
+            } else if (value == 4 && element.energy >= 600) {
+                list.push(element);
             }
-        } else if (value == 4 && element.energy >= 600) {
-            list.push(element);
         }
         cnt++;
     }
