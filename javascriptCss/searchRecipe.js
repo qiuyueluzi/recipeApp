@@ -26,34 +26,36 @@ $(function () {
                 document.querySelector("#alert").innerHTML = '';
             }
             let request = $("#search").val();
-            for (let status of allStatus) {
-                if (cnt <= 30949) {
-                    //if (request.length > 3) {
-                    //} else {
-                    if (status.name.includes(request) == true) {
-                        let distant = levenshteinDistance(request, status.name);
-                        status.distant = distant;
-                        filterStatus.push(status);
-                    }
-                    //}
-                    cnt++;
-                }
-            }
-            cnt = 0;
-            if (filterStatus.length == 0) {
+            if (request.length != 0) {
                 for (let status of allStatus) {
                     if (cnt <= 30949) {
-                        let distant = levenshteinDistance(request, status.name);
-                        if (distant < request.length / 2) {
-                            //console.log(distant);
+                        //if (request.length > 3) {
+                        //} else {
+                        if (status.name.includes(request) == true) {
+                            let distant = levenshteinDistance(request, status.name);
                             status.distant = distant;
                             filterStatus.push(status);
                         }
+                        //}
                         cnt++;
                     }
                 }
+                cnt = 0;
+                if (filterStatus.length == 0) {
+                    for (let status of allStatus) {
+                        if (cnt <= 30949) {
+                            let distant = levenshteinDistance(request, status.name);
+                            if (distant < request.length / 2) {
+                                //console.log(distant);
+                                status.distant = distant;
+                                filterStatus.push(status);
+                            }
+                            cnt++;
+                        }
+                    }
+                }
             }
-            console.log(calSelect);
+            console.log(request.length);
             if (calSelect != null && calSelect.value != "Select") {
                 filterStatus = filterCal(filterStatus, calSelect.value);
             }
