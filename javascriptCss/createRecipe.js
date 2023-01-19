@@ -54,6 +54,8 @@ $(function () {
 		let rank = difficulty(id, allStatus);
 		let starDisplay = document.getElementById("star")
 		starDisplay.textContent = "難易度:" + "☆".repeat(rank);
+		let URLDisplay = document.getElementById("URL");
+		URLDisplay.href = status.url;
 		if (subId) {
 			let statusC = allStatus.filter(e => e.id === subId)[0]
 			let ordersC = allOrders.filter(e => e.id === subId)
@@ -88,7 +90,9 @@ $(function () {
 			let rank = difficulty(subId, allStatus);
 			let starDisplay = document.getElementById("starC")
 			starDisplay.textContent = "難易度:" + "☆".repeat(rank);
-
+			let URLDisplay = document.getElementById("URLC");
+			URLDisplay.href = statusC.url;
+			
 			//console.log(orders)
 			for (let order of ordersC) {
 				let row = document.createElement("li");
