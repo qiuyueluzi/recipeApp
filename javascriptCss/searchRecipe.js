@@ -97,11 +97,11 @@ $(function () {
                 i_num.classList.add("fas", "fa-user-friends", "mr-2", "text-primary");
 
                 let span_num = document.createElement("span");
-                span_num.classList.add("text-left");
+                span_num.classList.add("text-left", "mr-2");
                 span_num.textContent = Status[i].num_people;
 
                 let i_time = document.createElement("i");
-                i_time.classList.add("far", "fa-clock", "ml-2", "mr-1", "mt-2", "lead");
+                i_time.classList.add("far", "fa-clock", "mr-1", "mt-2", "lead");
 
                 let span_time = document.createElement("span");
                 span_time.classList.add("text-right", "mr-2");
