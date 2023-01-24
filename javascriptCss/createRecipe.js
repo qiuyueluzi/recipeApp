@@ -66,7 +66,7 @@ $(function () {
 			let peopleDisplay = document.getElementById("peopleC");
 			peopleDisplay.textContent = statusC.num_people + "人分";
 			let people_zairyouC_Display = document.getElementById("people_zairyouC");
-			people_zairyouC_Display.textContent = "(" + status.num_people + "人分)";
+			people_zairyouC_Display.textContent = "(" + statusC.num_people + "人分)";
 			//console.log(status)
 			for (let material of materialsC) {
 				let row = document.createElement("tr");
