@@ -22,7 +22,7 @@ $(function () {
         for (let detail of allDetails[0]) {    //材料一覧をレンダリング
             if (detail.children) {
                 let parent = document.createElement("div");
-                parent.classList.add("h4");
+                parent.classList.add("h4", "mt-2");
                 parent.style = "width: 100%;"
                 let child = document.createElement("div");
                 child.textContent = detail.text;
@@ -32,7 +32,7 @@ $(function () {
             } else {
                 let row = document.createElement("div");
                 let input = document.createElement("input");
-                row.classList.add("form-check", "p-0");
+                row.classList.add("form-check", "p-0", "border-bottom", "border-danger");
 
                 //inputタグを編集
                 input.classList.add("form-check-input", "check");
@@ -112,10 +112,10 @@ $(function () {
             let filtered = [];
             if (calSelect.value != "Select") {
                 filtered = filterCal(allrecipes[0], calSelect.value);
-                console.log(filtered);
+                //console.log(filtered);
             } else {
                 filtered = allrecipes[0];
-                console.log(filtered);
+                //console.log(filtered);
             }
 
             for (let recipe of filtered) {
@@ -141,6 +141,8 @@ $(function () {
                 let tr = document.createElement("tr");
                 tr.classList.add("border");
 
+                let nobr = document.createElement("p-asano");
+
                 let td_name = document.createElement("td");
                 td_name.classList.add("px-3", "pt-1");
 
@@ -155,11 +157,11 @@ $(function () {
                 i_num.classList.add("fas", "fa-user-friends", "mr-2", "text-primary");
 
                 let span_num = document.createElement("span");
-                span_num.classList.add("text-left");
+                span_num.classList.add("text-left", "mr-2");
                 span_num.textContent = Status[i].num_people;
 
                 let i_time = document.createElement("i");
-                i_time.classList.add("far", "fa-clock", "ml-2", "mr-1", "mt-2", "lead");
+                i_time.classList.add("far", "fa-clock", "mr-1", "mt-2", "lead");
 
                 let span_time = document.createElement("span");
                 span_time.classList.add("text-right", "mr-2");
@@ -173,9 +175,10 @@ $(function () {
                 td.appendChild(i_num);
                 td_name.appendChild(a);
                 td.appendChild(span_num);
-                td.appendChild(i_time);
-                td.appendChild(span_time);
+                nobr.appendChild(i_time);
+                nobr.appendChild(span_time);
                 tr.appendChild(td_name);
+                td.appendChild(nobr);
                 tr.appendChild(td);
                 list[i] = document.getElementById("index").appendChild(tr);
             }
@@ -227,9 +230,9 @@ filterCal = function (Status, value) {
                 list.push(element);
             } else if (value == 3 && element.energy >= 400 && element.energy < 600) {
                 list.push(element);
+            } else if (value == 4 && element.energy >= 600) {
+                list.push(element);
             }
-        } else if (value == 4 && element.energy >= 600) {
-            list.push(element);
         }
         cnt++;
     }

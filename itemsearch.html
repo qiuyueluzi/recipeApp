@@ -48,16 +48,16 @@
                         <button class="btn btn-orange shadow" type="button" data-toggle="collapse"
                             data-target="#multiCollapseExample3" aria-expanded="false"
                             aria-controls="multiCollapseExample3">
-                            <span class="display-6"><i class="fas fa-chevron-down mr-1"></i>アレルギー</span>
+                            <span class="display-6"><i class="fas fa-chevron-down mr-1"></i>難易度</span>
                         </button>
-                        <a role="button" class="btn btn-orange btn-lg px-3 shadow" href="itemsearch.html"
+                        <a role="button" class="btn btn-outline-danger btn-lg px-3 shadow" href="itemsearch.html"
                             style="text-align: center; padding-top: 3mm;">
                             クリア
                         </a>
                     </div>
                     </p>
                     <form class=" form-inline my-lg-0 bg-lightorange p-2" onsubmit="return false;">
-                        <span class="text-primary h5 mt-2 ml-4"> キーワード・材料などで検索できます。 </span>
+                        <span class="text-primary h5 mt-2 ml-4"> キーワード・材料などで検索できます</span>
                         <input class=" form-control mr-sm-2" style="margin-left: auto;" type="search" id="search"
                             placeholder="キーワードを入力" aria-label="Search">
                         <button class="btn btn-outline-success btn-lg font-weight-bold py-1" type="button" id="submit"
@@ -67,7 +67,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
+                            <div class="card card-body border-warning">
                                 <form class="form-inline" style="margin: auto;">
                                     <label class="my-1 mr-2" for="cal">カロリー</label>
                                     <select class="custom-select my-1 mr-sm-2" id="cal">
@@ -84,22 +84,23 @@
                     </div>
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample3">
-                            <div class="card card-body text-center">
-                                アレルギー
+                            <div class="card card-body text-center border-warning">
+                                難易度
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-2">
                     <div class="col">
                         <div class="collapse show multi-collapse" id="multiCollapseExample1">
-                            <div class="card card-body">
-                                <h4 class="text-center">
-                                    材料一覧
+                            <div class="card card-body border-warning">
+                                <div class="bg-lightorange">
+                                    <span class="text-primary h5 mt-2 mr-5 ml-4"><span
+                                            class="border-bottom border-danger">材料名</span>を選択して検索ボタンをクリック</span>
                                     <button type="submit" class="btn btn-outline-orange
-                                    btn-lg m-2 py-1" id="checkVal">検 索</button>
-                                </h4>
-                                <div class="row m-3">
+                                    btn-lg font-weight-bold m-2 py-1" id="checkVal">材 料 検 索</button>
+                                </div>
+                                <div class="row m-1">
                                     <div class="row">
                                         <div class="filters" id="details"></div>
                                     </div>

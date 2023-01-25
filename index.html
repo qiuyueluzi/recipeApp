@@ -50,8 +50,17 @@
 <body>
   <div class="row" style='height: 92vh;'>
     <div class="col-md-6" style="text-align: center;">
-      <div class="h1 m-3">あなたの自炊をもっと楽しく</div>
-      <h2 class="p-3 lead">今日のおすすめレシピ</h2>
+      <div class="h1 mt-3">あなたの自炊をもっと楽しく</div>
+      <form class="form-inline my-2 my-lg-0" style="margin-left: 15%;" onsubmit="return false;">
+        <a role="button" class="btn btn-outline-orange btn-lg font-weight-bold m-2 py-1" href="itemsearch.html">
+          詳細検索へ
+        </a>
+        <input class="form-control mr-sm-2" type="search" id="search" placeholder="キーワードを入力" aria-label="Search">
+        <button class="btn btn-outline-success btn-lg font-weight-bold m-2 py-1" type="button" id="submit" value="検索">
+          検 索
+        </button>
+      </form>
+      <h2 class=" p-3 lead">今日のおすすめレシピ</h2>
       <a href="./recipe.html?recipeId=20300008" class="p-3">ヘルシーケーキすし</a>
       <h2>レシピガチャ</h2>
 
@@ -99,24 +108,143 @@
         </div>
       </div>
 
+      <p class="h3 mt-3">今日の虚無レシピ</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7Rh6NdfYj4A" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
     </div>
     <div class="col-md-6">
-      <form class="form-inline my-2 my-lg-0" onsubmit="return false;">
-        <footer class="active" style="width: 45%;">
-          <a role="button" class="btn btn-outline-orange btn-lg font-weight-bold m-2 py-1" href="itemsearch.html">
-            詳細検索へ
-          </a>
-          <input class="form-control mr-sm-2" type="search" id="search" placeholder="キーワードを入力" aria-label="Search">
-          <button class="btn btn-outline-success btn-lg font-weight-bold m-2 py-1" type="button" id="submit"
-            value="検索">検 索</button>
-      </form>
+      <div class="pc m-2 shadow">
+        <div class="frame">
+          <iframe src="https://www.kewpie.co.jp/recipes/recipe/QP10008236/" width="1300" height="715" frameborder="0"
+            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+      <script>
+        jQuery(function ($) {
+          $(window).on('load resize', function () {
+            var pc_w = $('.pc .frame').width() / 1280;
+            $('.pc iframe').css('transform', 'scale(' + pc_w + ')');
+
+            var tb_w = $('.tb .frame').width() / 768;
+            $('.tb iframe').css('transform', 'scale(' + tb_w + ')');
+
+            var sp_w = $('.sp .frame').width() / 375;
+            $('.sp iframe').css('transform', 'scale(' + sp_w + ')');
+          });
+        });
+      </script>
+      <!--div class="card m-2">
+          <iframe src="https://www.kewpie.co.jp/recipes/recipe/QP10008236/" height="450" frameborder="0"
+            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div-->
+      <footer class="active" style="width: 90%;">
       </footer>
-      <div id="footer" style="margin-top: 5em; margin-right: 15em;">
-        <table id="grid-basic" class="table-auto w-full table-warning border shadow" style="width: auto; margin: auto;">
+      <div id="footer">
+        <footer class="box-asano active bg-lightgreen mr-auto" style="width: 50%;">
+          <div id="alert">
+          </div>
+          <table id="grid-basic" class="table-auto w-full table-warning border shadow"
+            style="width: auto; margin: auto;">
+            <tbody id="index">
+            </tbody>
+          </table>
+        </footer>
+      </div>
+      <!--div id="footer" style="margin-top: 5em; margin-right: 10%;">
+        <div id="alert">
+        </div>
+        <table id="grid-basic" class="table-auto w-full table-warning border shadow" style="margin: auto;">
           <tbody id="index">
           </tbody>
         </table>
-      </div>
+      </div-->
+      <div class="text-center h4 mt-3 font-weight-bold">鬼滅○刀コラボメニュー！！</div>
+      <table id="grid-basic" class="table-auto w-full table-warning border shadow" style="width: auto; margin: auto;">
+        <tbody id="index">
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053572">
+                <h5 class="font-weight-bold">☆5　えび天うどん鍋（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">30 min</span></p-asano></td>
+          </tr>
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053571">
+                <h5 class="font-weight-bold">☆5　本つゆで簡単牛鍋（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">30 min</span></p-asano></td>
+          </tr>
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053576">
+                <h5 class="font-weight-bold">☆5　炎の旨辛キムチ鍋（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">2</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">30 min</span></p-asano></td>
+          </tr>
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053684">
+                <h5 class="font-weight-bold">☆4　肉盛り豆乳担々鍋（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">20 min</span></p-asano></td>
+          </tr>
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053681">
+                <h5 class="font-weight-bold">☆2　炭火焼き風鶏ねぎ塩鍋（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">2</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">20 min</span></p-asano></td>
+          </tr>
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053682">
+                <h5 class="font-weight-bold">☆2　卵とじミルフィーユ鍋（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">2</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">20 min</span></p-asano></td>
+          </tr>
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053683">
+                <h5 class="font-weight-bold">☆3　豆乳明太子しゃぶしゃぶ（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">2</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">20 min</span></p-asano></td>
+          </tr>
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053573">
+                <h5 class="font-weight-bold">☆5　鮭と大根のだししみおでん（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">30 min</span></p-asano></td>
+          </tr>
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053575">
+                <h5 class="font-weight-bold">☆5　鰹だし香るしょうが豆乳鍋（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">30 min</span></p-asano></td>
+          </tr>
+          <tr class="border">
+            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053574">
+                <h5 class="font-weight-bold">☆5　さつまいもと豚バラの豆乳鍋（鬼滅の刃コラボ鍋メニュー）</h5>
+              </a></td>
+            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
+                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
+                  class="text-right mr-2">30 min</span></p-asano></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </body>

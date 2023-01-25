@@ -26,34 +26,37 @@ $(function () {
                 document.querySelector("#alert").innerHTML = '';
             }
             let request = $("#search").val();
-            for (let status of allStatus) {
-                if (cnt <= 30949) {
-                    //if (request.length > 3) {
-                    //} else {
-                    if (status.name.includes(request) == true) {
-                        let distant = levenshteinDistance(request, status.name);
-                        status.distant = distant;
-                        filterStatus.push(status);
-                    }
-                    //}
-                    cnt++;
-                }
-            }
-            cnt = 0;
-            if (filterStatus.length == 0) {
+            if (request.length != 0) {
                 for (let status of allStatus) {
                     if (cnt <= 30949) {
-                        let distant = levenshteinDistance(request, status.name);
-                        if (distant < request.length / 2) {
-                            //console.log(distant);
+                        //if (request.length > 3) {
+                        //} else {
+                        if (status.name.includes(request) == true) {
+                            let distant = levenshteinDistance(request, status.name);
                             status.distant = distant;
                             filterStatus.push(status);
                         }
+                        //}
                         cnt++;
                     }
                 }
+                cnt = 0;
+                if (filterStatus.length == 0) {
+                    for (let status of allStatus) {
+                        if (cnt <= 30949) {
+                            let distant = levenshteinDistance(request, status.name);
+                            if (distant < request.length / 2) {
+                                //console.log(distant);
+                                status.distant = distant;
+                                filterStatus.push(status);
+                            }
+                            cnt++;
+                        }
+                    }
+                }
             }
-            if (calSelect.value != "Select") {
+            console.log(request.length);
+            if (calSelect != null && calSelect.value != "Select") {
                 filterStatus = filterCal(filterStatus, calSelect.value);
             }
             if (filterStatus.length != 0) {
@@ -80,6 +83,8 @@ $(function () {
                 let tr = document.createElement("tr");
                 tr.classList.add("border");
 
+                let nobr = document.createElement("p-asano");
+
                 let td_name = document.createElement("td");
                 td_name.classList.add("px-3", "pt-1");
 
@@ -94,11 +99,11 @@ $(function () {
                 i_num.classList.add("fas", "fa-user-friends", "mr-2", "text-primary");
 
                 let span_num = document.createElement("span");
-                span_num.classList.add("text-left");
+                span_num.classList.add("text-left", "mr-2");
                 span_num.textContent = Status[i].num_people;
 
                 let i_time = document.createElement("i");
-                i_time.classList.add("far", "fa-clock", "ml-2", "mr-1", "mt-2", "lead");
+                i_time.classList.add("far", "fa-clock", "mr-1", "mt-2", "lead");
 
                 let span_time = document.createElement("span");
                 span_time.classList.add("text-right", "mr-2");
@@ -112,8 +117,9 @@ $(function () {
                 td.appendChild(i_num);
                 td_name.appendChild(a);
                 td.appendChild(span_num);
-                td.appendChild(i_time);
-                td.appendChild(span_time);
+                nobr.appendChild(i_time);
+                nobr.appendChild(span_time);
+                td.appendChild(nobr);
                 tr.appendChild(td_name);
                 tr.appendChild(td);
                 list[i] = document.getElementById("index").appendChild(tr);
@@ -153,9 +159,9 @@ $(function () {
                     list.push(element);
                 } else if (value == 3 && element.energy >= 400 && element.energy < 600) {
                     list.push(element);
+                } else if (value == 4 && element.energy >= 600) {
+                    list.push(element);
                 }
-            } else if (value == 4 && element.energy >= 600) {
-                list.push(element);
             }
             cnt++;
         }
