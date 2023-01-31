@@ -8,6 +8,9 @@
   <script src="./javascriptCss/searchRecipe.js"></script>
   <script src="./javascriptCss/gacha.js"></script>
   <script src="./javascriptCss/10gacha.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/css/6-1-6.css">
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.css">
   </link>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -48,23 +51,26 @@
 </nav>
 
 <body>
-  <div class="row" style='height: 92vh;'>
-    <div class="col-md-6" style="text-align: center;">
-      <div class="h1 mt-3">あなたの自炊をもっと楽しく</div>
-      <form class="form-inline my-2 my-lg-0" style="margin-left: 15%;" onsubmit="return false;">
-        <a role="button" class="btn btn-outline-orange btn-lg font-weight-bold m-2 py-1" href="itemsearch.html">
-          詳細検索へ
+  <br>
+  <div class="h1" style="text-align: center;">あなたの自炊をもっと楽しく</div>
+  <div class="row">
+    <div class="col-sm-3 offset-3">
+      <div class="container" align="center">
+        <a role="button" class="btn btn-outline-orange btn-lg font-weight-bold m-2 py-1" href="itemsearch.html" >
+          キーワード・詳細検索へ
         </a>
-        <input class="form-control mr-sm-2" type="search" id="search" placeholder="キーワードを入力" aria-label="Search">
-        <button class="btn btn-outline-success btn-lg font-weight-bold m-2 py-1" type="button" id="submit" value="検索">
-          検 索
-        </button>
-      </form>
-      <h2 class=" p-3 lead">今日のおすすめレシピ</h2>
-      <a href="./recipe.html?recipeId=20300008" class="p-3">ヘルシーケーキすし</a>
-      <h2>レシピガチャ</h2>
-
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"
+        <h2 class=" p-3 lead" style="border-left: #ec955e 3px solid; width: fit-content;">今日のおすすめレシピ</h2>
+        <div><a href="./recipe.html?recipeId=20300008"><img src="./imgs/food_cakewich_sandwich.png" width="300" height="300"></a></div>
+        <a href="./recipe.html?recipeId=20300008" class="p-3">ヘルシーケーキすし</a>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="container" align="center">
+        <h2>レシピガチャ</h2>
+        <div>
+          <img src="./imgs/gachagacha.png" width="319" height="445">
+        </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"
         id="gacha-button">
         単発ガチャ
       </button>
@@ -107,21 +113,43 @@
           </div>
         </div>
       </div>
-
-      <p class="h3 mt-3">今日の虚無レシピ</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/7Rh6NdfYj4A" title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+      </div>
     </div>
+  </div>
+  
+
+  <h2 class="head-border" style="text-align: center;">定番レシピ</h2>
+  <ul class="slider">
+    <li><a href="./recipe.html?recipeId=30051267"><img src="./imgs/omura.jpg" title="いつの間にか元サイトでの料理名が変わっていた。"></a></li>
+    <li><a href="./recipe.html?recipeId=40005472"><img src="./imgs/karaa.jpg" title="一見手順が少なくて楽そうだが、揚げ時間が知りたい。"></a></li>
+    <li><a href="./recipe.html?recipeId=30004688"><img src="./imgs/misosu.jpg" title="めちゃくちゃ淡白な説明のみそ汁"></a></li>
+    <li><a href="/recipe.html?recipeId=40000494"><img src="./imgs/gyudo.jpg" title="フリー素材としての名前は｢牛肉ごはん｣だった。"></a></li>
+    <li><a href="./recipe.html?recipeId=40016130"><img src="./imgs/hanba.jpg" title="企業製品の酢が入っているところに資本主義を感じる。"></a></li>
+    <li><a href="/recipe.html?recipeId=20705705"><img src="./imgs/supage.jpg" title="ご家庭にない食材が求められる異様に手の込んだパスタ"></a></li>
+  <!--/slider--></ul>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/js/6-1-6.js"></script>
+  
+
+
+  <!--div class="row" style='height: 92vh;'>元の検索フォーム
+    <form class="form-inline my-2 my-lg-0" style="margin-left: 15%;" onsubmit="return false;">
+      <a role="button" class="btn btn-outline-orange btn-lg font-weight-bold m-2 py-1" href="itemsearch.html">
+        詳細検索へ
+      </a>
+      <input class="form-control mr-sm-2" type="search" id="search" placeholder="キーワードを入力" aria-label="Search">
+      <button class="btn btn-outline-success btn-lg font-weight-bold m-2 py-1" type="button" id="submit" value="検索">
+        検 索
+      </button>
+    </form>
+  </div-->
+
     <div class="col-md-6">
       <div class="pc m-2 shadow">
-        <div class="frame">
-          <iframe src="https://www.kewpie.co.jp/recipes/recipe/QP10008236/" width="1300" height="715" frameborder="0"
-            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
+
       </div>
-      <script>
+      <!--script>
         jQuery(function ($) {
           $(window).on('load resize', function () {
             var pc_w = $('.pc .frame').width() / 1280;
@@ -134,12 +162,12 @@
             $('.sp iframe').css('transform', 'scale(' + sp_w + ')');
           });
         });
-      </script>
+      </script-->
       <!--div class="card m-2">
           <iframe src="https://www.kewpie.co.jp/recipes/recipe/QP10008236/" height="450" frameborder="0"
             style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div-->
-      <footer class="active" style="width: 90%;">
+      <!--footer class="active" style="width: 90%;">
       </footer>
       <div id="footer">
         <footer class="box-asano active bg-lightgreen mr-auto" style="width: 50%;">
@@ -151,7 +179,7 @@
             </tbody>
           </table>
         </footer>
-      </div>
+      </div-->
       <!--div id="footer" style="margin-top: 5em; margin-right: 10%;">
         <div id="alert">
         </div>
@@ -160,91 +188,7 @@
           </tbody>
         </table>
       </div-->
-      <div class="text-center h4 mt-3 font-weight-bold">鬼滅○刀コラボメニュー！！</div>
-      <table id="grid-basic" class="table-auto w-full table-warning border shadow" style="width: auto; margin: auto;">
-        <tbody id="index">
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053572">
-                <h5 class="font-weight-bold">☆5　えび天うどん鍋（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">30 min</span></p-asano></td>
-          </tr>
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053571">
-                <h5 class="font-weight-bold">☆5　本つゆで簡単牛鍋（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">30 min</span></p-asano></td>
-          </tr>
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053576">
-                <h5 class="font-weight-bold">☆5　炎の旨辛キムチ鍋（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">2</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">30 min</span></p-asano></td>
-          </tr>
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053684">
-                <h5 class="font-weight-bold">☆4　肉盛り豆乳担々鍋（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">20 min</span></p-asano></td>
-          </tr>
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053681">
-                <h5 class="font-weight-bold">☆2　炭火焼き風鶏ねぎ塩鍋（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">2</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">20 min</span></p-asano></td>
-          </tr>
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053682">
-                <h5 class="font-weight-bold">☆2　卵とじミルフィーユ鍋（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">2</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">20 min</span></p-asano></td>
-          </tr>
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053683">
-                <h5 class="font-weight-bold">☆3　豆乳明太子しゃぶしゃぶ（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">2</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">20 min</span></p-asano></td>
-          </tr>
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053573">
-                <h5 class="font-weight-bold">☆5　鮭と大根のだししみおでん（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">30 min</span></p-asano></td>
-          </tr>
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053575">
-                <h5 class="font-weight-bold">☆5　鰹だし香るしょうが豆乳鍋（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">30 min</span></p-asano></td>
-          </tr>
-          <tr class="border">
-            <td class="px-3 pt-1"><a class="widelink text-pink" href="./recipe.html?recipeId=30053574">
-                <h5 class="font-weight-bold">☆5　さつまいもと豚バラの豆乳鍋（鬼滅の刃コラボ鍋メニュー）</h5>
-              </a></td>
-            <td class="px-1 py-2"><i class="fas fa-user-friends mr-2 text-primary"></i><span
-                class="text-left mr-2">3</span><p-asano><i class="far fa-clock mr-1 mt-2 lead"></i><span
-                  class="text-right mr-2">30 min</span></p-asano></td>
-          </tr>
-        </tbody>
-      </table>
+
     </div>
   </div>
 </body>

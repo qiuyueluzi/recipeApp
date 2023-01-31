@@ -275,3 +275,24 @@ iframe {
     margin-top: -177.87%;
     transform: scale(0.6613);
 }
+
+.head-border {
+    display: flex;
+    align-items: center;
+}
+
+.head-border:before,
+.head-border:after {
+    content: "";
+    height: 4px;
+    flex-grow: 1;
+    background-color: #ec955e;
+}
+
+.head-border:before {
+    margin-right: 1rem;
+}
+
+.head-border:after {
+    margin-left: 1rem;
+}
