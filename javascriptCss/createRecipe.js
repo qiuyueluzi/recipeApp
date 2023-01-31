@@ -58,6 +58,11 @@ $(function () {
 		URLDisplay.href = status.url;
 		//サブレシピ
 		if (subId) {
+			let soloURL = document.getElementById("titleURL")
+			soloURL.href = "./recipe.html?recipeId=" + id
+			let soloURLC = document.getElementById("titleURLC")
+			soloURLC.href = "./recipe.html?recipeId=" + subId
+
 			let statusC = allStatus.filter(e => e.id === subId)[0]
 			let ordersC = allOrders.filter(e => e.id === subId)
 			let materialsC = allMaterials.filter(e => e.id === subId)
