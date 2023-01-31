@@ -14,6 +14,7 @@ $(function () {
 			subId = id.slice(-8);
 			id = id.slice(0, 8);
 		}
+		//メインレシピ
 		let status = allStatus.filter(e => e.id === id)[0]
 		let orders = allOrders.filter(e => e.id === id)
 		let materials = allMaterials.filter(e => e.id === id)
@@ -24,7 +25,6 @@ $(function () {
 		peopleDisplay.textContent = status.num_people + "人分";
 		let people_zairyou_Display = document.getElementById("people_zairyou");
 		people_zairyou_Display.textContent = "(" + status.num_people + "人分)";
-		//console.log(status)
 		for (let material of materials) {
 			let row = document.createElement("tr");
 			let food = document.createElement("td");
@@ -56,6 +56,7 @@ $(function () {
 		starDisplay.textContent = "難易度:" + "☆".repeat(rank);
 		let URLDisplay = document.getElementById("URL");
 		URLDisplay.href = status.url;
+		//サブレシピ
 		if (subId) {
 			let statusC = allStatus.filter(e => e.id === subId)[0]
 			let ordersC = allOrders.filter(e => e.id === subId)
@@ -102,6 +103,7 @@ $(function () {
 			}
 		}
 
+		//類似
 		let suggest = [];
 		for (let i = 0; i < allStatus.length; i++) {
 			let comparator = allStatus[i].name;
@@ -143,26 +145,6 @@ $(function () {
 			tr.appendChild(td);
 			document.getElementById("proposal").append(tr);
 		}
-
-
-		let clickBtn = function () {
-
-			let text1 = form1.text1.value;
-			let text2 = form1.text2.value;
-			let dist = levenshteinDistance(text1, text2);
-			let result = document.getElementById('result');
-			let newRow = result.insertRow();
-			let rowData = [dist, text1, text2];
-			//tableに結果書き出し
-			for (let i = 0; i < rowData.length; i++) {
-				let newCell = newRow.insertCell(),
-					newText = document.createTextNode(rowData[i]);
-				newCell.appendChild(newText);
-			}
-			return false;
-		}
-
-
 
 	})
 
