@@ -1,3 +1,5 @@
+import { difficulty } from "./modules.js";
+
 $(function () {
     $.when(
         $.getJSON('./make_json/recipes.json')
@@ -32,7 +34,8 @@ $(function () {
                         
                     let h1 = document.createElement("h5");
                     h1.classList.add("font-weight-bold");
-                    h1.textContent = "☆" + difficulty(allStatus[num1].id, allStatus) + "　" + allStatus[num1].name;
+                    let diffiStatus = allStatus.filter(e => e.id === allStatus[num1].id)[0]
+                    h1.textContent = "☆" + difficulty(diffiStatus) + "　" + allStatus[num1].name;
     
                     a.appendChild(h1);
                     //disp1.innerHTML = "";
@@ -43,26 +46,4 @@ $(function () {
             disp1 = list;
         });
     });
-    function difficulty(recipeID, allStatus) {
-		let rank = 0;
-		let status = allStatus.filter(e => e.id === recipeID)[0]
-		let difficult = status.time / status.num_process * status.num_item * 2;
-		if (difficult < 60) {
-			rank = 1;
-		}
-		if (60 <= difficult && difficult < 110) {
-			rank = 2;
-		}
-		if (110 <= difficult && difficult < 160) {
-			rank = 3;
-		}
-		if (160 <= difficult && difficult < 210) {
-			rank = 4;
-		}
-		if (210 <= difficult) {
-			rank = 5;
-		}
-		return rank;
-
-	}
 });

@@ -1,3 +1,5 @@
+import {levenshteinDistance , difficulty, get} from "./modules.js";
+
 $(function () {
     $.when(
         $.getJSON('./make_json/recipes.json')
@@ -93,7 +95,7 @@ $(function () {
 
                 let a = document.createElement("a");
                 a.classList.add("widelink", "text-pink");
-                let comparison = get("recipeId")
+                let comparison = get("recipeId", location.href)
                 if(comparison)a.href = "./comparison.html?recipeId=" + Status[i].id + comparison;
                 else a.href = "./recipe.html?recipeId=" + Status[i].id;
 
@@ -129,26 +131,6 @@ $(function () {
             return list;
         }
     });
-    //文字列の類似度チェック
-    levenshteinDistance = function (str1, str2) {
-        let r, c, cost,
-            d = [];
-
-        for (r = 0; r <= str1.length; r++) {
-            d[r] = [r];
-        }
-        //console.log(str2);
-        for (c = 0; c <= str2.length; c++) {
-            d[0][c] = c;
-        }
-        for (r = 1; r <= str1.length; r++) {
-            for (c = 1; c <= str2.length; c++) {
-                cost = str1.charCodeAt(r - 1) == str2.charCodeAt(c - 1) ? 0 : 1;
-                d[r][c] = Math.min(d[r - 1][c] + 1, d[r][c - 1] + 1, d[r - 1][c - 1] + cost);
-            }
-        }
-        return d[str1.length][str2.length];
-    }
 
     filterCal = function (Status, value) {
         let cnt = 0;
@@ -170,45 +152,4 @@ $(function () {
         return list;
     }
 
-    function difficulty(Status) {
-        let rank = 0;
-        let difficult = Status.time / Status.num_process * Status.num_item * 2;
-        if (difficult < 60) {
-            rank = 1;
-        }
-        if (60 <= difficult && difficult < 110) {
-            rank = 2;
-        }
-        if (110 <= difficult && difficult < 160) {
-            rank = 3;
-        }
-        if (160 <= difficult && difficult < 210) {
-            rank = 4;
-        }
-        if (210 <= difficult) {
-            rank = 5;
-        }
-        return rank;
-
-    }
-
-    function get(varName) {
-		var varLimit = 2;
-		var i;
-		var urlAry;
-		var varAry;
-		var workAry;
-
-		urlAry = location.href.split('?', 2);
-		if (urlAry[1]) varAry = urlAry[1].split('&', varLimit);
-
-		if (varAry) {
-			for (i = 0; i < varAry.length; i++) {
-				workAry = varAry[i].split('=', 2)
-				if (workAry[0] == varName) return workAry[1];
-			}
-		}
-
-		return null;
-	}
 });
