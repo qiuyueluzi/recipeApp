@@ -107,6 +107,10 @@ $(function () {
 				row.classList.add("process_list");
 			}
 		}
+		else{
+			let searchComparison = document.getElementById("searchComparison")
+			searchComparison.href = "itemsearch.html?recipeId=" + id
+		}
 
 		//類似
 		let suggest = [];

@@ -151,7 +151,9 @@ $(function () {
 
                 let a = document.createElement("a");
                 a.classList.add("widelink", "text-pink");
-                a.href = "./recipe.html?recipeId=" + Status[i].id;
+                let comparison = get("recipeId")
+                if(comparison)a.href = "./comparison.html?recipeId=" + Status[i].id + comparison;
+                else a.href = "./recipe.html?recipeId=" + Status[i].id;
 
                 let i_num = document.createElement("i");
                 i_num.classList.add("fas", "fa-user-friends", "mr-2", "text-primary");
@@ -259,4 +261,24 @@ function difficulty(Status) {
     }
     return rank;
 
+}
+
+function get(varName) {
+    var varLimit = 2;
+    var i;
+    var urlAry;
+    var varAry;
+    var workAry;
+
+    urlAry = location.href.split('?', 2);
+    if (urlAry[1]) varAry = urlAry[1].split('&', varLimit);
+
+    if (varAry) {
+        for (i = 0; i < varAry.length; i++) {
+            workAry = varAry[i].split('=', 2)
+            if (workAry[0] == varName) return workAry[1];
+        }
+    }
+
+    return null;
 }
