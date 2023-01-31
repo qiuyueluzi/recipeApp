@@ -7,27 +7,41 @@ $(function () {
         let allStatus = recipesJson;
 
         // ボタン
-        const btn = document.getElementById("gacha-button");
-        const disp = document.getElementById("gacha-display");
-
+        let btn = document.getElementById("gacha-button");
+        let disp = document.getElementById("gacha-display");
+        let btn10 = document.getElementById("10gacha-button");
+        let disp10 = document.getElementById("10gacha-display");
+        
         btn.addEventListener("click", function () {
+            let a = gacha();
+            disp.innerHTML = "";
+            disp.appendChild(a);
+        });
+
+        btn10.addEventListener("click", function() {
+            for(var i=0; i<10; i++){    
+                let a = gacha();
+                disp10.appendChild(a);
+            }
+            disp10 = [];
+        });
+
+        function gacha(){
             //　ランダム乱数
             const num = Math.floor(Math.random() * allStatus.length);
-            console.log(num);
             let a = document.createElement("a");
             a.classList.add("widelink", "text-pink", "text-left");
             a.href = "./recipe.html?recipeId=" + allStatus[num].id;
             a.target="_blank" 
             a.rel="noopener noreferrer"
-
+            
             let h5 = document.createElement("h5");
             h5.classList.add("font-weight-bold");
             let diffiStatus = allStatus.filter(e => e.id === allStatus[num].id)[0]
             h5.textContent = "☆" + difficulty(diffiStatus) + "　" + allStatus[num].name;
-
+            
             a.appendChild(h5);
-            disp.innerHTML = "";
-            disp = document.getElementById("gacha-display").appendChild(a);
-        });
+            return a;
+        }
     });
 });
