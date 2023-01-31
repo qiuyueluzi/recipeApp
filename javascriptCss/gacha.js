@@ -15,6 +15,8 @@ $(function () {
             let a = document.createElement("a");
             a.classList.add("widelink", "text-pink", "text-left");
             a.href = "./recipe.html?recipeId=" + allStatus[num].id;
+            a.target="_blank" 
+            a.rel="noopener noreferrer"
 
             let h5 = document.createElement("h5");
             h5.classList.add("font-weight-bold");
