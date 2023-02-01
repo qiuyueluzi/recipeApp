@@ -22,7 +22,6 @@ function difficulty(status) {
     let rank = 0;
     
     let difficult = parseInt(status.time) + parseInt(status.num_process*10) + parseInt(status.num_item*10);
-    console.log(difficult);
     if (difficult < 100) {
         rank = 1;
     }

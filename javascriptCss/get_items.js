@@ -55,7 +55,7 @@ $(function () {
 
             }
         }
-        $("input").click(function(){
+        $("input").click(function () {
             if (this.checked == true) {
                 this.parentNode.style.backgroundColor = '#B22222';
                 this.parentNode.style.color = '#fff';
@@ -68,6 +68,7 @@ $(function () {
         $("#checkVal").click(function () {
             let disp = document.getElementById("index");
             let calSelect = document.getElementById("cal");
+            let levelSelect = document.getElementById("level");
             let cnt = 0;
             let resultID = [];
             let checks = document.getElementsByClassName('check');
@@ -116,7 +117,7 @@ $(function () {
             for (i = 1; i < resultID.length; i++) {
                 list = getArraysIntersect(list, resultID[i])
             }
-            //console.log(list);
+            console.log(levelSelect.value);
             let filterStatus = []
             let filtered = [];
             if (calSelect.value != "Select") {
@@ -124,6 +125,11 @@ $(function () {
                 //console.log(filtered);
             } else {
                 filtered = allrecipes[0];
+                //console.log(filtered);
+            }
+
+            if (levelSelect.value != "Select") {
+                filtered = filterlevel(filtered, levelSelect.value);
                 //console.log(filtered);
             }
 
@@ -161,7 +167,7 @@ $(function () {
                 let a = document.createElement("a");
                 a.classList.add("widelink", "text-pink");
                 let comparison = get("recipeId")
-                if(comparison)a.href = "./comparison.html?recipeId=" + Status[i].id + comparison;
+                if (comparison) a.href = "./comparison.html?recipeId=" + Status[i].id + comparison;
                 else a.href = "./recipe.html?recipeId=" + Status[i].id;
 
                 let i_num = document.createElement("i");
@@ -232,7 +238,7 @@ levenshteinDistance = function (str1, str2) {
 
 filterCal = function (Status, value) {
     let cnt = 0;
-    list = [];
+    let list = [];
     for (let element of Status) {
         if (cnt <= 30949) {
             if (value == 1 && element.energy > 0 && element.energy < 200) {
@@ -250,10 +256,25 @@ filterCal = function (Status, value) {
     return list;
 }
 
+
+filterlevel = function (Status, value) {
+    let cnt = 0;
+    let list = [];
+    for (let element of Status) {
+        let diff = difficulty(element);
+        if (cnt <= 30949) {
+            if (value >= diff) {
+                list.push(element);
+            }
+        }
+        cnt++;
+    }
+    return list;
+}
+
 function difficulty(status) {
     let rank = 0;
     let difficult = parseInt(status.time) + parseInt(status.num_process*10) + parseInt(status.num_item*10);
-    console.log(difficult);
     if (difficult < 100) {
         rank = 1;
     }
