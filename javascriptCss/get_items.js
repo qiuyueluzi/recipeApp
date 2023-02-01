@@ -256,6 +256,7 @@ filterCal = function (Status, value) {
     return list;
 }
 
+
 filterlevel = function (Status, value) {
     let cnt = 0;
     let list = [];
@@ -271,22 +272,22 @@ filterlevel = function (Status, value) {
     return list;
 }
 
-function difficulty(Status) {
+function difficulty(status) {
     let rank = 0;
-    let difficult = Status.time / Status.num_process * Status.num_item * 2;
-    if (difficult < 60) {
+    let difficult = parseInt(status.time) + parseInt(status.num_process*10) + parseInt(status.num_item*10);
+    if (difficult < 100) {
         rank = 1;
     }
-    if (60 <= difficult && difficult < 110) {
+    if ( 100<= difficult && difficult < 150) {
         rank = 2;
     }
-    if (110 <= difficult && difficult < 160) {
+    if (150 <= difficult && difficult < 200) {
         rank = 3;
     }
-    if (160 <= difficult && difficult < 210) {
+    if (200 <= difficult && difficult < 250) {
         rank = 4;
     }
-    if (210 <= difficult) {
+    if (250 <= difficult) {
         rank = 5;
     }
     return rank;
