@@ -19,11 +19,11 @@ $(function () {
         });
 
         btn10.addEventListener("click", function() {
+            disp10.innerHTML = "";
             for(var i=0; i<10; i++){    
                 let a = gacha();
                 disp10.appendChild(a);
             }
-            disp10 = [];
         });
 
         function gacha(){
