@@ -21,23 +21,24 @@ function levenshteinDistance(str1, str2) {
 function difficulty(status) {
     let rank = 0;
     
-    let difficult = status.time / status.num_process * status.num_item * 2;
-    if (difficult < 60) {
+    let difficult = parseInt(status.time) + parseInt(status.num_process*10) + parseInt(status.num_item*10);
+    console.log(difficult);
+    if (difficult < 100) {
         rank = 1;
     }
-    if (60 <= difficult && difficult < 110) {
+    if ( 100<= difficult && difficult < 150) {
         rank = 2;
     }
-    if (110 <= difficult && difficult < 160) {
+    if (150 <= difficult && difficult < 200) {
         rank = 3;
     }
-    if (160 <= difficult && difficult < 210) {
+    if (200 <= difficult && difficult < 250) {
         rank = 4;
     }
-    if (210 <= difficult) {
+    if (250 <= difficult) {
         rank = 5;
-    }
-    return rank;    
+    } 
+    return rank;
 }
 
 function get(varName, url) {
