@@ -1,4 +1,4 @@
-import {levenshteinDistance , difficulty, get} from "./modules.js";
+import { levenshteinDistance, difficulty, get } from "./modules.js";
 
 $(function () {
     $.when(
@@ -18,6 +18,7 @@ $(function () {
             let disp = document.getElementById("index");
             let alert = document.getElementById("alert");
             let calSelect = document.getElementById("cal");
+            let levelSelect = document.getElementById("level");
             let cnt = 0;
             let footer = document.getElementById("footer");
 
@@ -57,9 +58,13 @@ $(function () {
                     }
                 }
             }
-            console.log(request.length);
+            //console.log(request.length);
             if (calSelect != null && calSelect.value != "Select") {
                 filterStatus = filterCal(filterStatus, calSelect.value);
+            }
+            if (levelSelect.value != "Select") {
+                filterStatus = filterlevel(filterStatus, levelSelect.value);
+                //console.log(filtered);
             }
             if (filterStatus.length != 0) {
                 filterStatus.sort((a, b) => a.distant - b.distant);
@@ -96,7 +101,7 @@ $(function () {
                 let a = document.createElement("a");
                 a.classList.add("widelink", "text-pink");
                 let comparison = get("recipeId", location.href)
-                if(comparison)a.href = "./comparison.html?recipeId=" + Status[i].id + comparison;
+                if (comparison) a.href = "./comparison.html?recipeId=" + Status[i].id + comparison;
                 else a.href = "./recipe.html?recipeId=" + Status[i].id;
 
                 let i_num = document.createElement("i");
@@ -134,7 +139,7 @@ $(function () {
 
     filterCal = function (Status, value) {
         let cnt = 0;
-        list = [];
+        let list = [];
         for (let element of Status) {
             if (cnt <= 30949) {
                 if (value == 1 && element.energy > 0 && element.energy < 200) {
@@ -144,6 +149,21 @@ $(function () {
                 } else if (value == 3 && element.energy >= 400 && element.energy < 600) {
                     list.push(element);
                 } else if (value == 4 && element.energy >= 600) {
+                    list.push(element);
+                }
+            }
+            cnt++;
+        }
+        return list;
+    }
+
+    filterlevel = function (Status, value) {
+        let cnt = 0;
+        let list = [];
+        for (let element of Status) {
+            let diff = difficulty(element);
+            if (cnt <= 30949) {
+                if (value >= diff) {
                     list.push(element);
                 }
             }
