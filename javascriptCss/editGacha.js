@@ -11,16 +11,19 @@ $(function () {
         let allIngredients = ingredientsJson;
         let allItems = item_listJson;
         let allDetails = detailJson;
+        let gachaList = [];
         console.log(allrecipes[0].length)
-
+        
         document.getElementById("footer").style.display = "none";
-
+        let breakdown = document.getElementById("breakdown");
+        breakdown.innerText = "今はガチャの中身がありません！"
+        
         let ID = 1;
         for (let detail of allDetails[0]) {    //材料一覧をレンダリング
             detail.for = ID;
             ID++;
         }
-
+        
         for (let detail of allDetails[0]) {    //材料一覧をレンダリング
             if (detail.children) {
                 let parent = document.createElement("div");
@@ -28,14 +31,14 @@ $(function () {
                 parent.style = "width: 100%;"
                 let child = document.createElement("div");
                 child.textContent = detail.text;
-
+                
                 parent.appendChild(child);
                 document.getElementById("details").appendChild(parent);
             } else {
                 let row = document.createElement("div");
                 let input = document.createElement("input");
                 row.classList.add("form-check", "p-0", "border-bottom", "border-danger");
-
+                
                 //inputタグを編集
                 input.classList.add("form-check-input", "check");
                 input.type = "checkbox";
@@ -44,21 +47,21 @@ $(function () {
                 input.id = detail.for;
                 input.aue = detail.for;
                 //input.setAttribute('onclick', "onCheckFunc(" + detail.for + ")");
-
+                
                 //labelタグを編集
                 let label = document.createElement("label");
                 label.classList.add("form-check-label");
                 label.textContent = detail.text;
                 label.htmlFor = detail.for;
-
+                
                 row.appendChild(input);
                 row.appendChild(label);
                 document.getElementById("details").appendChild(row);
-
+                
             }
         }
-
-        $("#submit").click(function () {
+        
+        /*$("#submit").click(function () {
             let filterStatus = [];
             let disp = document.getElementById("index");
             let alert = document.getElementById("alert");
@@ -66,7 +69,7 @@ $(function () {
             let levelSelect = document.getElementById("level");
             let cnt = 0;
             let footer = document.getElementById("footer");
-
+            
             if (footer.style.display == "none") {
                 footer.style.display = "block";
             } else {
@@ -110,13 +113,16 @@ $(function () {
             }
             if (filterStatus.length != 0) {
                 filterStatus.sort((a, b) => a.distant - b.distant);
-                disp = index(filterStatus);
+                gachaList = filterStatus;
+                breakdown.innerText = gachaList.length + "個のレシピから抽選します！"
+                //disp = index(filterStatus);
             } else {
                 let div = document.createElement("div");
                 div.classList.add("alert", "alert-warning");
                 div.role = "alert";
                 div.textContent = "キーワードがヒットしませんでした";
-
+                breakdown.innerText = "該当するレシピがありませんでした"
+                
                 alert = document.getElementById("alert").appendChild(div);
             }
         });
@@ -124,8 +130,8 @@ $(function () {
             if (e.which == 13) {
                 $("#submit").click();
             }
-        })
-
+        })*/
+        
         $("input").click(function () {
             if (this.checked == true) {
                 this.parentNode.style.backgroundColor = '#B22222';
@@ -147,8 +153,8 @@ $(function () {
             if (footer.style.display == "none") {
                 footer.style.display = "block";
             } else {
-                document.querySelector("#index").innerHTML = '';
-                document.querySelector("#alert").innerHTML = '';
+                //document.querySelector("#index").innerHTML = '';
+                //document.querySelector("#alert").innerHTML = '';
             }
             for (let i = 0; i < checks.length; i++) {
                 if (checks[i].checked === true) {
@@ -193,31 +199,30 @@ $(function () {
             let filtered = [];
             if (calSelect.value != "Select") {
                 filtered = filterCal(allrecipes[0], calSelect.value);
-                //console.log(filtered);
             } else {
                 filtered = allrecipes[0];
-                //console.log(filtered);
             }
-
+            
             if (levelSelect.value != "Select") {
                 filtered = filterlevel(filtered, levelSelect.value);
-                //console.log(filtered);
             }
-
+            
             for (let recipe of filtered) {
                 if (list.includes(recipe.id) == true) {
-                    //console.log(recipe)
                     filterStatus.push(recipe);
                 }
             }
             if (filterStatus != 0) {
-                disp = index(filterStatus);
+                gachaList = filterStatus;
+                //disp = index(filterStatus);
+                breakdown.innerText = gachaList.length + "個のレシピから抽選します！"
             } else {
                 let div = document.createElement("div");
                 div.classList.add("alert", "alert-warning");
                 div.role = "alert";
                 div.textContent = "項目がヒットしませんでした";
-
+                
+                breakdown.innerText = "該当するレシピがありませんでした"
                 alert = document.getElementById("alert").appendChild(div);
             }
         });
@@ -226,39 +231,39 @@ $(function () {
             for (let i = 0; i < Object.keys(Status).length; i++) {
                 let tr = document.createElement("tr");
                 tr.classList.add("border");
-
+                
                 let nobr = document.createElement("p-asano");
-
+                
                 let td_name = document.createElement("td");
                 td_name.classList.add("px-3", "pt-1");
-
+                
                 let td = document.createElement("td");
                 td.classList.add("px-1", "py-2");
-
+                
                 let a = document.createElement("a");
                 a.classList.add("widelink", "text-pink");
                 let comparison = get("recipeId", location.href)
                 if (comparison) a.href = "./comparison.html?recipeId=" + Status[i].id + comparison;
                 else a.href = "./recipe.html?recipeId=" + Status[i].id;
-
+                
                 let i_num = document.createElement("i");
                 i_num.classList.add("fas", "fa-user-friends", "mr-2", "text-primary");
-
+                
                 let span_num = document.createElement("span");
                 span_num.classList.add("text-left", "mr-2");
                 span_num.textContent = Status[i].num_people;
-
+                
                 let i_time = document.createElement("i");
                 i_time.classList.add("far", "fa-clock", "mr-1", "mt-2", "lead");
-
+                
                 let span_time = document.createElement("span");
                 span_time.classList.add("text-right", "mr-2");
                 span_time.textContent = Status[i].time + " min";
-
+                
                 let h5 = document.createElement("h5");
                 h5.classList.add("font-weight-bold");
                 h5.textContent = "☆" + difficulty(Status[i]) + "　" + Status[i].name;
-
+                
                 a.appendChild(h5);
                 td.appendChild(i_num);
                 td_name.appendChild(a);
@@ -271,6 +276,34 @@ $(function () {
                 list[i] = document.getElementById("index").appendChild(tr);
             }
             return list;
+        }
+
+        // ボタン
+        let btn = document.getElementById("gacha-button");
+        let disp = document.getElementById("gacha-display");
+        
+        btn.addEventListener("click", function () {
+            let a = gacha();
+            disp.innerHTML = "";
+            disp.appendChild(a);
+        });
+
+        function gacha(){
+            //　ランダム乱数
+            const num = Math.floor(Math.random() * gachaList.length);
+            let a = document.createElement("a");
+            a.classList.add("widelink", "text-pink", "text-left");
+            a.href = "./recipe.html?recipeId=" + gachaList[num].id;
+            a.target="_blank" 
+            a.rel="noopener noreferrer"
+            
+            let h5 = document.createElement("h5");
+            h5.classList.add("font-weight-bold");
+            let diffiStatus = gachaList.filter(e => e.id === gachaList[num].id)[0]
+            h5.textContent = "☆" + difficulty(diffiStatus) + "　" + gachaList[num].name;
+            
+            a.appendChild(h5);
+            return a;
         }
     });
 
