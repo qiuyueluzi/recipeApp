@@ -33,6 +33,13 @@ $(function () {
 			food.textContent = material.ingredient;
 			let volume = document.createElement("td");
 			volume.textContent = material.quantity;
+			if(material.quantity.includes("カップ"))volume.title = "200ミリリットル";
+			if(material.quantity.includes("大さじ"))volume.title = "15ミリリットル";
+			if(material.quantity.includes("小さじ"))volume.title = "5ミリリットル";
+			if(material.quantity.includes("ひとつまみ"))volume.title = "親指、人差し指、中指でつまんだ量";
+			if(material.quantity.includes("少々"))volume.title = "親指と人差し指でつまんだ量";
+			if(material.quantity.includes("適量"))volume.title = "好みで量を加減する";
+			if(material.quantity.includes("適宜"))volume.title = "必要かどうか見極め、必要なら入れる";
 			row.appendChild(food);
 			row.appendChild(volume);
 
