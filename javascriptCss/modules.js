@@ -20,23 +20,18 @@ function levenshteinDistance(str1, str2) {
 
 function difficulty(status) {
     let rank = 0;
+    let boundary = 50; //boundary刻みで難易度を決定
+    let mostEasy = 100; //☆1の最高スコア
+    let stars = 5; //☆の最大個数
     
     let difficult = parseInt(status.time) + parseInt(status.num_process*10) + parseInt(status.num_item*10);
-    if (difficult < 100) {
+    if (difficult <= mostEasy) {
         rank = 1;
     }
-    if ( 100<= difficult && difficult < 150) {
-        rank = 2;
+    else{
+        rank = Math.ceil((difficult - mostEasy) / boundary) + 1;
+        if(rank > stars)rank = stars;
     }
-    if (150 <= difficult && difficult < 200) {
-        rank = 3;
-    }
-    if (200 <= difficult && difficult < 250) {
-        rank = 4;
-    }
-    if (250 <= difficult) {
-        rank = 5;
-    } 
     return rank;
 }
 

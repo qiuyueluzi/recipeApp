@@ -43,7 +43,7 @@ $(function () {
                 input.value = detail.for;
                 input.id = detail.for;
                 input.aue = detail.for;
-                input.setAttribute('onclick', "rightClick(" + detail.for + ")");
+                //input.setAttribute('onclick', "onCheckFunc(" + detail.for + ")");
 
                 //labelタグを編集
                 let label = document.createElement("label");
@@ -140,7 +140,6 @@ $(function () {
             console.log(this)
             return false;
         })
-
 
         $("#checkVal").click(function () {
             let disp = document.getElementById("index");
