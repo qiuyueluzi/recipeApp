@@ -76,7 +76,6 @@ $(function () {
 			peopleDisplay.textContent = statusC.num_people + "人分";
 			let people_zairyouC_Display = document.getElementById("people_zairyouC");
 			people_zairyouC_Display.textContent = "(" + statusC.num_people + "人分)";
-			//console.log(status)
 			for (let material of materialsC) {
 				let row = document.createElement("tr");
 				let food = document.createElement("td");
@@ -103,7 +102,6 @@ $(function () {
 			let URLDisplay = document.getElementById("URLC");
 			URLDisplay.href = statusC.url;
 			
-			//console.log(orders)
 			for (let order of ordersC) {
 				let row = document.createElement("li");
 				row.textContent = order.process;
@@ -115,6 +113,18 @@ $(function () {
 			let searchComparison = document.getElementById("searchComparison")
 			searchComparison.href = "itemsearch.html?recipeId=" + id
 		}
+
+		//材料を同時に閉じる
+		$("#detailsLeft").click(function(){
+			console.log("le")
+			let right = document.getElementById("detailsRight");
+			right.open = !right.open;
+		})
+		$("#detailsRight").click(function(){
+			console.log("ri")
+			let left = document.getElementById("detailsLeft");
+			left.open = !left.open;
+		})
 
 		//類似
 		let suggest = [];

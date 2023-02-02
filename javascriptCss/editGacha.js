@@ -17,6 +17,7 @@ $(function () {
         document.getElementById("footer").style.display = "none";
         let breakdown = document.getElementById("breakdown");
         breakdown.innerText = "今はガチャの中身がありません！"
+        $("#gacha-button").prop("disabled", true);
         
         let ID = 1;
         for (let detail of allDetails[0]) {    //材料一覧をレンダリング
@@ -213,6 +214,7 @@ $(function () {
                 }
             }
             if (filterStatus != 0) {
+                $("#gacha-button").prop("disabled", false);
                 gachaList = filterStatus;
                 //disp = index(filterStatus);
                 breakdown.innerText = gachaList.length + "個のレシピから抽選します！"
@@ -222,6 +224,7 @@ $(function () {
                 div.role = "alert";
                 div.textContent = "項目がヒットしませんでした";
                 
+                $("#gacha-button").prop("disabled", true);
                 breakdown.innerText = "該当するレシピがありませんでした"
                 alert = document.getElementById("alert").appendChild(div);
             }
