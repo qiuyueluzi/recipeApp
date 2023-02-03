@@ -25,7 +25,38 @@
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form-->
-    <a href="https://japanese-food.net/top-page/weight-table/#:~:text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AB%20%E5%A4%A7%E3%81%95%E3%81%98%EF%BC%91%20%E3%81%AF%2015%EF%BD%87%E3%80%81%E5%B0%8F%E3%81%95%E3%81%981,%E3%81%AF%205%EF%BD%87%E3%80%81%EF%BC%91%E3%82%AB%E3%83%83%E3%83%97%20%E3%81%AF%20200%EF%BD%87%20%E3%81%A7%E3%81%99%E3%81%8C%E3%80%81%E8%AA%BF%E5%91%B3%E6%96%99%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E9%87%8D%E9%87%8F%E3%81%8C%E7%95%B0%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82" target="_blank">分量早見表はこちら</a>
+    <!--a href="https://japanese-food.net/top-page/weight-table/#:~:text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AB%20%E5%A4%A7%E3%81%95%E3%81%98%EF%BC%91%20%E3%81%AF%2015%EF%BD%87%E3%80%81%E5%B0%8F%E3%81%95%E3%81%981,%E3%81%AF%205%EF%BD%87%E3%80%81%EF%BC%91%E3%82%AB%E3%83%83%E3%83%97%20%E3%81%AF%20200%EF%BD%87%20%E3%81%A7%E3%81%99%E3%81%8C%E3%80%81%E8%AA%BF%E5%91%B3%E6%96%99%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E9%87%8D%E9%87%8F%E3%81%8C%E7%95%B0%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82" target="_blank">分量早見表はこちら</a-->
+    <a role="button" class="btn btn-outline-danger btn-lg font-weight-bold m-2 py-1" data-toggle="modal" data-target="#help">？</a>
+    <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="help" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="help">使い方(個別レシピ)</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="help">
+              レシピの内容を表示しています。
+              <br>分量として記載された｢カップ｣など、料理でしか見ない<u>単位にマウスオーバー</u>するとその解説が出てきます。
+              <br>まだ見ぬ出ない単位もあるかもしれない。
+              <br><br><h4>難易度</h4>
+              時間・材料・手順を総合し、☆の数で難易度を表しています。
+              <br>☆1個が最も簡単な部類で、☆5個が難しいレシピです。
+              <br><br><h4>引用元サイト</h4>
+              レシピの引用元(外部サイト)に遷移します。
+              <br>料理の写真も載っています。多分。
+              <br>当サイトでの表示内容は引用元の変更を反映しないため、内容が異なる可能性があります。
+              <br><br><h4>似たレシピ</h4>
+              料理名から類似レシピを提案します。
+              <br>現在のレシピと選択したレシピの比較画面に遷移します。
+              <br>一覧にないレシピと比較したい場合は｢他の比較先を探す｣ボタンを押して検索画面に遷移し、検索結果を選ぶと比較レシピになっています。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </nav>
 
@@ -72,15 +103,16 @@
             <hr>
             <ol id="process">
             </ol>
-            <div style="text-align:right">
-              <a id="URL" target="_blank">引用元サイト</a>
-            </div>
+
           </div>
         </div>
       </div>
     </div>
     <div class="col-md-3 p-0">
       <footer style="width: 20%;">
+        <div class="text-center">
+          <a id="URL" target="_blank">引用元サイト</a>
+        </div>
         <div class="h3 text-center">似たレシピ</div>
         <!--li id="proposal" class="nita"></li-->
         <table id="grid-basic" class="table-auto w-full table-warning border shadow" style="margin: auto;">

@@ -22,7 +22,31 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
         </ul>
-        <a href="https://japanese-food.net/top-page/weight-table/#:~:text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AB%20%E5%A4%A7%E3%81%95%E3%81%98%EF%BC%91%20%E3%81%AF%2015%EF%BD%87%E3%80%81%E5%B0%8F%E3%81%95%E3%81%981,%E3%81%AF%205%EF%BD%87%E3%80%81%EF%BC%91%E3%82%AB%E3%83%83%E3%83%97%20%E3%81%AF%20200%EF%BD%87%20%E3%81%A7%E3%81%99%E3%81%8C%E3%80%81%E8%AA%BF%E5%91%B3%E6%96%99%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E9%87%8D%E9%87%8F%E3%81%8C%E7%95%B0%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82" target="_blank">分量早見表はこちら</a>
+        <a role="button" class="btn btn-outline-danger btn-lg font-weight-bold m-2 py-1" data-toggle="modal" data-target="#help">？</a>
+        <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="help" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="help">使い方(比較レシピ)</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="help">
+                  レシピの内容を比較しています。
+                  <br>料理名をクリックすると、料理の個別レシピに遷移します。
+                  <br>個別レシピ同様、分量の単位にマウスオーバーするとたまに詳細が出ます。
+                  <br>一部機能の詳細は個別レシピの使い方へ。
+                  <br>また、レシピの引用元も個別レシピから遷移できます。
+                  <br><br><h4>材料</h4>
+                  ▼を押すと左右のレシピを一斉に非表示にします。
+                  <br>スクロールせずに手順が見やすくなります。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!--form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -32,7 +56,7 @@
 
 <body>
     <div class="row">
-        <div class="col-4 offset-1">
+        <div class="col-4 offset-2">
             <a id="titleURL"><h1 id="recipeTitle" style="text-align: center;"></h1></a>
             <h3 id="star" class="text-center"></h3>
             <div class="container">
@@ -54,24 +78,11 @@
                     </tbody>
                 </table>
 
-                <details open id="detailsLeft">
-                    <summary>材料</summary>
-                    <table class="table col-12 table_border_radius zairyou">
 
-                        <tr>
-                            <th scope="col">材料
-                                <a id="people_zairyou"></a>
-                            </th>
-                            <th scope="col">分量</th>
-                        </tr>
-
-                        <tbody id="ingredients"></tbody>
-                    </table>
-                </details>
             </div>
         </div>
 
-        <div class="col-4 offset-1">
+        <div class="col-4">
             <a id="titleURLC"><h1 id="recipeTitleC" style="text-align: center;"></h1></a>
             <h3 id="starC" class="text-center"></h3>
             <div class="container"></div>
@@ -91,6 +102,29 @@
                     </tr>
                 </tbody>
             </table>
+
+        </div>
+    </div>
+
+    </div>
+    <div class="row">
+        <div class="col-4 offset-2">
+            <details open id="detailsLeft">
+                <summary>材料</summary>
+                <table class="table col-12 table_border_radius zairyou">
+
+                    <tr>
+                        <th scope="col">材料
+                            <a id="people_zairyou"></a>
+                        </th>
+                        <th scope="col">分量</th>
+                    </tr>
+
+                    <tbody id="ingredients"></tbody>
+                </table>
+            </details>
+        </div>
+        <div class="col-4">
             <details open id="detailsRight">
                 <summary>材料</summary>
                 <table class="table col-12 table_border_radius zairyou">
@@ -109,24 +143,22 @@
             </details>
         </div>
     </div>
-
-    </div>
     <div class="row">
-        <div class="col-4 offset-1">
+        <div class="col-4 offset-2">
             <h2 class="box">手順</h2>
             <hr>
             <ol id="process">
             </ol>
-            <div style="text-align:right">
+            <div style="text-align:right; display: none;">
                 <a id="URL" target="_blank">引用元サイト</a>
             </div> 
         </div>
-        <div class="col-4 offset-1">
+        <div class="col-4">
             <h2 class="box">手順</h2>
             <hr>
             <ol id="processC">
             </ol>
-            <div style="text-align:right">
+            <div style="text-align:right; display: none;">
                 <a id="URLC" target="_blank">引用元サイト</a>
             </div>
         </div>

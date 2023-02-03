@@ -26,6 +26,38 @@
         <ul class="navbar-nav mr-auto">
 
         </ul>
+        <a role="button" class="btn btn-outline-danger btn-lg font-weight-bold m-2 py-1" data-toggle="modal" data-target="#help">？</a>
+        <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="help" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="help">使い方(検索)</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="help">
+                  2種類の検索ができます。
+                  <br>キーワード・材料の併用検索はできません。
+                  <br>個別レシピから遷移した場合は、検索結果の遷移先が比較レシピになります。
+                  <br><br><h4>キーワード検索(緑ボタン)</h4>
+                  キーワードが含まれた料理名を検索します。
+                  <br><br><h4>カロリー、難易度</h4>
+                  このフィルタ選択後、どちらかの検索を行うと
+                  <br>検索結果にフィルタが適用されています。
+                  <br>2つのフィルタは同時に適用できます。
+                  <br><br><h4>材料検索(橙ボタン)</h4>
+                  リストから選ばれた材料が含まれた料理を検索します。
+                  <br>クリックして赤くなった項目が選ばれています。
+                  <br><br><h4>クリア</h4>
+                  検索フォームや材料の選択内容をリセットします。
+                  <br>｢他の比較先を探す｣から遷移している場合、押すと普通の検索になってしまいます。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </nav>
 
